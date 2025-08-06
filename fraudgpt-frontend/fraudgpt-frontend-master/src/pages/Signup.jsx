@@ -1,20 +1,19 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { signInWithEmailAndPassword } from 'firebase/auth';
-import { auth } from '../firebase'; // adjust path if needed
-import './Login.css'; // Import the CSS
+import { createUserWithEmailAndPassword } from 'firebase/auth';
+import { auth } from '../firebase';
+import './Signup.css'; // You can reuse Login.css by renaming it or importing the same file
 
-const Login = () => {
+const Signup = () => {
   const navigate = useNavigate();
-
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
 
-  const handleLogin = async (e) => {
+  const handleSignup = async (e) => {
     e.preventDefault();
     try {
-      await signInWithEmailAndPassword(auth, email, password);
+      await createUserWithEmailAndPassword(auth, email, password);
       navigate('/dashboard');
     } catch (err) {
       setError(err.message);
@@ -23,29 +22,38 @@ const Login = () => {
 
   return (
     <div className="login-container">
-      <form onSubmit={handleLogin} className="login-form">
-        <h2 className="login-header">Login</h2>
+      {/* Back Arrow */}
+      <button
+        className="back-arrow"
+        onClick={() => navigate('/')}
+        aria-label="Back to Landing"
+      >
+        ←
+      </button>
+
+      <form onSubmit={handleSignup} className="login-form">
+        <h2 className="login-header">Sign Up</h2>
         <input
           type="email"
           placeholder="Email"
+          className="login-input"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           required
-          className="login-input"
         />
         <input
           type="password"
           placeholder="Password"
+          className="login-input"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
           required
-          className="login-input"
         />
-        <button type="submit" className="login-btn">Login</button>
+        <button type="submit" className="login-btn">Create Account</button>
         {error && <p className="login-error">{error}</p>}
       </form>
     </div>
   );
 };
 
-export default Login;
+export default Signup;

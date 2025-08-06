@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Dashboard.css';
+// import Navbar from '../components/Navbar';
+
 
 const Dashboard = ({ sidebarOpen }) => {
   const [transactions, setTransactions] = useState([]);
@@ -23,6 +25,7 @@ const Dashboard = ({ sidebarOpen }) => {
 
   return (
     <div className={`dashboard-wrapper ${sidebarOpen ? 'sidebar-open' : ''}`}>
+
       {/* <h2 className="dashboard-title">Live Transactions</h2> */}
       <table className="dashboard-table">
         <thead>

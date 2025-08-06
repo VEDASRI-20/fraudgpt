@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap');
 
-.signup-container {
+.login-container {
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -11,7 +11,7 @@
   position: relative;
 }
 
-.signup-container::before {
+.login-container::before {
   content: '';
   position: absolute;
   width: 100%;
@@ -21,25 +21,25 @@
   z-index: 0;
 }
 
-.signup-form {
+.login-form {
   position: relative;
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: rgba(255, 255, 255, 0.088);
   padding: 40px;
   border-radius: 16px;
-  box-shadow: 0 0 25px rgba(128, 0, 255, 0.4);
+  box-shadow: 0 0 15px rgba(128, 0, 255, 0.4);
   backdrop-filter: blur(12px);
   z-index: 1;
   width: 330px;
   text-align: center;
 }
 
-.signup-header {
+.login-header {
   color: #fff;
   font-size: 28px;
   margin-bottom: 20px;
 }
 
-.signup-input {
+.login-input {
   width: 100%;
   padding: 12px;
   margin: 10px 0;
@@ -51,11 +51,11 @@
   outline: none;
 }
 
-.signup-input::placeholder {
+.login-input::placeholder {
   color: #ccc;
 }
 
-.signup-btn {
+.login-btn {
   width: 100%;
   padding: 12px;
   background: linear-gradient(135deg, #7f00ff, #e100ff);
@@ -68,12 +68,32 @@
   transition: 0.3s;
 }
 
-.signup-btn:hover {
+.login-btn:hover {
   background: linear-gradient(135deg, #9b00ff, #ff00c8);
 }
 
-.signup-error {
+.login-error {
   color: #ff7d7d;
   margin-top: 10px;
   font-size: 14px;
+}
+.back-arrow {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: none;
+  font-size: 24px;
+  padding: 8px 14px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(128, 0, 255, 0.4);
+  transition: background 0.3s ease, transform 0.2s ease;
+  z-index: 2;
+}
+
+.back-arrow:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.1);
 }

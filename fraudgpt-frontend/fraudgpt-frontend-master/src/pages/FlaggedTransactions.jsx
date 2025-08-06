@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './FlaggedTransactions.css';
+import './Dashboard.css'; // Reuse same table styles
 
 const FlaggedTransactions = () => {
   const [flagged, setFlagged] = useState([]);
@@ -13,8 +13,8 @@ const FlaggedTransactions = () => {
   }, []);
 
   return (
-    <div className="flagged-wrapper">
-      <table className="flagged-table">
+    <div className="dashboard-wrapper">
+      <table className="dashboard-table">
         <thead>
           <tr>
             <th>ID</th>
@@ -32,7 +32,7 @@ const FlaggedTransactions = () => {
                 <td>{tx.id}</td>
                 <td>₹{tx.amount}</td>
                 <td>{tx.timestamp}</td>
-                <td className="fraud-score">{(tx.fraud_score * 100).toFixed(2)}%</td>
+                <td className="indicator-cell">{(tx.fraud_score * 100).toFixed(2)}%</td>
               </tr>
             ))
           )}
