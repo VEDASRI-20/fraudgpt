@@ -1,0 +1,49 @@
+/* FlaggedTransactions.css */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap');
+
+.flagged-wrapper {
+  padding: 0px 0px 0px 40px;
+}
+
+.flagged-title {
+  font-size: 28px;
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 30px;
+  color: #e2e8f0;
+}
+
+.flagged-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 12px;
+}
+
+.flagged-table thead th {
+  text-align: left;
+  padding: 12px 16px;
+  background-color: #1e1b2e;
+  color: #cbd5e1;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.flagged-table tbody td {
+  padding: 16px;
+  background-color: #16122b;
+  color: #e2e8f0;
+  font-size: 15px;
+}
+
+.flagged-table tbody tr {
+  transition: background 0.3s ease;
+}
+
+.flagged-table tbody tr:hover td {
+  background-color: #231c3f;
+}
+
+.fraud-score {
+  color: #f87171;
+  font-weight: 600;
+}
