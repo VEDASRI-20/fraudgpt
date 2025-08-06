@@ -1,0 +1,15 @@
+{
+  "whitelist": [
+    "127.0.0.1",
+    "192.168.1.0/24"
+  ],
+  "blacklist": [
+    "203.0.113.1",
+    "198.51.100.0/24"
+  ],
+  "rate_limit": {
+    "requests": 100,
+    "window_seconds": 60
+  },
+  "log_file": "C:\\Users\\VIVEK SHOWRY\\Downloads\\fin_site\\hackathon2\\firewall_logs.csv"
+}

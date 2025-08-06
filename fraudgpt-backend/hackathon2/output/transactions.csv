@@ -1,0 +1,1001 @@
+transaction_id,customer_id,customer_name,customer_age,customer_country,transaction_type,amount,currency,payment_method,merchant,category,transaction_date,is_fraudulent,status,device_type,ip_address,transaction_location
+fc9a4ef0-756e-4810-86fe-5da153cff92c,bf7b169681540988,Tyler Sanchez,23,Australia,purchase,115.02,GBP,paypal,Parker PLC,electronics,2024-11-29T19:17:27,False,failed,desktop,179.218.56.131,Germany
+f3855616-7801-4155-a6a0-0138f78630b6,eebbe04a788493b2,Krystal White,21,UK,refund,44.37,AUD,crypto,Garcia LLC,health,2025-03-20T13:34:44,False,completed,mobile,91.40.38.175,USA
+0e20bda7-c0ed-4c88-ae2e-4888570287a8,3516dc20cc11a21a,Vanessa Velasquez,58,Australia,refund,144.25,JPY,crypto,Morales Inc,entertainment,2025-07-09T09:09:38,False,completed,mobile,46.223.239.24,Australia
+4991b76c-9764-4609-85ef-4b19071a71f3,45d5eda345d1bba8,Riley Adams,35,Germany,transfer,536.22,GBP,debit_card,Hoffman Inc,electronics,2025-04-10T00:52:19,False,pending,mobile,204.245.9.49,USA
+335cb5a8-4509-40f0-89d3-b079f58fb1b8,3e0a941e39064020,Brittany Miller,74,France,deposit,38.43,AUD,debit_card,Ortiz-Johnson,entertainment,2024-12-21T17:55:23,False,failed,tablet,219.210.27.143,UK
+72b8074f-179e-4cc1-88bc-0f2cc02e120d,7ae204a568643db3,Billy Powell,56,Japan,refund,38.43,AUD,crypto,Larson-Brown,clothing,2025-02-10T13:04:08,False,pending,tablet,189.158.135.59,Australia
+a1f5cbdd-d579-42ad-8a9d-bd99429e8ec0,e7e70666d7ee038f,Matthew Hale,50,Germany,transfer,583.37,EUR,bank_transfer,"Diaz, Chase and Aguilar",clothing,2025-05-08T14:38:49,False,pending,mobile,60.212.91.146,France
+e7df8f4b-28b9-4f0d-b114-b93af765080e,8300e12d10e12c6f,Brenda Jones,34,UK,deposit,172.63,GBP,debit_card,Morales Inc,electronics,2024-10-25T10:12:09,False,completed,mobile,30.83.173.109,France
+dc8c55b4-1f05-4a67-b069-f04a0e62b66b,1af4811557b604eb,Kristen Glenn,45,USA,purchase,27.0,JPY,paypal,"Leblanc, Herring and Casey",groceries,2025-07-22T03:54:55,False,completed,tablet,180.63.123.209,USA
+075acc37-ae7d-4513-ac12-86bf9dfb6452,5c0635be9a3c2e9d,Philip Durham,32,Germany,deposit,123.2,GBP,crypto,Ortiz-Johnson,travel,2025-07-07T15:33:05,False,completed,tablet,133.67.118.3,Germany
+063714e3-880b-4b91-ba29-f90ab2fb721d,24b1684acefadc04,Mrs. Barbara Walters,28,France,transfer,27.25,EUR,bank_transfer,Lozano-Gonzalez,electronics,2024-08-01T15:19:19,False,failed,mobile,62.254.85.169,Germany
+d2bd669d-d6d0-4811-9331-9f6d8fa37cee,4f8d76abc6c5826a,James Jackson,23,France,withdrawal,27.15,USD,paypal,"Leblanc, Herring and Casey",clothing,2024-08-17T11:03:59,False,pending,mobile,24.186.27.157,Australia
+bfbea94a-e635-4377-aff1-da585e873c21,7ae204a568643db3,Billy Powell,56,Japan,refund,78.49,GBP,paypal,Bryant-Smith,travel,2025-03-08T04:48:21,False,failed,mobile,35.192.60.37,Germany
+6761a403-a154-4031-9863-b08fe84a0abd,ac6d47ffa3255be2,Dr. Daniel Hughes,75,France,deposit,3.1,GBP,credit_card,Padilla LLC,travel,2025-02-14T13:55:25,False,completed,desktop,16.145.230.208,USA
+6b760702-9305-4334-9966-b767e823b348,4f8d76abc6c5826a,James Jackson,23,France,refund,4.11,EUR,bank_transfer,Hendricks PLC,travel,2025-05-23T05:18:37,False,failed,tablet,41.223.133.8,USA
+5d013889-bede-4315-9811-96ae71a88925,09b32f4e94745a3f,Thomas Guzman MD,38,UK,withdrawal,23.49,CAD,debit_card,Tyler-Lopez,electronics,2025-05-05T16:18:54,False,failed,mobile,194.237.121.88,UK
+58cb4342-16f4-4e6f-907b-1f98d24e4754,bd399182db5cf017,Lauren Davis,61,Japan,transfer,11.95,JPY,credit_card,Ortiz-Johnson,entertainment,2025-06-16T09:39:04,False,failed,mobile,216.155.159.34,USA
+715cfdd1-af5f-4a6e-a59a-39db8ee73a83,4f8d76abc6c5826a,James Jackson,23,France,deposit,87.48,GBP,credit_card,Bryant-Smith,entertainment,2025-03-24T03:02:03,False,completed,desktop,176.3.13.199,Australia
+908c41ea-2119-4706-884d-09fc9953a8a2,aefba2684c669e74,John Perez,52,Germany,deposit,13.98,JPY,debit_card,Duncan-Ross,entertainment,2024-09-07T01:43:23,False,failed,tablet,43.39.253.171,France
+89930b7b-226f-4637-8967-f8d55092396e,9cc7b788cb3d8c82,Tiffany Banks,59,Germany,deposit,6.56,GBP,paypal,Brown Group,health,2024-10-03T23:45:25,False,pending,desktop,15.110.226.79,Canada
+0dbc4410-3569-4b3d-b4d2-92578d459c51,5c0635be9a3c2e9d,Philip Durham,32,Germany,transfer,492.0,USD,bank_transfer,Morales Inc,travel,2024-08-08T00:40:41,False,failed,mobile,90.36.27.245,Canada
+ae6d86c8-176c-4fb2-a35a-d7a9c5c338aa,08744fb04db5e3b3,Keith Robinson,19,USA,deposit,38.91,CAD,debit_card,Morales-Perez,groceries,2024-10-29T05:40:50,False,completed,desktop,180.249.110.220,France
+4fcef674-7b13-43c4-b75d-98f471d5c201,ec01fa6e538369d6,Alex Kerr,58,France,refund,60.42,JPY,bank_transfer,"Jones, Francis and Mitchell",groceries,2025-07-26T19:59:08,False,failed,tablet,35.5.121.180,Australia
+ab29efa2-dd96-4531-b3a5-36c24c91944c,82ea76d55d802f16,Joseph Berry,19,Japan,deposit,6.44,USD,paypal,Morales-Perez,groceries,2025-05-26T23:46:22,False,completed,tablet,40.144.127.225,Japan
+4e92e355-c086-4b3d-ba93-2f5d2d0a6be4,9ff4eb1c6a4d1701,James Kirk,74,Japan,refund,24.13,JPY,paypal,Tyler-Lopez,health,2025-05-07T01:44:31,False,failed,tablet,99.139.52.98,Canada
+edc1cfc3-8a92-4192-81fc-d90251c0a7be,e8cdbad60dc1e84c,Danielle Fletcher,80,Germany,deposit,64.48,USD,bank_transfer,George Ltd,health,2025-03-02T11:05:40,False,pending,mobile,81.195.187.162,Canada
+88c0e0fe-c6dc-4fd5-867d-23a393fe6a7e,2927aeb8aef73e54,Hayden Nelson,58,USA,transfer,9.71,CAD,debit_card,Padilla LLC,health,2024-10-28T01:38:28,False,failed,desktop,51.163.179.229,Japan
+388232cd-3406-4755-9c6b-1a6494d9b3ed,09b32f4e94745a3f,Thomas Guzman MD,38,UK,purchase,95.92,AUD,credit_card,Williams PLC,entertainment,2025-01-26T01:25:41,False,pending,tablet,26.179.50.240,USA
+74d9815a-4729-40b0-9488-9cd2571441ef,9ff4eb1c6a4d1701,James Kirk,74,Japan,refund,22.18,USD,bank_transfer,Garcia LLC,groceries,2024-11-16T14:40:39,False,completed,desktop,174.198.72.36,UK
+a1a17bee-b401-4d64-8763-5311646a5ecb,977e73656e8bc592,David Ferguson MD,23,Germany,refund,35.25,JPY,credit_card,"Smith, Joseph and Banks",entertainment,2024-11-03T09:01:25,False,completed,mobile,187.103.97.108,Canada
+df2b9569-625b-4d9f-8fd1-d4e5556b9e6b,77c033f1e67c252b,Austin Snyder,39,Canada,withdrawal,22.14,AUD,credit_card,Hammond-Taylor,travel,2025-03-10T22:37:06,False,failed,mobile,136.199.22.121,UK
+b59d8561-9b6d-4641-ba50-8397d4732fab,7f7c9c4743259366,William Ruiz,23,France,refund,878.68,USD,credit_card,Ortiz-Johnson,clothing,2025-01-31T00:44:50,False,pending,desktop,74.77.247.63,Germany
+3cd5cddc-30b0-43ef-b5a3-dc7923bcda70,84d68aeb51eb41be,Stephen Powell,30,Japan,refund,53.5,AUD,debit_card,Jackson Group,travel,2024-11-17T06:13:23,False,completed,desktop,75.203.54.41,USA
+83521f58-4bea-4ae3-bd04-ee0a1dc8375c,fc69bffc08cb4410,Jeffery Elliott,32,Australia,deposit,11.17,JPY,bank_transfer,Hammond-Taylor,electronics,2025-03-23T14:02:58,False,pending,mobile,32.82.87.175,Japan
+4ff06c32-98d4-4fb4-87e6-f69f1a1afbf0,718dbe9e0f4f93e5,Linda Brown,47,UK,transfer,187.51,JPY,credit_card,"Morgan, Page and Russell",groceries,2025-06-20T04:25:18,False,pending,desktop,67.171.116.167,USA
+ee1e50ed-41c4-42a5-aefd-e57849465c90,f33918d764b92e1d,Mr. Mark Silva,53,France,deposit,8.75,JPY,credit_card,Jackson Group,groceries,2024-11-14T04:49:17,False,pending,mobile,175.236.242.29,Germany
+34686666-c362-4b6a-b992-98401bb484e8,8c783345c6c8f5cd,Bradley Miller,69,Canada,deposit,74.69,EUR,debit_card,Bryant-Smith,health,2024-09-10T00:48:13,False,failed,desktop,7.214.39.149,Canada
+0492d0fe-a148-4a12-8431-976aaf7748b7,7be21778db08f8f9,Jasmine Gibson,23,Australia,purchase,2.89,CAD,paypal,Brown Group,travel,2024-08-06T01:06:51,False,failed,desktop,29.245.58.174,France
+8667d119-4627-4883-b8d3-8cabd3c61d61,9ff4eb1c6a4d1701,James Kirk,74,Japan,refund,7.45,AUD,debit_card,Avila-Bradford,health,2025-01-26T23:29:15,False,completed,tablet,3.194.147.73,Germany
+2ce6c983-7bac-4d12-9ad9-2b6c3370882f,9cc7b788cb3d8c82,Tiffany Banks,59,Germany,transfer,73.35,USD,bank_transfer,Garcia LLC,groceries,2025-02-16T05:38:32,False,failed,tablet,193.164.0.25,France
+6b80cc5f-698c-47c0-b021-bf52a13c5286,e7e70666d7ee038f,Matthew Hale,50,Germany,transfer,165.29,EUR,bank_transfer,Allen LLC,clothing,2025-06-04T20:08:10,False,failed,mobile,51.242.245.103,Germany
+72489730-4bea-4afa-8591-71154bf5cf96,7be21778db08f8f9,Jasmine Gibson,23,Australia,purchase,70.6,AUD,paypal,Henry PLC,entertainment,2024-08-21T23:46:30,False,completed,tablet,124.141.215.69,France
+f6508514-7661-40f6-86ed-45c4a03d1588,84d68aeb51eb41be,Stephen Powell,30,Japan,refund,45.9,USD,debit_card,Duncan-Ross,clothing,2025-03-28T08:45:51,False,failed,mobile,106.184.172.114,UK
+7749dea9-1193-4b3b-907e-327b82e503b1,75e46e24100c1725,Mrs. Renee Myers,42,Canada,withdrawal,34.76,AUD,crypto,Larson-Brown,travel,2024-09-18T23:51:56,False,completed,mobile,199.30.191.54,UK
+7dd566fc-354d-4850-8c9d-80f11a4bebcd,e7e70666d7ee038f,Matthew Hale,50,Germany,purchase,5.94,EUR,credit_card,Brooks-Rogers,clothing,2025-06-25T00:24:19,False,failed,tablet,172.33.122.246,Australia
+789f6e75-37a6-4cae-9b8e-505c10035b34,9de8bea628dd96b4,Cindy Mccullough,77,Japan,purchase,18.55,USD,crypto,Parker PLC,clothing,2025-07-06T20:05:39,False,failed,tablet,6.124.28.115,UK
+12067701-2fb9-4fec-8e41-a5c622852152,09b32f4e94745a3f,Thomas Guzman MD,38,UK,deposit,27.36,EUR,paypal,Rodriguez-Webb,health,2024-11-01T00:09:41,False,pending,tablet,216.94.60.53,Australia
+17ceeed4-39ae-4b2b-9c66-db332414fa0c,42ae2d5e2b8f0083,Kendra Olson,28,Germany,refund,266.58,CAD,bank_transfer,Daugherty PLC,clothing,2024-12-30T21:09:39,False,pending,tablet,101.246.137.134,Germany
+8aec663d-6473-4e1d-afd9-4fb806638e61,a689bb0993547dc5,Corey Jones DDS,38,Australia,refund,91.42,USD,paypal,"Jones, Francis and Mitchell",groceries,2024-07-30T05:53:16,False,pending,desktop,28.2.142.20,Germany
+f8724f96-9f6e-424a-8804-fd8cd9c4f9b2,d8c620b9d519e440,Mr. Anthony Diaz,76,France,purchase,3.88,GBP,debit_card,Avila-Bradford,health,2025-06-25T13:30:35,False,completed,mobile,154.2.114.29,UK
+5692a07f-38dc-442f-a81c-8e02ea53e1a2,77aab47038494a47,Theresa Whitney,59,USA,withdrawal,88.78,EUR,paypal,"Smith, Joseph and Banks",electronics,2025-06-02T00:00:25,False,pending,desktop,194.10.16.75,France
+307f33b5-6308-49d6-9013-9b32dd5e757e,0178cd1f9cd700ce,Steven Riddle,66,Canada,deposit,30.64,JPY,credit_card,Avila-Bradford,travel,2025-06-18T20:35:17,True,pending,desktop,36.143.190.53,Australia
+4190f546-b4bf-46f9-8f3f-47798e875f2a,2f0a5bfdfeecaa93,Jason Zuniga,25,Japan,withdrawal,19.78,AUD,bank_transfer,Ramirez Ltd,entertainment,2025-07-13T14:15:11,False,completed,desktop,135.200.253.147,France
+3cb2c1b2-0b98-4c3f-ac36-f0dc245355e9,7b97e0be299b04c5,Pamela Davis,72,Canada,transfer,136.66,USD,bank_transfer,Avila-Bradford,groceries,2025-04-14T18:14:02,False,pending,tablet,29.32.175.229,Germany
+dddf5d1a-86c7-4019-9b65-638726f2d120,c16840c8f199623e,Jesse Austin,62,Germany,withdrawal,256.34,JPY,debit_card,"Harris, Turner and Powell",travel,2025-04-12T23:30:39,False,failed,mobile,171.41.114.27,France
+e81cfbff-4cc7-48ef-9f95-5d12de2e9e3a,e2b78eec195dc5d9,Christopher Brown,31,UK,withdrawal,220.73,EUR,debit_card,"Poole, Martin and Daugherty",electronics,2025-04-26T13:21:32,False,pending,mobile,166.69.57.240,Australia
+babf3523-e9ab-48f8-b5c3-8136df3fe275,75e46e24100c1725,Mrs. Renee Myers,42,Canada,transfer,15.51,EUR,paypal,"Morales, Jordan and Sullivan",travel,2024-12-10T10:18:06,False,completed,desktop,123.0.219.170,Australia
+a20f7fbb-ec0f-40e2-8160-c50567d8643a,82b6e205329d024f,Katherine Thompson,35,UK,deposit,34.34,GBP,credit_card,"Shields, Walker and Tyler",electronics,2024-12-10T10:14:33,False,failed,mobile,123.133.8.25,Canada
+fa32463b-025b-4a5f-ae0a-dff467b551c8,2f0a5bfdfeecaa93,Jason Zuniga,25,Japan,purchase,89.74,USD,debit_card,Rodriguez-Webb,clothing,2024-12-14T01:46:46,False,pending,tablet,71.190.105.12,UK
+ee23f051-7b35-4825-806f-77a8a9dacb12,3444cd002bd69b5c,Tamara Reed,59,Japan,deposit,235.88,AUD,debit_card,Hendricks PLC,groceries,2025-01-15T21:15:55,False,failed,tablet,84.228.176.164,Germany
+db319628-fdc4-4f42-bfc0-f9f3361d6422,1cdf24ea265a1099,Sherry Stevenson,42,France,purchase,26.61,USD,debit_card,Goodwin LLC,electronics,2024-12-24T07:40:20,False,failed,tablet,24.107.82.180,Canada
+b53eadf9-8c5b-4333-9079-ab6d2cd9efb0,1b71c25fa2c67d79,Robert Petersen,41,UK,withdrawal,41.33,JPY,debit_card,Larson-Brown,health,2025-06-23T17:30:43,False,failed,desktop,118.129.142.160,USA
+a9413dee-657f-4814-8ddb-13766688808a,53fb4ad2c2cbc763,Mary Warner,58,UK,deposit,10.39,JPY,credit_card,Duncan-Ross,groceries,2025-01-14T06:47:05,False,failed,desktop,197.253.226.121,Australia
+62b906d2-2de9-4445-baa4-f34e0e0e2ae3,1af4811557b604eb,Kristen Glenn,45,USA,deposit,9.08,EUR,paypal,Fuller Group,electronics,2024-10-15T18:24:41,False,pending,tablet,186.50.11.86,USA
+286998ae-4bd7-4453-a004-6454ae0f7f7b,75e46e24100c1725,Mrs. Renee Myers,42,Canada,refund,184.71,AUD,bank_transfer,Prince-Smith,health,2025-03-18T19:27:59,False,failed,desktop,5.137.5.35,UK
+d6c48cd9-3116-4a91-8556-09517e45e874,9de8bea628dd96b4,Cindy Mccullough,77,Japan,withdrawal,417.53,CAD,crypto,"Leblanc, Herring and Casey",electronics,2025-01-03T18:26:29,False,pending,mobile,13.230.164.230,Canada
+d9484654-67ea-4143-9168-94dc3be37b4f,2f0a5bfdfeecaa93,Jason Zuniga,25,Japan,withdrawal,49.01,AUD,crypto,Avila-Bradford,groceries,2025-03-23T09:20:54,True,pending,mobile,44.224.177.104,France
+749080cc-e9c8-47ae-bac9-6873eb37ccdc,a689bb0993547dc5,Corey Jones DDS,38,Australia,refund,245.99,CAD,paypal,Hammond-Taylor,groceries,2024-12-20T04:05:43,False,failed,desktop,149.92.21.214,Australia
+dab1bc03-de7f-4bfd-ac84-afefd7ca10c8,09b32f4e94745a3f,Thomas Guzman MD,38,UK,purchase,93.92,USD,crypto,"Leblanc, Herring and Casey",health,2025-06-11T05:11:54,False,failed,mobile,200.235.56.46,UK
+cdc32247-23b5-4b00-8fe6-6e2d31ca295c,ee18e712f9378408,Kimberly James,68,Japan,withdrawal,20.75,USD,bank_transfer,George Ltd,groceries,2024-10-09T17:16:15,False,failed,mobile,182.238.202.236,Germany
+cda4e6e9-8551-4651-b6e7-c46472de6674,84d68aeb51eb41be,Stephen Powell,30,Japan,deposit,93.89,JPY,paypal,Prince-Smith,groceries,2024-09-13T02:42:07,False,failed,tablet,70.233.245.94,Germany
+0cf63cbc-ec28-43a0-90b6-96345b23a439,8cc0d62966382e19,Glenda Myers,67,Canada,transfer,548.43,CAD,bank_transfer,Hendricks PLC,clothing,2025-06-04T05:41:43,False,completed,desktop,131.187.101.35,Canada
+72895e03-f893-470f-a750-0b45767cd9cb,aefba2684c669e74,John Perez,52,Germany,deposit,51.74,GBP,debit_card,Ramirez Ltd,travel,2025-01-27T10:51:23,False,failed,tablet,85.28.223.216,UK
+466557b3-fb8e-4b8f-8871-c84e45e95f12,3ae6f92455717996,Amy Mckenzie,33,Japan,transfer,570.76,GBP,credit_card,"Bell, Harris and Tyler",clothing,2025-07-21T05:59:46,False,pending,mobile,60.53.162.96,Australia
+bbc4eae5-07de-44cb-8b80-744b675dea9e,2aadcd7a10decf0e,Mary Thomas,22,Germany,deposit,1.07,USD,debit_card,"Ford, Dorsey and Alvarado",entertainment,2025-06-28T00:16:31,False,completed,tablet,7.47.37.161,Canada
+70618c27-c851-42f6-ba3c-8a8291926139,2f0a5bfdfeecaa93,Jason Zuniga,25,Japan,withdrawal,187.33,USD,credit_card,Hoffman Inc,groceries,2025-06-15T15:57:05,False,pending,desktop,195.112.27.151,Australia
+afa0f791-ee84-42c3-a5de-bdb88498dd0a,7943de2cf7564714,Zachary Jones,27,UK,purchase,62.21,EUR,paypal,"Diaz, Chase and Aguilar",electronics,2025-02-27T06:03:39,False,completed,tablet,88.170.184.200,Australia
+3bbb2489-abab-46dd-9df0-54884d8abdad,0365db1b96573654,Morgan Rivers,75,France,purchase,34.87,JPY,debit_card,Garcia LLC,electronics,2025-05-20T09:39:32,False,completed,tablet,169.65.206.30,UK
+47fb3db1-9d57-4ab1-9d79-2ef7bc57eafa,3e0a941e39064020,Brittany Miller,74,France,withdrawal,62.65,JPY,crypto,Brooks-Rogers,entertainment,2025-02-11T20:58:53,False,pending,desktop,149.33.155.181,France
+876522cf-8086-4e95-9cb0-1373051a3ea4,8300e12d10e12c6f,Brenda Jones,34,UK,withdrawal,2.77,JPY,paypal,"Ford, Dorsey and Alvarado",entertainment,2024-12-11T16:06:44,False,completed,mobile,81.122.182.60,France
+39b9bc65-0364-4f92-8864-57d6e29960dc,0365db1b96573654,Morgan Rivers,75,France,refund,39.27,USD,paypal,Padilla LLC,clothing,2024-10-23T07:12:07,False,completed,mobile,87.20.220.164,Japan
+160e44c1-66b3-43cf-a515-ffe8dfc9cd49,2927aeb8aef73e54,Hayden Nelson,58,USA,withdrawal,93.29,JPY,bank_transfer,Ortiz-Johnson,groceries,2024-11-06T13:56:13,True,pending,tablet,71.209.219.181,Japan
+a615caf4-a211-4287-833a-631d8224c1dd,ec01fa6e538369d6,Alex Kerr,58,France,withdrawal,501.12,GBP,credit_card,Hendricks PLC,health,2024-12-16T19:35:08,False,completed,desktop,64.122.139.76,Japan
+6c32d678-9060-4a89-8bb3-111dad6e174a,3444cd002bd69b5c,Tamara Reed,59,Japan,deposit,25.09,GBP,debit_card,"Morales, Jordan and Sullivan",clothing,2025-07-11T21:53:01,False,completed,desktop,184.184.181.203,Japan
+216a1fd4-fff4-4308-b85c-20dfe858b368,3ae6f92455717996,Amy Mckenzie,33,Japan,deposit,16.24,USD,paypal,Parker PLC,health,2025-06-07T15:48:00,False,pending,desktop,104.57.211.180,Germany
+676f709b-fd53-47bb-a585-0326d6bdacd9,eebbe04a788493b2,Krystal White,21,UK,deposit,25.72,USD,bank_transfer,Hays-Solomon,electronics,2025-05-06T23:29:19,False,failed,desktop,163.0.41.90,Germany
+e12239b7-9621-4e81-8478-fb2619805937,f33918d764b92e1d,Mr. Mark Silva,53,France,transfer,215.53,GBP,credit_card,Allen LLC,entertainment,2024-12-07T20:17:24,False,completed,tablet,43.239.20.132,USA
+f8200859-94a0-44f0-9826-25703b4d47c8,7f7c9c4743259366,William Ruiz,23,France,deposit,89.4,GBP,credit_card,Ortiz-Johnson,entertainment,2025-05-03T21:36:59,False,pending,mobile,156.219.204.163,Australia
+332aa00a-b560-4c08-b3f7-27bfaed130d9,718dbe9e0f4f93e5,Linda Brown,47,UK,withdrawal,24.66,EUR,bank_transfer,Lam-Pacheco,travel,2024-09-21T13:40:07,False,failed,mobile,19.175.254.197,USA
+8162e9e3-09d5-4d76-9d63-234990a69f40,ec18375130d9b273,Julie Munoz,69,UK,transfer,117.91,EUR,bank_transfer,"Bell, Harris and Tyler",health,2024-11-10T21:10:39,False,failed,mobile,76.241.179.55,Japan
+f5032353-0755-4d0b-bdb5-5da3d0391620,75e46e24100c1725,Mrs. Renee Myers,42,Canada,purchase,63.16,CAD,paypal,"Diaz, Chase and Aguilar",travel,2025-02-03T21:39:29,False,completed,tablet,180.34.80.42,Canada
+2357541e-9862-4d6e-9fd3-0e5aa7f803bb,d8c620b9d519e440,Mr. Anthony Diaz,76,France,withdrawal,233.45,GBP,bank_transfer,Prince-Smith,groceries,2025-02-12T01:18:36,False,pending,tablet,162.218.92.61,USA
+a0c9fc7e-b019-4207-aa82-043a6c003052,37bbd4657d09d6c8,Rebecca Phillips,64,UK,purchase,19.05,JPY,debit_card,Morales-Perez,groceries,2024-12-28T19:48:58,False,failed,desktop,50.108.25.115,Canada
+5097c795-5b27-4b66-ac32-8fb506f7e8b4,aefba2684c669e74,John Perez,52,Germany,purchase,33.4,GBP,crypto,"Jones, Francis and Mitchell",clothing,2025-07-18T12:53:16,False,completed,tablet,213.209.118.64,Australia
+a8dcd86d-db4a-48eb-a358-05dbfdb8d598,4f6cf57268da9690,Tiffany Love,77,Japan,purchase,30.32,USD,debit_card,Parker PLC,electronics,2024-12-11T01:25:12,False,completed,desktop,89.115.39.217,Australia
+3cee8211-76b5-4c49-88b6-ec5465051440,1cdf24ea265a1099,Sherry Stevenson,42,France,transfer,6.08,CAD,crypto,"Smith, Joseph and Banks",travel,2025-07-16T05:32:05,False,completed,desktop,57.142.144.119,Japan
+221f24f8-e01d-407d-af6e-51a9dddbfb98,9ff4eb1c6a4d1701,James Kirk,74,Japan,refund,85.13,JPY,bank_transfer,Serrano-Oliver,health,2025-01-14T05:26:47,False,completed,desktop,189.25.38.59,UK
+47a20da1-86d4-4e00-a6a2-7e4ce11191ab,0178cd1f9cd700ce,Steven Riddle,66,Canada,withdrawal,80.77,JPY,paypal,"Morales, Jordan and Sullivan",electronics,2024-12-01T05:08:54,False,pending,tablet,46.173.190.246,Australia
+199f28ce-34e3-4362-84aa-f47a32c75435,718dbe9e0f4f93e5,Linda Brown,47,UK,withdrawal,55.02,JPY,debit_card,Ortiz-Johnson,groceries,2024-09-01T17:19:04,False,failed,desktop,26.9.229.79,Germany
+8e373e85-5f5a-49c7-813c-0e2baedd063f,75e46e24100c1725,Mrs. Renee Myers,42,Canada,transfer,38.4,GBP,debit_card,Hoffman Inc,travel,2024-10-01T16:14:13,False,pending,mobile,161.198.113.255,Japan
+b6363c11-1184-4998-83cf-ba4824cf6280,80ded0a7d5e0cb2d,Steven Moyer,22,USA,withdrawal,6.53,AUD,bank_transfer,"Shields, Walker and Tyler",clothing,2025-07-16T09:24:39,False,completed,mobile,217.255.120.176,Germany
+36bc9aae-5c77-4a72-a936-0a3d0758cacf,eebbe04a788493b2,Krystal White,21,UK,deposit,29.05,USD,paypal,"Mcknight, Solis and Lewis",electronics,2024-09-17T17:06:11,False,pending,mobile,66.160.100.78,Australia
+7b881628-fa8c-4455-bda3-141dd726e0b8,81af3edb3c839d6d,Jamie Johnson,47,France,refund,32.65,AUD,bank_transfer,Williams PLC,electronics,2024-12-14T04:51:31,False,pending,desktop,202.70.63.96,Australia
+b0c31043-9536-4686-8701-19af0d04bf95,8c870fb2bdd7868c,Christopher Wyatt,55,Germany,withdrawal,16.39,CAD,credit_card,Allen LLC,entertainment,2025-01-17T23:50:46,False,pending,tablet,130.214.142.155,Australia
+a9502d07-ffc2-49ea-9e46-75356b9863ad,1cdf24ea265a1099,Sherry Stevenson,42,France,withdrawal,42.87,JPY,crypto,Bryant-Smith,clothing,2025-05-25T12:20:54,False,pending,mobile,184.237.111.146,USA
+dc911e38-2c97-4ee8-8c27-727ae3d81a15,bd399182db5cf017,Lauren Davis,61,Japan,purchase,100.09,AUD,bank_transfer,"Jones, Francis and Mitchell",electronics,2025-01-10T16:54:44,False,failed,desktop,98.219.185.188,USA
+d3605c0c-71b2-445b-874d-532898e51d5c,c02bde8119422322,Gregory Robles Jr.,32,UK,purchase,924.52,USD,paypal,"Bell, Harris and Tyler",groceries,2024-07-29T01:31:38,False,completed,mobile,188.189.89.31,Australia
+0de0dcbf-d027-4f16-bec2-61a73f0c7147,d581ed942fedca03,Wayne Price,43,Canada,withdrawal,70.94,GBP,crypto,Padilla LLC,clothing,2024-12-09T01:40:52,True,pending,tablet,116.202.210.146,Japan
+20c352e9-9a28-4cb0-96fd-5012b9acd37c,53fb4ad2c2cbc763,Mary Warner,58,UK,refund,80.34,GBP,bank_transfer,Brooks-Rogers,travel,2024-08-30T21:57:02,False,pending,desktop,159.228.27.244,France
+6467d6f9-4fe6-4441-aa0a-f1b3a3c8bf29,a59bf44642d3ad42,Ashley Bishop,21,Australia,purchase,48.83,AUD,bank_transfer,Ramirez-Gates,clothing,2024-08-10T17:51:16,False,pending,tablet,205.13.229.247,Canada
+6fe46116-4bf9-44bb-b195-e82951a53388,66fe3667006bca9b,Donna Smith,41,France,withdrawal,3.07,CAD,paypal,Jackson Group,travel,2024-09-12T14:34:54,False,completed,mobile,65.5.198.29,Germany
+632fe12a-d053-4057-9112-88b12c80ac21,1b71c25fa2c67d79,Robert Petersen,41,UK,deposit,52.47,CAD,paypal,Larson-Brown,groceries,2025-06-06T01:12:29,True,failed,desktop,174.214.165.76,France
+37e51e38-ab86-40dd-b814-a3f0b1330a78,5e0190cd3f9de295,Susan Beck,36,Australia,purchase,59.76,AUD,crypto,Carter Group,health,2025-05-13T07:52:50,False,failed,tablet,114.103.127.197,Australia
+675f0e54-73d1-4747-a9b7-207c9ad8838d,301e3b19165d5029,Heather Smith,67,Australia,transfer,2197.03,CAD,debit_card,Brooks-Rogers,health,2025-05-15T18:47:02,False,pending,tablet,149.47.144.82,France
+9dd305a9-a731-447d-94d4-22cc73683be5,2f0a5bfdfeecaa93,Jason Zuniga,25,Japan,refund,40.91,AUD,credit_card,Duncan-Ross,groceries,2025-05-08T06:53:13,False,completed,tablet,49.106.216.68,Japan
+0cc174b8-ae0d-4e29-b08e-9ecfbd41f5cd,45d5eda345d1bba8,Riley Adams,35,Germany,refund,85.83,CAD,credit_card,Ramirez Ltd,travel,2025-01-09T08:34:41,False,completed,tablet,58.66.234.60,Canada
+7bf5fbe9-dcdc-451f-99f9-dfd52688ff36,45d5eda345d1bba8,Riley Adams,35,Germany,deposit,51.83,GBP,crypto,Hendricks PLC,travel,2025-07-11T14:55:08,False,pending,tablet,151.233.150.184,Canada
+413764c8-1b64-4856-b84b-e50ba0329671,bf7b169681540988,Tyler Sanchez,23,Australia,purchase,9.46,GBP,bank_transfer,Daugherty PLC,clothing,2025-02-07T04:17:45,False,failed,tablet,145.148.180.118,USA
+1e0d4069-8b97-4ae7-a6fd-53c3beb53623,68f94371d14b290e,Devin Mcdonald,31,Japan,deposit,303.15,EUR,paypal,Morales Inc,groceries,2025-03-16T18:05:49,False,pending,desktop,209.86.61.231,USA
+faaedd14-7317-4990-95ff-feb732faecaf,1bfa5e3ead23689e,Rodney Mills,25,UK,transfer,168.66,AUD,crypto,"Diaz, Salazar and Chandler",electronics,2024-10-16T01:12:30,False,pending,mobile,45.185.178.92,Germany
+23bb32b1-bb8e-40b2-bbd6-391be66de7f8,8c870fb2bdd7868c,Christopher Wyatt,55,Germany,deposit,178.85,GBP,paypal,"Shields, Walker and Tyler",electronics,2025-05-19T21:50:02,False,pending,tablet,121.154.26.156,France
+62a07698-309c-47cd-b12a-89ed280380a4,66fe3667006bca9b,Donna Smith,41,France,withdrawal,13.96,USD,credit_card,Duncan-Ross,groceries,2024-10-13T13:43:01,False,completed,mobile,195.170.50.109,UK
+ebd4acad-4e26-4f6c-aa38-2c96b9f167b8,1e78d9414c8effec,Lisa Nichols,69,USA,deposit,447.73,EUR,debit_card,"Diaz, Salazar and Chandler",health,2025-04-01T12:46:19,False,failed,tablet,178.1.252.249,Germany
+93f7563a-2c55-41b4-96aa-7d0231198ee9,77aab47038494a47,Theresa Whitney,59,USA,deposit,6.67,AUD,debit_card,Garcia-West,travel,2025-06-24T10:51:52,False,pending,mobile,89.17.103.145,Germany
+54c208a6-cfd8-4494-afee-acb5044d4f4f,ee18e712f9378408,Kimberly James,68,Japan,transfer,131.67,EUR,debit_card,"Leblanc, Herring and Casey",groceries,2025-02-27T23:03:31,False,failed,desktop,60.162.239.121,Germany
+b9e0f06a-97d6-44e6-b2a5-4c72e0df1e21,d8c620b9d519e440,Mr. Anthony Diaz,76,France,transfer,1459.26,CAD,credit_card,Jackson Group,electronics,2025-04-13T01:59:56,False,pending,mobile,8.52.120.231,Germany
+52c0873d-9ee4-4faf-81bb-93305fe0f522,7be21778db08f8f9,Jasmine Gibson,23,Australia,refund,12.36,USD,crypto,Hammond-Taylor,clothing,2025-07-16T08:46:00,False,failed,mobile,201.60.163.12,USA
+e569e60d-53e9-438a-81e2-56d2e1f52004,1af4811557b604eb,Kristen Glenn,45,USA,deposit,23.35,GBP,debit_card,Brooks-Rogers,groceries,2025-04-14T16:15:36,False,failed,mobile,117.130.168.218,France
+7ff6702d-74fd-4a9f-baf7-2cd408b85da9,5e0190cd3f9de295,Susan Beck,36,Australia,refund,63.4,CAD,debit_card,"Poole, Martin and Daugherty",electronics,2024-12-12T08:40:07,False,completed,mobile,42.91.167.28,France
+ee311bb8-6f00-4993-ae72-213a8a859212,82ea76d55d802f16,Joseph Berry,19,Japan,transfer,25.66,CAD,debit_card,"Harris, Turner and Powell",clothing,2024-08-02T17:31:44,False,completed,tablet,180.168.5.70,France
+8be7ed7b-2e34-40c4-9d05-5702432d2632,77aab47038494a47,Theresa Whitney,59,USA,deposit,5.33,USD,credit_card,Ortiz-Johnson,travel,2024-10-31T18:47:12,False,failed,tablet,197.20.26.35,Japan
+2776a460-6019-48ea-b32e-32dc20759c3f,edd55c890e536a77,Stephanie Morales,30,Japan,withdrawal,60.51,JPY,crypto,Duncan-Ross,health,2025-05-30T13:40:59,False,failed,tablet,38.111.120.156,UK
+7d256413-b837-4982-adab-12b3bf49a6eb,66fe3667006bca9b,Donna Smith,41,France,withdrawal,11.1,EUR,credit_card,"Moss, Bell and Stuart",travel,2025-07-25T07:38:08,False,pending,tablet,72.156.153.46,USA
+7b7a6b9a-6286-4d5d-9428-b0a177e310e7,37bbd4657d09d6c8,Rebecca Phillips,64,UK,purchase,111.1,JPY,credit_card,Williams PLC,electronics,2025-05-31T17:12:34,False,failed,tablet,107.2.157.177,Canada
+94e89e88-d90c-4e5c-9f2e-d2e35dd8c25e,718dbe9e0f4f93e5,Linda Brown,47,UK,deposit,13.75,JPY,paypal,Prince-Smith,groceries,2024-12-13T01:50:43,False,failed,desktop,80.195.46.139,Germany
+e553bdf7-02e0-4e50-a454-cbbc6eed0845,7bab8232f28e10f5,Barbara Rivera DDS,19,France,purchase,558.3,GBP,crypto,"Morgan, Page and Russell",travel,2024-08-08T15:34:07,False,pending,desktop,121.98.23.158,Japan
+c317a12a-fcf5-4bab-abd8-7feb7975b24e,75e46e24100c1725,Mrs. Renee Myers,42,Canada,withdrawal,16.86,USD,bank_transfer,Bender and Sons,travel,2025-07-26T13:44:46,False,pending,desktop,87.1.52.190,Japan
+03e4b8ec-b10f-40cf-ad04-214dd3059e38,a66d10edf41252e6,Kelly Michael,18,Australia,withdrawal,33.68,USD,credit_card,George Ltd,travel,2024-09-26T03:27:01,False,failed,desktop,158.76.39.87,USA
+91319c35-6c11-4410-aaa1-61b67b7a1738,5c0635be9a3c2e9d,Philip Durham,32,Germany,deposit,184.99,JPY,credit_card,"Flores, Woodward and Wagner",groceries,2024-09-16T00:30:03,False,pending,desktop,197.233.6.251,France
+a3eff199-211b-4fa0-9350-6355e59f36b3,a59bf44642d3ad42,Ashley Bishop,21,Australia,withdrawal,8.62,JPY,credit_card,Garcia LLC,groceries,2024-12-30T23:08:28,False,failed,mobile,89.236.166.238,Canada
+836ece7e-6ec3-4147-9632-68ea86ab81e1,a66d10edf41252e6,Kelly Michael,18,Australia,withdrawal,76.8,USD,debit_card,Lam-Pacheco,entertainment,2025-04-12T00:38:46,False,pending,tablet,159.232.100.50,Australia
+a95386c1-b4ab-452f-9391-5d7ca5108384,7b97e0be299b04c5,Pamela Davis,72,Canada,withdrawal,387.89,JPY,crypto,Rodriguez-Webb,health,2025-02-01T17:50:56,False,completed,tablet,8.81.196.230,Australia
+17bdfd26-cbc9-40e3-83f7-d42de7084ff7,7be21778db08f8f9,Jasmine Gibson,23,Australia,transfer,4.9,CAD,credit_card,Larson-Brown,groceries,2025-03-13T17:08:53,False,pending,mobile,23.138.117.140,UK
+79eb5673-ef16-47b4-9b14-5ac0a593ce7d,7943de2cf7564714,Zachary Jones,27,UK,refund,72.02,EUR,crypto,Bryant-Smith,clothing,2024-12-07T23:44:51,False,completed,mobile,140.27.13.165,Japan
+8b5a97ef-a6fe-459b-86ee-fb3d489f1538,bd399182db5cf017,Lauren Davis,61,Japan,deposit,80.63,EUR,debit_card,Parker PLC,groceries,2025-03-25T17:27:22,False,pending,tablet,205.20.44.193,Germany
+86722d14-f0c0-4e87-8a81-0dd7bcb93bdc,cab4b02147bae504,Robert Hatfield,60,UK,deposit,176.4,USD,crypto,Williams PLC,clothing,2025-05-26T03:44:34,False,completed,tablet,162.194.155.21,USA
+6812afc2-e958-4d45-b30f-23524be6e4d8,e2b78eec195dc5d9,Christopher Brown,31,UK,transfer,8.54,EUR,bank_transfer,Fuller Group,entertainment,2024-12-14T15:11:14,False,pending,mobile,156.199.138.135,Japan
+9ade7c57-82fc-4ed9-b32c-ca8040b96089,2f0a5bfdfeecaa93,Jason Zuniga,25,Japan,deposit,7.53,EUR,credit_card,"Diaz, Chase and Aguilar",groceries,2025-05-10T22:43:16,False,failed,desktop,131.148.179.162,Canada
+375030eb-f026-4e9b-8bf0-ab2860c66a2b,d581ed942fedca03,Wayne Price,43,Canada,transfer,119.45,EUR,credit_card,Hays-Solomon,electronics,2024-11-18T22:36:46,True,pending,mobile,71.94.99.150,UK
+c4d6d3f0-9403-4c28-848b-455fd50801b8,0178cd1f9cd700ce,Steven Riddle,66,Canada,refund,85.24,CAD,paypal,"Diaz, Chase and Aguilar",electronics,2025-07-19T13:03:43,False,pending,mobile,157.217.164.74,Canada
+37f6732d-7fe4-468f-b62b-f80d9087c6e3,5c0635be9a3c2e9d,Philip Durham,32,Germany,withdrawal,79.5,GBP,crypto,Serrano-Oliver,entertainment,2025-02-20T15:39:43,False,pending,mobile,192.64.125.40,Japan
+ccef9c61-1e90-4d11-ae51-3810f7fb8da2,68f94371d14b290e,Devin Mcdonald,31,Japan,purchase,91.81,EUR,bank_transfer,Bryant-Smith,groceries,2025-06-24T00:27:48,False,failed,desktop,46.224.217.130,USA
+d0b17b6f-c040-4fa8-a717-730105b94ec1,2aadcd7a10decf0e,Mary Thomas,22,Germany,withdrawal,19.69,EUR,paypal,"Harris, Turner and Powell",groceries,2025-01-26T05:42:19,False,failed,desktop,1.47.222.140,USA
+b27323ee-5a62-401f-bb7e-2c62af33f258,ee18e712f9378408,Kimberly James,68,Japan,transfer,77.35,USD,credit_card,"Leblanc, Herring and Casey",travel,2025-05-02T22:33:02,False,failed,mobile,54.218.3.40,Germany
+81a24f06-0883-4f41-ad13-273c9a8bf5cc,68f94371d14b290e,Devin Mcdonald,31,Japan,transfer,84.74,CAD,paypal,Carter Group,clothing,2025-01-07T17:09:37,True,failed,mobile,30.74.80.220,UK
+22e1613e-5d0b-44bb-888c-212341ac153e,d581ed942fedca03,Wayne Price,43,Canada,deposit,18.7,CAD,debit_card,Lam-Pacheco,health,2025-01-06T04:14:01,False,failed,mobile,172.12.100.104,Australia
+2a4e3a01-1370-4307-90e5-fd4ccc0c1cef,1e78d9414c8effec,Lisa Nichols,69,USA,purchase,896.65,GBP,debit_card,"Poole, Martin and Daugherty",entertainment,2025-01-09T11:41:58,False,failed,mobile,10.189.58.237,Canada
+2add2aae-4f1b-464b-bf1e-d3fa913abafd,77c033f1e67c252b,Austin Snyder,39,Canada,withdrawal,111.14,JPY,bank_transfer,Daugherty PLC,entertainment,2024-10-01T16:09:12,False,failed,tablet,65.145.222.104,Australia
+27e63ffe-6f32-4282-8904-f75409686d04,c67d15af20107823,Donna Burns,43,Canada,deposit,9.14,AUD,paypal,Bender and Sons,clothing,2025-05-29T20:08:16,False,pending,desktop,76.108.237.5,Australia
+1b1a9597-b56d-41bc-ad57-3ddc06b3bff0,0365db1b96573654,Morgan Rivers,75,France,transfer,146.18,USD,paypal,Lam-Pacheco,entertainment,2025-04-15T21:04:34,True,pending,desktop,99.93.232.61,France
+4e0291e5-4273-4657-b287-03d9c478d966,14218e5da1de3823,Samantha Davis,65,USA,purchase,12.65,CAD,paypal,Bryant-Smith,health,2025-02-05T10:22:31,False,completed,tablet,203.114.8.84,Australia
+de4b80fe-d2da-40a0-9c76-1e46eeedb237,3ae6f92455717996,Amy Mckenzie,33,Japan,deposit,177.79,JPY,bank_transfer,"Flores, Woodward and Wagner",health,2025-02-01T17:43:27,False,pending,tablet,201.130.115.24,Germany
+3827b13a-d2a0-4f53-84fa-730f42e96357,e7e70666d7ee038f,Matthew Hale,50,Germany,refund,310.41,EUR,paypal,Serrano-Oliver,clothing,2025-01-28T15:10:00,False,pending,mobile,131.64.211.176,France
+4ff37ece-d4f7-432f-97ee-1e6a73a570f7,bf7b169681540988,Tyler Sanchez,23,Australia,purchase,15.94,GBP,crypto,Duncan-Ross,clothing,2025-04-15T05:40:08,False,pending,tablet,212.95.204.129,Japan
+0d5f5e28-6045-4a31-b6b4-43d8985985d9,8c783345c6c8f5cd,Bradley Miller,69,Canada,deposit,231.61,CAD,debit_card,"Bell, Harris and Tyler",travel,2025-03-15T21:28:04,False,pending,tablet,33.185.58.18,Canada
+ea888d73-264f-419c-8502-52a68ca9fcd9,3ae6f92455717996,Amy Mckenzie,33,Japan,purchase,101.41,CAD,paypal,Garcia-West,entertainment,2025-01-31T15:16:29,False,pending,desktop,151.236.229.78,USA
+3437c4d7-9806-4770-a589-8f5c473bf97e,81af3edb3c839d6d,Jamie Johnson,47,France,deposit,187.37,USD,debit_card,Goodwin LLC,health,2025-01-10T12:40:28,False,pending,desktop,42.208.127.191,Canada
+2918613d-8f92-473a-9cbd-49ddb3d3d080,e7e70666d7ee038f,Matthew Hale,50,Germany,withdrawal,939.35,AUD,debit_card,George Ltd,groceries,2025-05-22T10:32:57,False,failed,desktop,35.67.215.19,France
+83a179a2-6975-44a3-b1c8-8076cf7be191,5c0635be9a3c2e9d,Philip Durham,32,Germany,deposit,37.79,AUD,credit_card,"Morgan, Page and Russell",entertainment,2024-12-28T19:02:30,False,pending,desktop,101.60.14.215,Japan
+e8c2b3d0-cbb9-44fe-8fd1-77fcef47d811,7943de2cf7564714,Zachary Jones,27,UK,refund,17.63,EUR,paypal,Jackson Group,clothing,2024-07-31T00:38:35,False,completed,mobile,83.2.190.198,Australia
+ca037c09-03e9-44ce-aa28-e171aa56fdf3,b8a698125e561e8c,Samantha Perez MD,74,Australia,purchase,14.38,JPY,crypto,Ramirez Ltd,entertainment,2025-05-26T03:37:32,True,pending,tablet,25.231.222.179,Australia
+1ee24efd-8975-4cba-8b32-ba9c4e8ff521,5c0635be9a3c2e9d,Philip Durham,32,Germany,deposit,16.06,GBP,bank_transfer,"Poole, Martin and Daugherty",health,2025-04-17T10:40:59,False,completed,tablet,21.79.47.71,UK
+8862e417-8039-4562-b86a-5e87dae2cd92,37bbd4657d09d6c8,Rebecca Phillips,64,UK,purchase,48.64,AUD,bank_transfer,Lozano-Gonzalez,clothing,2024-10-10T22:05:39,False,failed,desktop,92.76.109.102,Canada
+0f79ecbe-04b2-4c95-97e9-54538835ee23,2f0a5bfdfeecaa93,Jason Zuniga,25,Japan,withdrawal,91.08,GBP,debit_card,Garcia LLC,travel,2024-09-10T13:59:34,False,completed,desktop,57.192.109.50,France
+72190a39-d14c-4804-875d-d8830373b3e5,1bfa5e3ead23689e,Rodney Mills,25,UK,deposit,82.68,CAD,bank_transfer,Carter Group,travel,2025-07-18T08:09:24,False,pending,mobile,149.254.35.123,Germany
+1af2b46d-d011-4cc0-a6af-ce56a12c437f,718f2238b0eae57e,Emily Wilson,39,USA,deposit,188.82,CAD,debit_card,"Ford, Dorsey and Alvarado",health,2025-04-21T17:38:38,False,pending,tablet,204.237.220.123,Australia
+0a22bf50-2d5d-44cc-95f8-4247a3fe78c8,edd55c890e536a77,Stephanie Morales,30,Japan,deposit,55.67,USD,credit_card,Daugherty PLC,clothing,2024-09-24T09:29:54,False,failed,mobile,96.100.92.144,Canada
+e6d3cafe-7830-49a7-9c6c-66e2c85bc5dc,24b1684acefadc04,Mrs. Barbara Walters,28,France,purchase,483.14,EUR,debit_card,Lam-Pacheco,electronics,2024-09-23T21:24:03,False,pending,tablet,130.122.135.216,Australia
+a7e42169-cbe6-4527-a3b5-fbe73a27982f,3516dc20cc11a21a,Vanessa Velasquez,58,Australia,refund,36.71,CAD,bank_transfer,Brooks-Rogers,electronics,2024-10-09T01:29:08,False,completed,tablet,156.115.46.69,USA
+554b1134-a020-4348-8be1-78400ac64588,e7e70666d7ee038f,Matthew Hale,50,Germany,transfer,3230.05,USD,debit_card,"Bell, Harris and Tyler",travel,2024-10-15T13:42:36,False,completed,tablet,195.163.240.221,UK
+6b1a0c42-b8e1-47c4-8310-56946277ca29,d831cfceb9a491a3,Christopher Snow,62,France,withdrawal,139.56,USD,crypto,"Harris, Turner and Powell",groceries,2025-05-09T21:15:25,False,completed,tablet,31.2.228.8,USA
+9ac81772-0547-4528-a49d-adee44a8a37f,772c83953f8abccf,Robert Miller,34,France,deposit,15.09,USD,crypto,Carter Group,groceries,2024-12-07T00:22:15,False,completed,mobile,24.64.107.109,Germany
+0e58c032-43f0-4c9d-ba69-d4af5758c932,1e78d9414c8effec,Lisa Nichols,69,USA,withdrawal,10.95,USD,crypto,"Diaz, Chase and Aguilar",travel,2025-01-31T18:16:37,False,completed,tablet,89.125.187.69,Germany
+711d50b4-39d1-4e25-aa6e-38e464be0e6f,11760e2b6f925fb1,Jennifer Gallegos,70,USA,deposit,112.59,GBP,debit_card,"Bell, Harris and Tyler",travel,2025-02-22T18:44:19,True,pending,mobile,54.141.212.151,Japan
+c176be49-f2d8-4f46-ae86-4aeb41a97149,33d4ff6b4e776d40,Abigail Hoffman,43,Japan,withdrawal,39.05,AUD,debit_card,George Ltd,entertainment,2024-11-10T01:51:04,False,completed,tablet,104.9.38.188,Japan
+621aebcb-4775-48da-851c-9466f0436248,d8c620b9d519e440,Mr. Anthony Diaz,76,France,deposit,159.33,USD,crypto,Avila-Bradford,travel,2024-07-29T07:16:06,True,pending,desktop,122.197.235.166,France
+39d1683f-ee95-4d6b-bfe6-3b0381ed7c6e,00f212a760aa541a,Brian Welch,52,USA,purchase,111.04,USD,paypal,Lam-Pacheco,clothing,2025-02-04T23:47:28,False,failed,mobile,155.111.222.185,Australia
+e089df5c-ceda-425d-833f-cec77c240e3c,0178cd1f9cd700ce,Steven Riddle,66,Canada,deposit,48.95,USD,paypal,Lam-Pacheco,entertainment,2025-01-16T18:37:38,False,failed,mobile,74.204.49.80,UK
+8d1634d7-2d14-4f8d-83ff-905e9cba12b1,6eca2a8030a0f31f,Sheila Sexton,67,Japan,withdrawal,15.33,GBP,bank_transfer,Morales-Perez,electronics,2025-03-23T06:12:33,False,pending,mobile,197.133.96.228,Japan
+db241c18-12d3-44df-90b9-3cec61c4aaad,b8a698125e561e8c,Samantha Perez MD,74,Australia,refund,5.63,GBP,credit_card,Duncan-Ross,groceries,2025-06-03T15:40:18,False,failed,desktop,24.88.115.223,Australia
+fa968d7d-d3c1-4fb0-aed1-24a74707502b,d8c620b9d519e440,Mr. Anthony Diaz,76,France,withdrawal,27.94,AUD,paypal,Jackson Group,groceries,2024-10-01T19:17:15,False,completed,tablet,64.51.152.215,USA
+b3d2aa1b-cbb2-4a0a-ab56-f62d4cc2d36e,8cc0d62966382e19,Glenda Myers,67,Canada,transfer,197.27,CAD,credit_card,"Morgan, Page and Russell",travel,2024-09-24T08:57:01,False,pending,desktop,71.110.88.252,Australia
+1c48f4c8-6e97-494f-ab2c-2ecbd09364af,7943de2cf7564714,Zachary Jones,27,UK,withdrawal,75.27,JPY,bank_transfer,"Morales, Jordan and Sullivan",electronics,2025-06-01T09:52:34,False,completed,desktop,124.245.201.119,Canada
+4a3b8980-6653-48d9-a904-a5280f594933,f33918d764b92e1d,Mr. Mark Silva,53,France,refund,8.43,CAD,crypto,Garcia-West,electronics,2025-01-17T16:47:56,False,pending,desktop,212.11.136.120,Canada
+8a823e43-cc74-4909-bfeb-459271df17dd,42ae2d5e2b8f0083,Kendra Olson,28,Germany,deposit,70.79,AUD,bank_transfer,"Mcknight, Solis and Lewis",groceries,2025-07-26T04:00:37,False,failed,desktop,102.160.251.13,UK
+da2efa9f-e62f-445f-a7a9-1819376d03c3,244b5124c8490968,Kimberly Romero,34,Japan,withdrawal,97.32,USD,paypal,Bryant-Smith,health,2025-04-25T11:45:20,False,pending,tablet,13.45.184.213,Japan
+68970438-4610-49d7-8de9-44bc54cecad8,bd399182db5cf017,Lauren Davis,61,Japan,refund,14.5,JPY,credit_card,Allen LLC,travel,2025-05-11T10:42:24,True,completed,mobile,209.74.206.38,UK
+e0f1fbe9-cd2f-46fd-a8c3-f6685382e02e,6eca2a8030a0f31f,Sheila Sexton,67,Japan,transfer,68.76,JPY,paypal,Duncan-Ross,entertainment,2024-11-01T09:50:01,False,pending,desktop,130.234.88.186,Germany
+c396f00c-1ca7-41f6-b92e-14a04d15cabc,3516dc20cc11a21a,Vanessa Velasquez,58,Australia,withdrawal,59.58,GBP,credit_card,Prince-Smith,groceries,2025-01-31T16:33:19,False,failed,desktop,46.207.68.186,France
+8228e01a-74d2-48cb-972c-e1b3530e711c,e62fbc73717451d9,Thomas Crawford,64,Germany,purchase,9.83,GBP,credit_card,Fuller Group,entertainment,2024-11-29T19:56:29,False,failed,mobile,60.54.145.75,Japan
+e8988422-1c35-413f-bcb2-fa026134fc1d,e8cdbad60dc1e84c,Danielle Fletcher,80,Germany,transfer,93.38,JPY,bank_transfer,"Bell, Harris and Tyler",health,2025-02-22T02:18:50,False,pending,mobile,125.11.175.207,UK
+27957860-f609-41fb-8f29-f4c0dc155aa8,aefba2684c669e74,John Perez,52,Germany,refund,126.62,GBP,credit_card,"Jones, Francis and Mitchell",travel,2024-11-26T19:28:14,False,failed,desktop,18.145.29.118,Germany
+61a4f43c-9cc3-4c80-b244-a4b517360643,a59bf44642d3ad42,Ashley Bishop,21,Australia,transfer,277.15,JPY,credit_card,"Bell, Harris and Tyler",groceries,2025-02-26T20:23:54,False,failed,tablet,93.127.240.130,France
+12eb9098-94c1-4c11-b071-c986ebbea7f7,a55fa98c973653c7,Victoria Hanson,45,France,refund,265.26,GBP,paypal,"Diaz, Chase and Aguilar",clothing,2025-03-24T12:07:16,False,completed,desktop,90.8.208.255,France
+03f686a9-4d11-4da9-be79-50cc2c779e7b,c02bde8119422322,Gregory Robles Jr.,32,UK,transfer,6.91,CAD,crypto,Parker PLC,entertainment,2025-07-26T23:56:57,True,completed,mobile,207.14.43.142,France
+d53777d6-4684-4ca3-bc6b-cbfa142bf319,84d68aeb51eb41be,Stephen Powell,30,Japan,withdrawal,13.37,EUR,bank_transfer,Carter Group,travel,2025-07-07T20:40:46,False,completed,mobile,48.228.155.128,France
+cfeefb27-1786-48f5-8ea6-48cae299b755,80ded0a7d5e0cb2d,Steven Moyer,22,USA,purchase,118.22,AUD,bank_transfer,Prince-Smith,groceries,2025-01-10T03:12:06,False,failed,tablet,104.94.194.198,Germany
+67366b6c-5875-4d3d-a10c-96139f78ad18,8300e12d10e12c6f,Brenda Jones,34,UK,refund,118.0,JPY,debit_card,"Ford, Dorsey and Alvarado",electronics,2024-11-24T04:35:50,False,pending,mobile,208.42.235.96,Germany
+1c65091c-bfa8-427f-b3e6-c4c865e8e6c0,ec18375130d9b273,Julie Munoz,69,UK,transfer,118.22,JPY,debit_card,"Bell, Harris and Tyler",electronics,2025-05-27T06:09:42,False,failed,tablet,71.84.197.248,Canada
+7543ab5e-2fb9-474c-b224-5faf44ad3ae8,5e0190cd3f9de295,Susan Beck,36,Australia,refund,17660.7,JPY,paypal,George Ltd,entertainment,2025-01-11T11:26:43,False,failed,tablet,208.79.46.211,France
+3d4ede78-c396-459d-9a63-0c6ff5ce87b4,a66d10edf41252e6,Kelly Michael,18,Australia,refund,128.55,JPY,crypto,Hammond-Taylor,entertainment,2024-09-09T06:16:51,True,completed,mobile,50.189.43.41,Japan
+f1c19964-8231-4202-8fd2-b3ba3d6277b7,13dd2268e14de24e,Veronica Alvarado,61,Japan,deposit,299.87,GBP,paypal,Carter Group,entertainment,2024-11-03T21:09:29,False,failed,mobile,178.122.114.176,Japan
+8c935687-0c37-4ba8-a87d-0c87a8cda3d9,301e3b19165d5029,Heather Smith,67,Australia,deposit,228.38,CAD,paypal,Ortiz-Johnson,clothing,2025-05-13T22:11:52,False,failed,desktop,146.52.156.70,Japan
+ae599550-0ed9-4419-9fcb-8775b2582ce6,66fe3667006bca9b,Donna Smith,41,France,withdrawal,145.05,USD,credit_card,Padilla LLC,travel,2025-05-12T23:06:00,False,pending,mobile,116.135.164.212,Japan
+5baa3ed3-fb61-4381-8700-fc5b0af82a57,bf7b169681540988,Tyler Sanchez,23,Australia,deposit,34.03,AUD,debit_card,Bender and Sons,health,2024-11-28T11:54:36,False,pending,desktop,126.177.4.239,Canada
+869a285f-b2ef-4ef5-ab5b-72221c093c2b,5c0635be9a3c2e9d,Philip Durham,32,Germany,transfer,170.45,USD,crypto,Bender and Sons,clothing,2025-03-30T15:40:33,False,pending,desktop,38.101.252.168,France
+7cffacf4-78fe-4120-9bb8-3bc87f799630,e62fbc73717451d9,Thomas Crawford,64,Germany,refund,17.13,CAD,credit_card,Avila-Bradford,entertainment,2025-04-29T21:53:59,False,completed,desktop,169.120.193.191,USA
+3634d9cb-3745-45a8-b2a3-cca027e1c936,33d4ff6b4e776d40,Abigail Hoffman,43,Japan,transfer,38.27,GBP,debit_card,Fuller Group,entertainment,2025-06-12T05:22:33,False,pending,desktop,77.82.129.58,Australia
+a4401d56-5d8f-42d4-be50-fda126e0d951,82b6e205329d024f,Katherine Thompson,35,UK,purchase,26.36,EUR,bank_transfer,"Leblanc, Herring and Casey",clothing,2025-02-07T00:07:22,False,completed,mobile,66.73.155.220,France
+ca3379fc-18fb-41cb-8304-89d6bdbc86f1,ec01fa6e538369d6,Alex Kerr,58,France,withdrawal,61.73,AUD,crypto,Allen LLC,travel,2024-12-01T14:27:25,False,completed,mobile,51.181.3.131,Australia
+1cd06496-4c4b-4416-a1a5-569c8f58cbbc,24b1684acefadc04,Mrs. Barbara Walters,28,France,refund,1758.1,CAD,paypal,Daugherty PLC,travel,2025-06-26T14:33:33,False,pending,mobile,60.90.212.90,Japan
+a5e44d1f-3eb9-4cfe-90ea-0ff845691408,9cc7b788cb3d8c82,Tiffany Banks,59,Germany,deposit,3.32,JPY,debit_card,"Bell, Harris and Tyler",electronics,2025-04-10T12:42:15,False,pending,tablet,13.198.203.132,Canada
+5c1d18c8-ba08-488b-8c0a-3d47eb229810,5e0190cd3f9de295,Susan Beck,36,Australia,deposit,152.84,GBP,crypto,Garcia-West,travel,2025-06-27T14:26:27,False,pending,tablet,2.211.143.148,USA
+250d04b8-8f0f-42c5-8b7c-6d5ef8cb241f,45d5eda345d1bba8,Riley Adams,35,Germany,refund,4.86,JPY,debit_card,"Moss, Bell and Stuart",entertainment,2024-10-17T02:43:22,False,completed,mobile,200.45.120.63,France
+17f49fbd-2560-4b45-ac10-29bfda468d8f,1cdf24ea265a1099,Sherry Stevenson,42,France,transfer,26.9,EUR,bank_transfer,Williams PLC,entertainment,2025-04-06T19:13:40,False,completed,desktop,205.254.242.218,France
+46682744-e8da-407d-a66c-5b1ccd9b265f,244b5124c8490968,Kimberly Romero,34,Japan,transfer,279.62,JPY,debit_card,Ramirez Ltd,groceries,2024-11-16T00:44:14,False,failed,tablet,184.94.67.25,Germany
+0109485e-cae8-4d5d-b452-c303ea62fd4c,5de5eb4abe50f40a,Anthony Raymond,22,UK,withdrawal,60.12,EUR,crypto,"Harris, Turner and Powell",groceries,2025-06-23T16:40:08,False,completed,desktop,74.45.132.140,Canada
+2ec3af69-c7ea-489d-bc97-d1a0e61ff6dd,718dbe9e0f4f93e5,Linda Brown,47,UK,transfer,10.84,EUR,credit_card,Hendricks PLC,health,2025-02-18T06:03:29,False,failed,tablet,97.109.243.48,France
+95e7ddaf-e4cf-450e-83bf-e3ad116b0a0f,2b3538f663837972,April Moore,56,Canada,purchase,18.67,GBP,crypto,Prince-Smith,health,2024-11-06T14:52:36,False,pending,mobile,200.190.59.44,Germany
+222f3601-00cb-4482-94d4-d4a04f4c9f0f,53fb4ad2c2cbc763,Mary Warner,58,UK,refund,151.32,AUD,credit_card,"Diaz, Chase and Aguilar",clothing,2025-02-01T11:39:34,True,pending,desktop,14.22.65.211,France
+809d5e8c-1c57-463b-8ddb-500e6087e160,a66d10edf41252e6,Kelly Michael,18,Australia,withdrawal,18.26,JPY,debit_card,Carter Group,entertainment,2025-03-07T20:53:25,False,failed,tablet,50.137.240.155,Germany
+a412704f-b758-4071-8196-1d41b68fe053,4f8d76abc6c5826a,James Jackson,23,France,refund,75.54,JPY,crypto,Bender and Sons,health,2025-03-07T00:21:54,False,pending,desktop,133.201.181.233,UK
+01b940c2-7e8a-4cc1-8fbc-6d432f17b961,77c033f1e67c252b,Austin Snyder,39,Canada,withdrawal,58.46,JPY,crypto,Lam-Pacheco,health,2024-10-11T21:51:00,False,failed,tablet,160.92.67.16,Canada
+cd0f78ff-0959-47a7-ad15-026d67511be4,82fc861c7e95babd,Yvonne Moody,32,UK,transfer,20.54,GBP,crypto,"Leblanc, Herring and Casey",groceries,2025-07-04T17:32:16,False,completed,desktop,98.154.206.132,Germany
+b455f796-dcf5-4186-a2ea-522bec0a3a6d,0178cd1f9cd700ce,Steven Riddle,66,Canada,transfer,1360.92,AUD,debit_card,Fuller Group,groceries,2024-08-25T13:33:55,False,failed,tablet,171.140.118.229,Japan
+70632c13-ffa4-40f6-bc4e-a083de13e0b8,5e0190cd3f9de295,Susan Beck,36,Australia,transfer,141.3,AUD,credit_card,Ramirez-Gates,travel,2025-04-08T05:08:58,False,pending,desktop,82.102.216.58,France
+0a1b4819-381a-441f-8468-bcdf80b72450,0178cd1f9cd700ce,Steven Riddle,66,Canada,refund,2.62,CAD,paypal,"Jones, Francis and Mitchell",electronics,2025-01-30T10:50:56,False,pending,tablet,16.20.182.83,USA
+45e60bad-0d3f-4ae0-8146-47069da5f210,00f212a760aa541a,Brian Welch,52,USA,withdrawal,72.22,JPY,debit_card,"Morales, Jordan and Sullivan",entertainment,2024-10-30T04:48:26,False,completed,mobile,175.151.213.49,UK
+99cdd258-3bf4-46b4-a3c8-5cd9f5dc24d9,244b5124c8490968,Kimberly Romero,34,Japan,deposit,20.23,USD,debit_card,Brown Group,entertainment,2024-10-27T12:40:49,False,completed,mobile,139.185.243.112,UK
+ae792350-4daf-4ccd-b9b9-236cefb6c172,7bab8232f28e10f5,Barbara Rivera DDS,19,France,withdrawal,196.1,EUR,paypal,Garcia-West,health,2024-08-15T09:20:42,False,completed,tablet,14.44.115.30,Japan
+1508d922-9720-45a3-ad01-b1c983fc6b9a,ec18375130d9b273,Julie Munoz,69,UK,withdrawal,16.63,AUD,bank_transfer,Jackson Group,groceries,2024-12-29T17:19:29,False,failed,mobile,168.88.93.191,Germany
+636dc6e6-bc16-43cc-8d66-714b1bbff5b9,0178cd1f9cd700ce,Steven Riddle,66,Canada,purchase,45.97,JPY,crypto,Ramirez Ltd,health,2024-09-27T00:36:19,False,completed,mobile,105.231.13.129,UK
+259e66a5-5ec2-47fd-8aed-439f3b851d4e,77aab47038494a47,Theresa Whitney,59,USA,refund,116.45,EUR,credit_card,Fuller Group,clothing,2025-03-30T01:29:43,False,pending,mobile,73.98.127.216,Australia
+e9c24992-8deb-4641-b847-ecacbadc9cf5,82ea76d55d802f16,Joseph Berry,19,Japan,transfer,200.06,USD,crypto,Hammond-Taylor,groceries,2024-11-03T11:54:13,False,failed,tablet,73.14.24.174,France
+bcf193de-b3f3-481d-a058-edd0ac469af7,d581ed942fedca03,Wayne Price,43,Canada,withdrawal,9.02,JPY,debit_card,Parker PLC,groceries,2024-11-27T05:10:28,False,completed,desktop,173.127.44.140,Australia
+81e8bdb7-5447-4e8e-adc6-0e6488f9f300,ec18375130d9b273,Julie Munoz,69,UK,withdrawal,33.06,GBP,paypal,Morales Inc,health,2025-03-29T12:27:29,False,pending,tablet,153.43.119.102,Japan
+3c95408f-8e60-4891-b753-c2da51e74190,1bfa5e3ead23689e,Rodney Mills,25,UK,refund,26.78,AUD,debit_card,"Moss, Bell and Stuart",travel,2025-02-12T03:44:57,False,completed,desktop,17.16.205.89,France
+f263469d-ed17-4af4-b571-510b486a1999,a59bf44642d3ad42,Ashley Bishop,21,Australia,purchase,20.49,EUR,debit_card,Bender and Sons,clothing,2024-11-16T22:36:34,True,pending,mobile,28.253.51.146,UK
+9a6bc799-1df7-4cca-926e-baf41d3f1f9c,42ae2d5e2b8f0083,Kendra Olson,28,Germany,transfer,771.38,JPY,paypal,Lozano-Gonzalez,entertainment,2025-01-01T04:43:48,True,failed,desktop,9.175.188.157,Canada
+fcc21808-fff2-46e2-9bbb-bdb2027d479d,ee18e712f9378408,Kimberly James,68,Japan,refund,100.23,USD,credit_card,Parker PLC,groceries,2024-08-12T04:42:37,False,failed,tablet,89.163.60.153,Japan
+7673fe24-78f5-4fec-a449-76fc4b312dd3,2aadcd7a10decf0e,Mary Thomas,22,Germany,transfer,8.24,CAD,credit_card,"Diaz, Salazar and Chandler",entertainment,2024-11-30T20:51:59,False,completed,desktop,202.195.96.19,Japan
+c5c65862-aeed-461f-afff-51b36725ce36,a66d10edf41252e6,Kelly Michael,18,Australia,withdrawal,216.33,EUR,crypto,Larson-Brown,entertainment,2025-04-01T12:15:39,False,failed,tablet,75.222.248.142,Canada
+02c2103f-e210-4d58-aa4c-994f858942ca,f16ad5a0c0393eb4,Beth Meyer,24,Canada,refund,1317.16,USD,crypto,Prince-Smith,travel,2025-02-17T23:12:59,False,pending,mobile,206.210.151.165,Australia
+267c12d2-d0e5-4b7e-896f-bcb7d0158f9c,9cc7b788cb3d8c82,Tiffany Banks,59,Germany,purchase,256.9,JPY,credit_card,Serrano-Oliver,clothing,2025-04-08T14:18:52,False,completed,mobile,146.74.117.235,Australia
+fb1a0036-cdca-4e58-935c-66126df195f4,cab4b02147bae504,Robert Hatfield,60,UK,deposit,5.59,AUD,bank_transfer,Tyler-Lopez,health,2024-09-09T00:26:35,False,completed,tablet,206.8.97.164,USA
+4ab00331-7995-4698-afcb-76d409702c29,42ae2d5e2b8f0083,Kendra Olson,28,Germany,purchase,26.41,JPY,bank_transfer,"Smith, Joseph and Banks",travel,2025-05-10T06:14:51,False,failed,desktop,27.173.67.202,UK
+08c80e5d-02c8-4ff7-8dbf-521a8f78e17c,1bfa5e3ead23689e,Rodney Mills,25,UK,transfer,365.17,CAD,credit_card,Morales Inc,health,2024-08-08T17:36:09,False,completed,mobile,83.225.208.77,Germany
+74b304a1-648b-41ea-a411-8114dc003876,7ae204a568643db3,Billy Powell,56,Japan,transfer,18.89,USD,credit_card,Bryant-Smith,travel,2024-08-03T12:20:29,True,pending,mobile,7.109.183.181,France
+d45ece09-b034-4217-82a0-2a52cb6af15e,0178cd1f9cd700ce,Steven Riddle,66,Canada,refund,106.24,EUR,bank_transfer,"Mcknight, Solis and Lewis",travel,2025-04-09T19:38:43,False,failed,tablet,84.109.83.2,Canada
+9f37e466-1bd2-4fcc-acdd-e770f3d9168f,d8c620b9d519e440,Mr. Anthony Diaz,76,France,refund,174.5,GBP,paypal,Ramirez-Gates,travel,2025-03-06T14:24:38,False,failed,mobile,157.98.141.163,USA
+9dc3480b-971e-4840-94f5-c025596c2413,2927aeb8aef73e54,Hayden Nelson,58,USA,purchase,13.59,AUD,paypal,Lozano-Gonzalez,entertainment,2024-09-24T19:20:36,False,pending,mobile,140.157.222.192,Germany
+619e9e3e-ee4f-4a94-b77a-4c77386163a0,e62fbc73717451d9,Thomas Crawford,64,Germany,withdrawal,49.93,CAD,paypal,Jackson Group,health,2025-03-15T03:36:30,False,completed,tablet,92.56.202.140,UK
+3874c904-555c-4a37-af90-0c1f4a5b3205,77aab47038494a47,Theresa Whitney,59,USA,deposit,0.42,GBP,credit_card,Bryant-Smith,electronics,2024-10-16T09:51:30,False,pending,tablet,28.190.111.84,UK
+2cf7e898-c66c-450c-826d-3963dcfe4d60,1bfa5e3ead23689e,Rodney Mills,25,UK,purchase,11.74,USD,debit_card,"Moss, Bell and Stuart",travel,2025-05-11T01:05:21,False,completed,mobile,55.253.184.203,Japan
+e9110388-99af-4956-a0e1-4400b0531cc6,c12f09953e81046c,Mr. Jeremy Gonzalez,55,Canada,deposit,37.38,AUD,paypal,Hoffman Inc,groceries,2025-07-07T14:56:56,False,failed,desktop,126.17.34.236,UK
+01e52076-7835-45c3-b780-39debf3d6952,1e78d9414c8effec,Lisa Nichols,69,USA,transfer,8.4,JPY,debit_card,Brooks-Rogers,travel,2024-10-09T17:52:30,False,completed,tablet,76.164.186.86,Japan
+e2d7c989-eeea-40f7-b8cd-efe41a8e9edf,8300e12d10e12c6f,Brenda Jones,34,UK,refund,631.83,EUR,bank_transfer,"Ford, Dorsey and Alvarado",groceries,2024-08-07T11:25:23,False,failed,desktop,161.103.99.190,France
+d9d9615c-7543-4197-8aaa-dc6cd528aeec,d581ed942fedca03,Wayne Price,43,Canada,transfer,6.39,GBP,bank_transfer,Garcia LLC,travel,2025-06-04T03:18:21,False,failed,desktop,167.147.20.16,Germany
+9920fd01-6005-41dd-8111-ab37ff1a61ae,1e78d9414c8effec,Lisa Nichols,69,USA,refund,28.22,AUD,paypal,Williams PLC,travel,2025-07-06T03:00:13,False,failed,desktop,12.126.107.49,Australia
+e3b41ed7-dd7c-4267-8420-933f154775fe,77aab47038494a47,Theresa Whitney,59,USA,deposit,66.43,EUR,crypto,"Leblanc, Herring and Casey",groceries,2025-01-21T17:26:38,False,failed,mobile,128.174.74.133,UK
+d60d396e-6c61-4b6b-9533-d703dc7d1f42,42ae2d5e2b8f0083,Kendra Olson,28,Germany,transfer,474.33,AUD,credit_card,Jackson Group,electronics,2025-04-13T16:41:28,False,failed,tablet,84.241.126.170,France
+7aa8a3e2-6fc9-4b56-9756-a7ba9ee69aea,f33918d764b92e1d,Mr. Mark Silva,53,France,purchase,6.34,JPY,credit_card,Lozano-Gonzalez,health,2025-07-11T11:29:54,False,pending,mobile,91.141.27.242,UK
+7cd953eb-28cf-42af-a5b0-5cf5af2d3020,8cc0d62966382e19,Glenda Myers,67,Canada,transfer,312.54,GBP,credit_card,Ramirez Ltd,electronics,2025-05-30T14:12:20,False,pending,mobile,93.99.224.68,UK
+6e6cf26c-b423-4c48-8537-87d4993cf4e8,a55fa98c973653c7,Victoria Hanson,45,France,deposit,55.44,GBP,debit_card,"Flores, Woodward and Wagner",groceries,2024-11-25T10:00:28,False,pending,desktop,99.85.124.119,Germany
+19e50a2f-47a6-420f-8346-4212a01341c2,5de5eb4abe50f40a,Anthony Raymond,22,UK,transfer,12.53,CAD,paypal,Serrano-Oliver,travel,2025-07-12T23:49:30,False,failed,desktop,99.119.130.193,Canada
+725c217b-2d8c-4830-8f48-5b191316f396,3e0a941e39064020,Brittany Miller,74,France,transfer,109.2,CAD,debit_card,"Smith, Joseph and Banks",electronics,2025-03-21T04:35:13,False,completed,tablet,48.68.141.215,Canada
+911932a4-209a-4255-8480-ec4e9ecf1cf5,c53a8bbb01f6893a,Cynthia Mccarty,69,Australia,purchase,73.6,JPY,paypal,Goodwin LLC,health,2024-08-29T12:47:41,False,completed,mobile,176.212.201.234,France
+ce70c64b-6314-41fe-ba34-7f8eaaab8904,8cc0d62966382e19,Glenda Myers,67,Canada,refund,22.19,GBP,bank_transfer,Fuller Group,entertainment,2024-12-28T08:59:43,False,failed,desktop,101.76.43.243,France
+97bd0642-2cbe-4781-bce4-9d0f18035f86,00f212a760aa541a,Brian Welch,52,USA,withdrawal,60.62,GBP,bank_transfer,Lozano-Gonzalez,groceries,2024-10-15T12:55:31,False,failed,tablet,92.122.134.195,Germany
+2e488518-c505-46fb-a8bf-e35e779c73c0,a689bb0993547dc5,Corey Jones DDS,38,Australia,refund,30.63,USD,crypto,Prince-Smith,electronics,2024-08-18T02:27:48,False,completed,tablet,220.111.50.151,Japan
+357881fd-78cc-4bb3-99ff-b2ed5095f228,ac6d47ffa3255be2,Dr. Daniel Hughes,75,France,purchase,64.73,AUD,bank_transfer,Brooks-Rogers,electronics,2025-06-20T13:19:57,False,completed,mobile,22.114.26.174,UK
+a6c5a912-6228-4bfb-933f-877de7b3fb1b,eebbe04a788493b2,Krystal White,21,UK,withdrawal,147.41,JPY,paypal,Henry PLC,health,2024-11-24T12:27:16,False,pending,tablet,219.100.173.188,USA
+b8268ca5-74f0-427c-b55c-539de7585920,a689bb0993547dc5,Corey Jones DDS,38,Australia,purchase,589.35,JPY,credit_card,"Smith, Joseph and Banks",electronics,2024-12-26T18:20:49,True,failed,desktop,82.158.215.130,France
+3de68b7f-f990-4ae4-915e-92085bec31b9,5de5eb4abe50f40a,Anthony Raymond,22,UK,transfer,8.53,AUD,credit_card,Allen LLC,travel,2024-10-22T12:12:52,False,completed,mobile,75.81.255.211,France
+cbc09fe6-010d-41bf-9932-c58442e28972,7bab8232f28e10f5,Barbara Rivera DDS,19,France,deposit,1338.83,GBP,debit_card,Rodriguez-Webb,entertainment,2025-05-18T06:08:36,False,pending,desktop,192.203.158.138,UK
+13004c6b-02ca-4e98-bee6-42b02190630f,68f94371d14b290e,Devin Mcdonald,31,Japan,purchase,2.92,EUR,paypal,Hoffman Inc,clothing,2025-01-10T07:55:42,False,completed,desktop,162.36.114.78,Germany
+de5bcbbe-9c0f-4765-8cb2-64be59807725,53fb4ad2c2cbc763,Mary Warner,58,UK,purchase,43.48,EUR,credit_card,Avila-Bradford,travel,2024-08-06T15:00:10,False,completed,tablet,201.109.243.150,USA
+9af96673-3676-4bed-936f-8285fa371a6f,82ea76d55d802f16,Joseph Berry,19,Japan,refund,131.96,EUR,credit_card,"Shields, Walker and Tyler",groceries,2024-12-03T01:57:39,False,completed,tablet,83.151.250.184,Germany
+25c32377-7362-4b81-9ccc-36e85bc2f8c0,13dd2268e14de24e,Veronica Alvarado,61,Japan,refund,83.22,AUD,debit_card,Hoffman Inc,travel,2025-06-08T23:53:26,False,completed,tablet,212.209.106.237,Australia
+0a693977-1884-4fdb-b26f-1ed5d5421cf2,5e0190cd3f9de295,Susan Beck,36,Australia,deposit,21.45,USD,crypto,"Poole, Martin and Daugherty",groceries,2025-07-10T04:37:57,True,completed,tablet,162.184.83.154,Japan
+13d08a0f-6e3c-464d-a0be-204cba49c0cb,c53a8bbb01f6893a,Cynthia Mccarty,69,Australia,withdrawal,39.96,GBP,credit_card,Hoffman Inc,clothing,2024-11-22T23:33:03,False,pending,tablet,221.3.138.141,Canada
+38104fc3-a044-46b1-8da4-5ed8d3fae783,d8c620b9d519e440,Mr. Anthony Diaz,76,France,transfer,26.06,AUD,bank_transfer,Morales-Perez,health,2024-10-09T20:13:40,False,failed,tablet,50.42.204.116,Australia
+8baa8963-3979-4f4f-9933-55880f704acf,fc69bffc08cb4410,Jeffery Elliott,32,Australia,purchase,22.55,GBP,credit_card,Bryant-Smith,groceries,2024-11-09T19:17:10,False,failed,tablet,152.173.21.15,Germany
+90351368-90bb-461c-b1a2-a770f22ad5dc,68f94371d14b290e,Devin Mcdonald,31,Japan,transfer,195.27,CAD,credit_card,"Mcknight, Solis and Lewis",travel,2025-04-29T21:43:32,False,failed,desktop,71.113.251.88,Japan
+732bdf98-8218-410b-bcf4-93a34c866f84,24b1684acefadc04,Mrs. Barbara Walters,28,France,refund,93.27,EUR,crypto,George Ltd,entertainment,2025-01-30T21:37:49,False,completed,tablet,113.25.166.245,Japan
+b97b662a-0897-44f9-8f07-fef3620b130b,08744fb04db5e3b3,Keith Robinson,19,USA,purchase,19.31,EUR,paypal,"Jones, Francis and Mitchell",health,2025-04-16T23:23:55,False,pending,desktop,30.213.157.62,UK
+1a950288-a3ae-4ca1-b328-df90c9b0c112,45d5eda345d1bba8,Riley Adams,35,Germany,purchase,210.48,CAD,credit_card,"Mcknight, Solis and Lewis",groceries,2025-05-29T10:56:03,False,completed,mobile,221.238.133.68,USA
+fc3ef307-9612-49f4-98fc-08b585afd228,21453c624618b8d5,Frances Jackson,50,France,refund,86.57,JPY,bank_transfer,"Flores, Woodward and Wagner",entertainment,2024-11-20T17:06:28,False,completed,mobile,195.248.226.29,Germany
+391de5c6-c51c-4534-863f-2cb800c8d918,bfa4523aa6574f66,Robin Miller,24,Germany,deposit,184.8,JPY,credit_card,Bender and Sons,travel,2025-06-28T18:11:54,True,pending,desktop,123.105.178.0,France
+006115ac-27b2-4200-b6e6-9b168f509cd7,6eca2a8030a0f31f,Sheila Sexton,67,Japan,purchase,140.39,JPY,crypto,Prince-Smith,clothing,2025-02-04T16:28:13,False,completed,mobile,95.96.89.138,UK
+629d2259-cbdc-47d7-8f91-7e98d75f91bf,7f7c9c4743259366,William Ruiz,23,France,transfer,15.74,GBP,paypal,Bryant-Smith,clothing,2024-08-14T01:17:29,False,pending,desktop,200.242.250.53,Germany
+ce28f663-1be0-4344-ad09-a54e4c12beaf,05337f2077d7f85d,Jose Stark,32,Japan,purchase,23.56,GBP,paypal,Lozano-Gonzalez,health,2025-01-07T04:06:46,False,failed,mobile,87.57.226.195,Canada
+b756c3d6-dc16-430a-a57f-b9db5d44ef14,75e46e24100c1725,Mrs. Renee Myers,42,Canada,purchase,167.49,USD,debit_card,"Moss, Bell and Stuart",groceries,2024-08-14T02:56:29,False,pending,desktop,208.142.240.64,Canada
+bc49fe30-a576-498d-9a5b-222d918252b2,37bbd4657d09d6c8,Rebecca Phillips,64,UK,transfer,136.4,AUD,bank_transfer,Hays-Solomon,clothing,2025-02-05T19:55:27,False,failed,tablet,164.21.5.90,Australia
+90e87edc-645b-4799-9b1a-bdd1ee0c39a7,718f2238b0eae57e,Emily Wilson,39,USA,withdrawal,52.91,EUR,paypal,Bender and Sons,groceries,2024-10-25T07:40:16,False,failed,desktop,99.149.144.98,UK
+ef7a9573-10bf-4c5b-a2c0-e45b6216d386,33d4ff6b4e776d40,Abigail Hoffman,43,Japan,refund,65.1,CAD,paypal,"Moss, Bell and Stuart",groceries,2024-10-18T01:43:24,False,failed,mobile,27.169.158.156,Germany
+1138b188-055a-4dfa-8387-c19d2acf16f6,8300e12d10e12c6f,Brenda Jones,34,UK,deposit,371.11,JPY,debit_card,"Harris, Turner and Powell",health,2025-02-19T21:41:38,False,failed,mobile,94.137.67.147,Japan
+36f3284b-9167-48fb-9725-b78c401bd41d,37bbd4657d09d6c8,Rebecca Phillips,64,UK,transfer,22.48,EUR,credit_card,Allen LLC,travel,2025-03-02T22:15:21,False,pending,mobile,144.41.175.235,Australia
+05bb0641-4114-4929-81ea-fee8b02d2f62,00f212a760aa541a,Brian Welch,52,USA,refund,124.05,EUR,bank_transfer,Bryant-Smith,travel,2025-07-12T15:23:36,False,pending,tablet,71.222.162.26,Australia
+706a6523-1496-43df-a84e-9e29b10efbba,08294bd3216ccda1,Christine Hardy,35,Japan,deposit,40.31,AUD,crypto,"Smith, Joseph and Banks",entertainment,2025-01-03T12:14:31,True,pending,tablet,63.78.58.152,Australia
+682354c7-dc27-4969-acb0-f53b53cb21ae,5de5eb4abe50f40a,Anthony Raymond,22,UK,deposit,39.39,GBP,credit_card,Brown Group,health,2025-01-26T03:45:22,False,failed,tablet,37.141.71.150,USA
+74466777-3ed2-4bcc-abe9-5a28522b6570,13dd2268e14de24e,Veronica Alvarado,61,Japan,deposit,283.77,CAD,bank_transfer,"Morgan, Page and Russell",electronics,2024-08-31T20:07:05,True,pending,mobile,32.240.214.245,Australia
+548f3989-d4eb-4156-8fdd-5ee9ca2aeb84,11760e2b6f925fb1,Jennifer Gallegos,70,USA,deposit,188.32,AUD,crypto,Hoffman Inc,clothing,2025-02-14T06:15:45,False,pending,desktop,124.227.165.16,France
+43c1614e-5961-4896-8183-b5fc6f755334,0178cd1f9cd700ce,Steven Riddle,66,Canada,deposit,184.98,CAD,crypto,"Harris, Turner and Powell",travel,2025-03-22T13:59:12,True,pending,mobile,173.140.85.102,UK
+2df57ec6-4d13-45d7-88f7-f6b5486b8d5f,3444cd002bd69b5c,Tamara Reed,59,Japan,refund,386.92,CAD,paypal,Parker PLC,clothing,2025-01-27T22:20:09,False,pending,desktop,169.181.135.231,Canada
+f75cf550-9b2e-4f0a-a54e-8d3518413b88,7bab8232f28e10f5,Barbara Rivera DDS,19,France,withdrawal,56.35,USD,bank_transfer,Garcia LLC,electronics,2025-04-29T12:34:07,False,completed,mobile,173.4.114.9,Canada
+9aea15a9-15cc-47a6-9eec-71dfb170614c,bf7b169681540988,Tyler Sanchez,23,Australia,purchase,151.86,GBP,debit_card,Prince-Smith,clothing,2025-07-08T16:38:18,False,pending,tablet,137.181.115.231,Japan
+3346f1b8-3964-4e92-9d46-c1e88f2e8cce,7ae204a568643db3,Billy Powell,56,Japan,withdrawal,34.28,EUR,debit_card,Henry PLC,clothing,2024-10-14T09:28:00,False,failed,desktop,131.239.33.104,Australia
+0abcf5f5-2b3c-4dac-93f2-370e2291c30d,68f94371d14b290e,Devin Mcdonald,31,Japan,purchase,88.79,EUR,crypto,Goodwin LLC,travel,2025-05-10T03:37:40,False,failed,mobile,24.14.248.116,UK
+1f69682a-f0a2-4aab-9fce-4da73a65fcdb,977e73656e8bc592,David Ferguson MD,23,Germany,transfer,44.92,USD,credit_card,Ramirez-Gates,clothing,2025-02-22T03:32:58,False,completed,desktop,76.52.185.9,France
+801b545f-8b44-4915-83c4-64c019e800f2,3444cd002bd69b5c,Tamara Reed,59,Japan,transfer,63.15,AUD,bank_transfer,Bender and Sons,entertainment,2025-01-28T12:40:20,False,pending,tablet,77.142.116.229,France
+62040086-f7a9-4573-8e4d-fc74492e8f6b,3444cd002bd69b5c,Tamara Reed,59,Japan,transfer,133.32,EUR,paypal,Rodriguez-Webb,clothing,2025-02-10T13:25:02,False,failed,desktop,88.141.80.235,Australia
+dfe0e36a-c4c9-470e-bacc-7d05f62901e1,244b5124c8490968,Kimberly Romero,34,Japan,deposit,16.0,GBP,credit_card,Bender and Sons,electronics,2024-08-13T13:09:50,False,completed,mobile,121.111.212.33,Japan
+bd7f5e25-5b3c-4854-b0ee-12745160c7aa,3516dc20cc11a21a,Vanessa Velasquez,58,Australia,refund,1259.64,EUR,crypto,Hays-Solomon,clothing,2025-06-09T22:10:41,False,pending,mobile,13.207.53.214,Germany
+aeba8859-5d72-4e97-a1c8-a615225c18ed,a689bb0993547dc5,Corey Jones DDS,38,Australia,deposit,12.07,GBP,debit_card,Fuller Group,groceries,2024-12-08T03:32:55,False,pending,desktop,37.47.44.182,France
+29d06c94-e6f7-46ba-bb3a-22d8e9a130cd,8c870fb2bdd7868c,Christopher Wyatt,55,Germany,purchase,8.83,EUR,paypal,Morales-Perez,clothing,2025-04-11T09:13:42,False,failed,tablet,75.24.213.189,USA
+ec5285f9-16d4-47d0-ba80-dd53f8042d4f,e7e70666d7ee038f,Matthew Hale,50,Germany,withdrawal,310.18,EUR,bank_transfer,"Smith, Joseph and Banks",health,2024-08-21T18:48:43,False,pending,mobile,210.178.113.81,Japan
+0e64ec2f-c3c2-4fc9-968f-af4fc44a81f7,e2b78eec195dc5d9,Christopher Brown,31,UK,deposit,179.02,GBP,credit_card,"Bell, Harris and Tyler",electronics,2024-10-23T05:08:32,False,failed,desktop,16.75.205.104,Australia
+88393b96-6194-4231-a8b6-ca31e3cca091,c16840c8f199623e,Jesse Austin,62,Germany,withdrawal,139.24,EUR,crypto,"Flores, Woodward and Wagner",entertainment,2025-04-20T09:27:35,True,completed,desktop,222.231.84.168,Japan
+fe292ced-1fe1-43a7-8e3c-91ea189b262d,6eca2a8030a0f31f,Sheila Sexton,67,Japan,deposit,140.12,USD,paypal,Daugherty PLC,health,2024-12-15T19:39:42,False,completed,desktop,81.170.160.234,France
+873ee16b-abbf-4c47-9126-d0b89774840c,edd55c890e536a77,Stephanie Morales,30,Japan,refund,53.6,USD,paypal,"Mcknight, Solis and Lewis",groceries,2025-07-23T10:10:34,False,completed,desktop,136.217.249.70,Australia
+99b39980-0008-40b0-8f13-f0a4b0ffbb70,aefba2684c669e74,John Perez,52,Germany,refund,14.21,AUD,debit_card,Goodwin LLC,health,2025-01-06T07:55:52,False,failed,tablet,79.66.144.179,Australia
+4b6ca9a5-4473-4e19-a895-2839679ec64d,0365db1b96573654,Morgan Rivers,75,France,withdrawal,61.17,GBP,debit_card,Tyler-Lopez,clothing,2025-05-07T08:49:06,False,failed,desktop,44.235.113.93,France
+2ec0bc12-d4d3-4169-a28f-b6ed50374ed8,5de5eb4abe50f40a,Anthony Raymond,22,UK,transfer,19.77,GBP,crypto,Bender and Sons,health,2025-06-20T15:59:58,False,failed,desktop,144.131.83.119,France
+d68c0511-fc63-4048-a646-e5494d1c76c8,11760e2b6f925fb1,Jennifer Gallegos,70,USA,purchase,235.73,EUR,debit_card,"Ford, Dorsey and Alvarado",groceries,2024-10-14T17:26:29,False,completed,tablet,172.81.95.11,Australia
+8c7da779-355f-4429-bc8e-04ef778c2758,5c0635be9a3c2e9d,Philip Durham,32,Germany,refund,43.79,CAD,debit_card,"Leblanc, Herring and Casey",health,2024-07-28T20:08:08,False,completed,tablet,167.147.226.49,Japan
+cd324aa1-44a5-456a-89aa-9ccabec1569c,0365db1b96573654,Morgan Rivers,75,France,transfer,15.83,EUR,bank_transfer,Bryant-Smith,health,2024-09-09T06:49:56,False,completed,desktop,156.35.58.56,Germany
+58d49205-b032-4d8f-be59-0e50940cd96a,11760e2b6f925fb1,Jennifer Gallegos,70,USA,transfer,33.71,EUR,paypal,Bender and Sons,entertainment,2025-04-06T13:46:16,True,failed,mobile,102.36.108.182,Germany
+71e91db9-0ddd-4349-b45f-f4270dd56da3,772c83953f8abccf,Robert Miller,34,France,withdrawal,101.43,USD,paypal,Ramirez-Gates,travel,2025-07-12T02:56:42,False,pending,mobile,114.55.23.237,Australia
+0cb6a98a-028f-4992-93fa-e622bcbacbf2,301e3b19165d5029,Heather Smith,67,Australia,transfer,23.44,CAD,paypal,Hammond-Taylor,entertainment,2025-03-07T01:47:11,False,failed,desktop,209.65.234.196,Australia
+ff0408df-b392-470b-9d43-5ac52e260933,bf7b169681540988,Tyler Sanchez,23,Australia,purchase,15.91,AUD,credit_card,Parker PLC,electronics,2025-03-19T11:04:26,False,completed,desktop,23.15.107.160,USA
+41fb0f36-f196-44a0-a5e1-64f67fe54761,75e46e24100c1725,Mrs. Renee Myers,42,Canada,purchase,78.69,AUD,bank_transfer,Morales-Perez,health,2024-07-30T23:25:56,False,pending,mobile,171.123.29.207,UK
+105a1d71-f0eb-43aa-ba9b-41d01df03829,e7e70666d7ee038f,Matthew Hale,50,Germany,transfer,78.84,CAD,paypal,Brown Group,health,2024-12-30T01:03:48,False,pending,tablet,184.227.153.77,USA
+40bc93a2-0be6-4bb6-9c1e-ce1ffe725457,84d68aeb51eb41be,Stephen Powell,30,Japan,refund,25.52,USD,bank_transfer,"Jones, Francis and Mitchell",electronics,2024-09-05T08:15:52,True,pending,mobile,122.50.180.160,Japan
+00cca815-dc96-4aa0-8256-d9fe318cdf15,5c0635be9a3c2e9d,Philip Durham,32,Germany,deposit,26.94,AUD,debit_card,"Mcknight, Solis and Lewis",electronics,2025-02-17T19:25:02,True,pending,mobile,104.251.249.169,France
+2c9feb8b-ab0b-4c6c-b7a7-9185876d9d7c,7ae204a568643db3,Billy Powell,56,Japan,refund,77.33,GBP,bank_transfer,Avila-Bradford,electronics,2024-09-12T06:52:41,False,completed,mobile,139.122.33.161,USA
+455dcb89-6ef1-484c-87a2-c3cff0ff0901,80ded0a7d5e0cb2d,Steven Moyer,22,USA,transfer,6.22,EUR,paypal,Carter Group,clothing,2025-07-15T05:12:44,False,failed,mobile,130.73.230.46,UK
+003448f3-45c5-41de-acc7-3f31d884e105,1af4811557b604eb,Kristen Glenn,45,USA,deposit,6.61,JPY,crypto,"Shields, Walker and Tyler",clothing,2024-11-29T15:56:29,False,failed,mobile,47.42.201.152,USA
+7a2b6574-be1b-47f9-be15-e6acf94a680d,0365db1b96573654,Morgan Rivers,75,France,refund,18.58,AUD,bank_transfer,"Mcknight, Solis and Lewis",clothing,2024-10-31T06:28:36,False,completed,mobile,156.101.45.98,France
+1a521604-bf45-4d45-8c00-b019d65f6de5,2f0a5bfdfeecaa93,Jason Zuniga,25,Japan,purchase,39.64,EUR,crypto,Lam-Pacheco,travel,2024-11-02T21:45:20,False,completed,mobile,206.67.215.201,Japan
+b114ad98-18c3-450e-93d9-0baca1031971,5e0190cd3f9de295,Susan Beck,36,Australia,purchase,87.04,JPY,debit_card,Hays-Solomon,health,2025-06-30T15:44:53,False,failed,mobile,80.44.202.190,France
+79d9f884-105c-4add-a0ea-ed9912c06124,7be21778db08f8f9,Jasmine Gibson,23,Australia,transfer,499.21,JPY,debit_card,Serrano-Oliver,clothing,2024-09-29T20:32:10,False,pending,tablet,157.153.57.16,France
+6a123d80-12c5-4d23-8bcd-57edaa45700e,ac6d47ffa3255be2,Dr. Daniel Hughes,75,France,refund,197.65,USD,bank_transfer,"Leblanc, Herring and Casey",travel,2025-06-23T00:09:36,False,completed,tablet,23.40.48.118,Germany
+f0277272-df69-4488-b12d-d078bc3576c1,82ea76d55d802f16,Joseph Berry,19,Japan,transfer,42.95,EUR,paypal,Hoffman Inc,travel,2025-02-02T05:21:30,False,failed,mobile,222.212.229.221,UK
+3c3f1712-9d65-4f8e-848e-e95289520f7d,3e0a941e39064020,Brittany Miller,74,France,withdrawal,53.06,JPY,credit_card,Bryant-Smith,electronics,2025-05-28T06:53:49,False,completed,mobile,218.44.156.80,USA
+9601bd8f-6e30-498a-be92-fce6e13fe8d9,68f94371d14b290e,Devin Mcdonald,31,Japan,deposit,12.14,AUD,paypal,Serrano-Oliver,travel,2025-06-23T08:39:43,False,pending,mobile,27.213.141.73,Japan
+a0bc65b8-c44b-4e3d-9bf3-c72bbf86c072,c67d15af20107823,Donna Burns,43,Canada,deposit,53.1,GBP,crypto,"Morales, Jordan and Sullivan",electronics,2024-09-08T23:30:02,False,failed,mobile,19.79.108.71,France
+292c3a9f-6231-438c-92d4-a334d8aa97e6,a66d10edf41252e6,Kelly Michael,18,Australia,deposit,35.41,JPY,paypal,Henry PLC,health,2024-07-28T23:34:12,False,completed,desktop,151.58.22.253,Germany
+7953622c-070f-4c04-ae40-63b23ce69304,a55fa98c973653c7,Victoria Hanson,45,France,withdrawal,88.6,GBP,debit_card,George Ltd,travel,2025-01-02T22:39:57,False,failed,tablet,121.5.220.44,USA
+5f69126f-38fa-497e-9b2f-4abfc5761c57,4f8d76abc6c5826a,James Jackson,23,France,transfer,15.79,USD,debit_card,"Jones, Francis and Mitchell",clothing,2025-07-03T17:06:00,False,completed,desktop,152.172.186.240,USA
+40cb989c-8f30-472a-a41d-2492c95c3964,fc69bffc08cb4410,Jeffery Elliott,32,Australia,deposit,118.99,AUD,crypto,Hendricks PLC,clothing,2025-01-16T04:02:48,False,failed,desktop,43.93.54.150,Australia
+051ce55a-c172-42c3-b402-e8a152945c86,772c83953f8abccf,Robert Miller,34,France,purchase,544.09,EUR,credit_card,"Morales, Jordan and Sullivan",entertainment,2025-03-05T20:46:30,False,failed,tablet,176.219.69.231,Canada
+67721456-7eaf-4e16-abb4-8ee8508e9bf2,0365db1b96573654,Morgan Rivers,75,France,purchase,46.38,JPY,bank_transfer,"Diaz, Salazar and Chandler",electronics,2024-12-16T11:14:26,False,failed,mobile,73.231.116.89,Germany
+98b3db9e-a384-4751-94d7-b6d22caddb73,3516dc20cc11a21a,Vanessa Velasquez,58,Australia,refund,99.74,USD,paypal,Hoffman Inc,health,2025-06-12T12:19:14,False,completed,tablet,165.225.52.123,Australia
+75a530f5-5882-41a9-b848-b97971cc198d,11760e2b6f925fb1,Jennifer Gallegos,70,USA,purchase,153.73,USD,credit_card,"Leblanc, Herring and Casey",electronics,2024-08-05T20:40:13,False,pending,mobile,100.2.19.53,Australia
+289a3ac2-11be-4fa5-9393-3b8b6820dcd5,77c033f1e67c252b,Austin Snyder,39,Canada,purchase,29.91,AUD,crypto,Ramirez Ltd,health,2024-12-20T10:36:26,False,pending,mobile,98.155.83.19,Australia
+ed179dc5-c610-480d-bc76-7734d99aa902,77aab47038494a47,Theresa Whitney,59,USA,transfer,76.41,USD,paypal,Hoffman Inc,groceries,2025-04-13T10:12:30,False,failed,mobile,48.216.27.137,Australia
+1821166c-65ff-46d1-8ffd-44ba5ac8309c,77c033f1e67c252b,Austin Snyder,39,Canada,refund,55.64,EUR,crypto,Bryant-Smith,travel,2025-05-21T10:46:43,False,pending,desktop,172.241.62.248,USA
+3af8f40a-25e4-407f-a8c5-ecc21f8d3f07,21453c624618b8d5,Frances Jackson,50,France,deposit,63.21,CAD,bank_transfer,Jackson Group,groceries,2024-08-24T01:26:58,False,pending,tablet,69.38.153.253,USA
+7235c3d7-c46e-48bb-b8c9-a98d6489f856,8c870fb2bdd7868c,Christopher Wyatt,55,Germany,refund,17.12,JPY,bank_transfer,Fuller Group,clothing,2024-12-21T06:09:08,False,failed,mobile,135.128.112.84,Canada
+2e37e845-33c9-4e7c-bb4e-25dd23b220c3,a66d10edf41252e6,Kelly Michael,18,Australia,purchase,56.64,GBP,bank_transfer,Ramirez-Gates,groceries,2025-01-15T07:23:37,False,failed,mobile,22.48.252.217,USA
+fe64c88a-a73b-48c8-bb75-2b18ea3168f6,8cc0d62966382e19,Glenda Myers,67,Canada,purchase,115.24,AUD,bank_transfer,Lozano-Gonzalez,groceries,2025-05-14T15:30:06,False,failed,mobile,163.0.105.43,Australia
+61cf8498-92bc-4dc6-a702-2a26893d0a72,77aab47038494a47,Theresa Whitney,59,USA,withdrawal,481.41,AUD,credit_card,"Morales, Jordan and Sullivan",electronics,2024-12-29T05:07:40,True,completed,tablet,176.56.250.88,UK
+ac907228-e59f-4b7e-a31b-3d1d69604804,4f6cf57268da9690,Tiffany Love,77,Japan,transfer,230.19,USD,bank_transfer,Goodwin LLC,electronics,2024-12-29T01:12:24,False,failed,desktop,129.191.126.222,Japan
+80a46206-a0db-4229-b28f-bd1a0e3b6092,08744fb04db5e3b3,Keith Robinson,19,USA,deposit,1379.91,EUR,crypto,Brown Group,clothing,2024-09-19T03:11:11,False,pending,desktop,83.27.43.192,USA
+713d0182-5c1d-4f24-9b2f-e8915b436c11,68f94371d14b290e,Devin Mcdonald,31,Japan,transfer,17.27,CAD,paypal,Brooks-Rogers,electronics,2025-05-31T01:38:30,False,completed,tablet,125.219.232.192,Germany
+f15b3132-dbce-430b-9634-190c8e7ba005,edd55c890e536a77,Stephanie Morales,30,Japan,refund,202.04,EUR,credit_card,Parker PLC,groceries,2025-01-03T10:56:36,False,failed,desktop,114.234.253.203,UK
+95a5adf3-68d1-4c3f-bd3c-57744a6ca917,0178cd1f9cd700ce,Steven Riddle,66,Canada,refund,71.88,EUR,bank_transfer,Hendricks PLC,electronics,2025-01-14T10:18:29,False,failed,desktop,22.33.174.68,Canada
+a2f48bb3-7cf4-4d30-88a0-50fe85a51496,2aadcd7a10decf0e,Mary Thomas,22,Germany,deposit,1457.83,CAD,credit_card,Williams PLC,electronics,2024-09-12T21:25:02,False,pending,desktop,207.249.116.84,UK
+f5979aab-4bf7-4dec-985b-9099a1462a6f,11760e2b6f925fb1,Jennifer Gallegos,70,USA,purchase,16.24,GBP,paypal,"Harris, Turner and Powell",travel,2024-10-20T03:14:43,False,failed,tablet,14.38.50.67,Canada
+bb858ccb-9121-4f9d-b2eb-1bf429f20a15,9ff4eb1c6a4d1701,James Kirk,74,Japan,refund,15.49,USD,credit_card,Morales-Perez,electronics,2024-11-22T18:56:55,True,completed,mobile,107.81.42.157,Germany
+422e9cec-53ae-44ea-a178-5b21fbaec424,718f2238b0eae57e,Emily Wilson,39,USA,withdrawal,22.22,AUD,paypal,"Shields, Walker and Tyler",electronics,2025-07-08T11:27:16,False,pending,mobile,9.194.46.21,Japan
+515477fc-cb0b-4e66-96cf-426c848be1b3,82b6e205329d024f,Katherine Thompson,35,UK,purchase,2.26,EUR,debit_card,Morales-Perez,electronics,2025-01-11T17:09:03,False,pending,mobile,221.95.252.142,Japan
+f0af5b78-4fa1-4984-ae98-5e0f5db55ee4,13dd2268e14de24e,Veronica Alvarado,61,Japan,withdrawal,24.81,JPY,credit_card,"Morgan, Page and Russell",health,2024-11-25T23:29:39,False,completed,desktop,46.5.76.241,UK
+495f1204-2aa1-4337-bf50-7025b219d451,53fb4ad2c2cbc763,Mary Warner,58,UK,withdrawal,17.48,GBP,debit_card,"Poole, Martin and Daugherty",groceries,2025-07-26T10:48:51,False,completed,mobile,22.26.136.236,Canada
+c0bf01c8-7009-447b-8ff1-d95788000f5a,244b5124c8490968,Kimberly Romero,34,Japan,deposit,68.41,AUD,crypto,"Bell, Harris and Tyler",travel,2025-01-18T05:46:22,False,failed,desktop,11.100.19.144,UK
+4bcc14af-478c-41a6-bb14-0c8c13058d45,4f8d76abc6c5826a,James Jackson,23,France,purchase,91.16,GBP,paypal,"Smith, Joseph and Banks",clothing,2025-02-22T18:22:54,False,failed,mobile,115.16.18.171,Germany
+ce176fb5-31e3-4dfd-b32a-ffb7dc1c83a3,0365db1b96573654,Morgan Rivers,75,France,deposit,910.74,AUD,credit_card,Lam-Pacheco,travel,2025-03-13T14:38:17,False,pending,desktop,59.126.224.102,Germany
+edeca606-1aa0-4c1a-b3d1-d1c993e9d706,9cc7b788cb3d8c82,Tiffany Banks,59,Germany,deposit,227.16,CAD,paypal,"Poole, Martin and Daugherty",electronics,2024-08-28T19:23:45,False,completed,mobile,155.196.67.161,Germany
+32b2c34b-0a44-485f-905e-733d2b367fee,6eca2a8030a0f31f,Sheila Sexton,67,Japan,transfer,22.98,EUR,credit_card,Prince-Smith,groceries,2025-01-12T12:53:41,False,completed,mobile,170.91.35.68,Australia
+048c1f8d-d18f-4b8e-a481-ebe69f04a6de,7bab8232f28e10f5,Barbara Rivera DDS,19,France,refund,14.19,JPY,debit_card,Ramirez Ltd,electronics,2025-03-08T08:15:49,False,completed,tablet,219.219.39.245,Canada
+ffbb0958-d021-4d0b-908a-fab1acc3ab0b,33652b494b6e8db8,Ethan James,41,Canada,transfer,114.19,GBP,debit_card,Goodwin LLC,groceries,2024-09-01T04:11:11,False,failed,desktop,29.32.131.58,UK
+1ca38b49-5aa7-407d-aaae-a5213d9bd123,8300e12d10e12c6f,Brenda Jones,34,UK,purchase,7.54,JPY,paypal,Williams PLC,entertainment,2025-01-21T10:11:53,False,pending,tablet,59.34.179.65,France
+6ccf6593-604c-41c8-92bf-eaeb51bbd8ea,84d68aeb51eb41be,Stephen Powell,30,Japan,refund,851.66,USD,bank_transfer,"Ford, Dorsey and Alvarado",clothing,2025-02-26T16:30:31,False,completed,tablet,143.91.95.165,USA
+e49f67ad-07b5-4311-9c43-8034ab8b7902,05337f2077d7f85d,Jose Stark,32,Japan,purchase,320.27,GBP,paypal,Morales-Perez,groceries,2024-10-03T05:46:23,False,pending,mobile,56.253.122.56,France
+fa3fb7b6-b6d0-4ae1-9a8f-bad9addce830,82b6e205329d024f,Katherine Thompson,35,UK,refund,27.01,GBP,crypto,Carter Group,electronics,2024-09-16T19:11:46,False,pending,mobile,155.242.247.192,Japan
+9988617f-ce14-405f-8be6-6debfc6de278,3516dc20cc11a21a,Vanessa Velasquez,58,Australia,withdrawal,4.18,CAD,crypto,Garcia LLC,groceries,2025-07-27T05:59:50,False,completed,tablet,131.223.152.206,USA
+91570610-d6b7-42d8-bfe4-4b1f5dd546ec,24b1684acefadc04,Mrs. Barbara Walters,28,France,withdrawal,416.05,AUD,paypal,"Flores, Woodward and Wagner",health,2025-06-13T00:42:14,False,failed,desktop,35.242.154.162,UK
+4b5ee33c-023c-4e8e-b8bf-d8379d853e4c,7b97e0be299b04c5,Pamela Davis,72,Canada,deposit,45.98,CAD,debit_card,Lozano-Gonzalez,health,2024-11-09T04:42:36,False,completed,tablet,178.50.132.246,Germany
+1141597f-3555-4319-815f-062b001ebdea,2927aeb8aef73e54,Hayden Nelson,58,USA,deposit,349.58,JPY,bank_transfer,Duncan-Ross,clothing,2025-07-04T07:36:46,False,failed,mobile,93.186.200.130,Australia
+038b38de-3a05-4756-9d3a-9bd2e8a6f48e,c67d15af20107823,Donna Burns,43,Canada,deposit,4.99,GBP,credit_card,Hammond-Taylor,health,2025-01-11T05:23:44,False,pending,desktop,189.188.228.131,Germany
+4f5994ba-9aaf-4fd7-ba47-457982003588,c16840c8f199623e,Jesse Austin,62,Germany,purchase,22.22,USD,paypal,Hendricks PLC,clothing,2025-02-26T18:29:02,False,completed,desktop,93.229.232.129,Germany
+c56d6ebe-a463-4114-af99-897bff48488f,00f212a760aa541a,Brian Welch,52,USA,purchase,55.03,EUR,credit_card,"Mcknight, Solis and Lewis",health,2024-08-26T21:10:35,False,completed,desktop,138.209.16.52,USA
+01c1c188-7d98-492a-af31-02dc98ca0c55,301e3b19165d5029,Heather Smith,67,Australia,withdrawal,58.58,EUR,paypal,Garcia-West,travel,2025-04-06T00:18:03,False,failed,tablet,201.111.194.123,France
+eb084b27-906f-479a-8f04-603e86036481,3e0a941e39064020,Brittany Miller,74,France,refund,27.8,USD,debit_card,Duncan-Ross,groceries,2025-06-12T01:04:29,True,pending,mobile,97.161.173.84,Germany
+256a3c4d-616f-47ba-b92f-f5d499f4934e,08744fb04db5e3b3,Keith Robinson,19,USA,transfer,138.97,GBP,debit_card,Lozano-Gonzalez,electronics,2024-11-11T17:25:22,False,completed,desktop,143.28.177.254,Germany
+c55764b8-a3e2-4439-a25b-853011b8fc14,3ae6f92455717996,Amy Mckenzie,33,Japan,deposit,11.01,USD,bank_transfer,"Morgan, Page and Russell",health,2025-03-02T12:07:22,False,pending,mobile,78.172.166.40,Japan
+45bea95d-9b82-47ce-80cb-43572c7c7b97,ac6d47ffa3255be2,Dr. Daniel Hughes,75,France,purchase,44.1,GBP,paypal,"Smith, Joseph and Banks",health,2025-03-03T06:48:09,False,failed,tablet,18.116.112.82,UK
+f37227b7-fa40-4302-b704-0e61f5f1ae6e,e8cdbad60dc1e84c,Danielle Fletcher,80,Germany,transfer,65.39,USD,paypal,"Ford, Dorsey and Alvarado",travel,2024-12-10T02:26:41,False,pending,mobile,213.104.85.210,UK
+08fd5935-9740-4b3e-843c-715b1da8c656,ac6d47ffa3255be2,Dr. Daniel Hughes,75,France,transfer,118.11,USD,credit_card,"Bell, Harris and Tyler",health,2025-03-31T04:53:13,False,pending,mobile,146.141.38.193,Germany
+7746cc29-6f7d-49b1-b7fd-2603e5d0fbcf,7bab8232f28e10f5,Barbara Rivera DDS,19,France,purchase,158.76,AUD,debit_card,"Bell, Harris and Tyler",electronics,2025-07-06T11:06:45,False,completed,desktop,73.165.57.184,UK
+fbbebca0-bd6e-4720-9013-63cb0d67cc6a,68f94371d14b290e,Devin Mcdonald,31,Japan,withdrawal,10.11,CAD,bank_transfer,George Ltd,health,2024-09-20T02:55:20,False,completed,desktop,23.43.196.6,Japan
+8305dbb6-5a9f-4af4-ada3-10d3f3478e8c,1b71c25fa2c67d79,Robert Petersen,41,UK,transfer,5.47,USD,debit_card,Hendricks PLC,travel,2025-05-03T03:24:13,False,completed,desktop,176.35.104.153,Germany
+7f69b5cb-3fd4-4593-b4d1-61ea7b68d465,9cc7b788cb3d8c82,Tiffany Banks,59,Germany,purchase,371.12,AUD,debit_card,Brown Group,electronics,2025-07-24T15:07:37,False,pending,tablet,211.89.41.86,Australia
+f016fe6e-ad32-4562-94ff-614dbb72bf85,4f6cf57268da9690,Tiffany Love,77,Japan,deposit,89.88,USD,debit_card,Avila-Bradford,entertainment,2024-11-18T13:17:03,False,failed,tablet,210.70.137.108,France
+d8f87681-aeff-4a4e-a3a6-81b7c6ade16a,d831cfceb9a491a3,Christopher Snow,62,France,deposit,17.77,CAD,debit_card,George Ltd,travel,2025-04-21T15:32:18,False,failed,mobile,192.228.12.45,Germany
+92fb3f26-dc1f-420e-8e7c-f02ea03ddfd8,eebbe04a788493b2,Krystal White,21,UK,deposit,559.32,JPY,crypto,Allen LLC,entertainment,2024-10-05T08:29:14,False,pending,mobile,54.47.24.29,Australia
+168c38fc-b00f-4efe-bd0f-0d26bd8c522d,c16840c8f199623e,Jesse Austin,62,Germany,refund,64.94,USD,debit_card,"Morgan, Page and Russell",electronics,2024-10-30T18:08:47,False,pending,mobile,44.121.192.29,UK
+feaebf6d-3aee-492f-a7b2-d35b5b2a5f85,0365db1b96573654,Morgan Rivers,75,France,refund,320.2,CAD,crypto,Lozano-Gonzalez,electronics,2025-02-11T01:07:24,False,failed,desktop,145.52.56.49,Canada
+359ac83c-2e7b-4481-9a6b-d489b546925e,9ff4eb1c6a4d1701,James Kirk,74,Japan,transfer,60.42,EUR,paypal,Morales Inc,health,2025-03-09T10:28:23,False,failed,desktop,24.235.158.13,France
+3ed64e00-a6a5-4173-b031-ed4e8e8891f0,3444cd002bd69b5c,Tamara Reed,59,Japan,withdrawal,1201.25,JPY,debit_card,Goodwin LLC,entertainment,2025-06-09T22:46:11,False,completed,mobile,4.128.25.214,UK
+9a6f18cf-6e3d-40e5-97ba-52cc783d96dd,9cc7b788cb3d8c82,Tiffany Banks,59,Germany,purchase,759.77,JPY,paypal,Lam-Pacheco,travel,2025-06-15T05:34:36,False,failed,desktop,97.84.125.212,Australia
+63287890-595c-42f5-add2-809c039c44cf,33d4ff6b4e776d40,Abigail Hoffman,43,Japan,deposit,37.58,GBP,bank_transfer,"Morales, Jordan and Sullivan",travel,2024-08-03T06:07:54,False,failed,tablet,114.155.62.95,USA
+1537cc99-3dca-424a-8088-83763437f67b,ee18e712f9378408,Kimberly James,68,Japan,withdrawal,234.48,CAD,credit_card,Larson-Brown,clothing,2024-11-29T06:03:04,True,pending,desktop,82.224.167.245,Germany
+0d584c83-67b6-42b3-8a51-f3257e85019b,3516dc20cc11a21a,Vanessa Velasquez,58,Australia,purchase,143.75,CAD,paypal,Garcia LLC,groceries,2025-02-26T22:57:14,False,failed,tablet,104.215.55.239,Australia
+71a05f55-51ea-4dc6-8998-3f884081a2b3,7bab8232f28e10f5,Barbara Rivera DDS,19,France,refund,425.36,AUD,debit_card,"Mcknight, Solis and Lewis",groceries,2024-10-11T11:34:56,False,pending,tablet,158.145.58.120,Canada
+e29acc37-62dd-4620-99ca-4b7839018a5f,82fc861c7e95babd,Yvonne Moody,32,UK,purchase,12.84,GBP,debit_card,"Smith, Joseph and Banks",health,2025-03-10T01:00:50,False,failed,desktop,110.74.22.92,Germany
+dad817b2-81b4-4610-b818-33c093090443,4f8d76abc6c5826a,James Jackson,23,France,deposit,152.79,CAD,debit_card,"Jones, Francis and Mitchell",entertainment,2025-02-02T14:30:30,False,failed,tablet,205.187.241.127,USA
+37d903b0-cb7c-4de9-8649-cc7841d5af3c,c02bde8119422322,Gregory Robles Jr.,32,UK,refund,267.1,GBP,debit_card,"Ford, Dorsey and Alvarado",clothing,2025-07-14T08:49:12,True,completed,desktop,60.42.11.201,Australia
+d7f7096a-33f8-463b-9585-0211ce89a632,2aadcd7a10decf0e,Mary Thomas,22,Germany,refund,3.9,EUR,paypal,Serrano-Oliver,travel,2024-12-04T12:44:31,False,completed,tablet,28.185.154.110,Canada
+9fb54e99-0036-492f-8672-e13ebd19db13,c02bde8119422322,Gregory Robles Jr.,32,UK,refund,9.25,JPY,paypal,"Mcknight, Solis and Lewis",clothing,2024-10-10T14:56:25,False,pending,tablet,93.240.113.179,Germany
+c6fce288-1981-4b99-a91a-07e796249149,9ff4eb1c6a4d1701,James Kirk,74,Japan,transfer,2.56,CAD,paypal,Ramirez Ltd,health,2025-01-18T08:56:41,False,completed,desktop,71.119.110.211,UK
+80d1e61b-d162-4584-80e1-d64ea8331251,ac6d47ffa3255be2,Dr. Daniel Hughes,75,France,refund,36.45,GBP,crypto,Brooks-Rogers,health,2025-02-10T11:36:11,False,completed,desktop,215.199.174.153,Australia
+1474364f-3142-40b6-8f5f-c4b8f820ea8c,e7e70666d7ee038f,Matthew Hale,50,Germany,withdrawal,160.18,AUD,crypto,Morales Inc,travel,2024-10-29T06:19:38,False,failed,mobile,196.218.163.154,USA
+9f75f84a-8880-49c7-908c-31ab514435f1,3ae6f92455717996,Amy Mckenzie,33,Japan,purchase,519.85,JPY,debit_card,Garcia LLC,health,2025-04-21T04:23:49,False,failed,desktop,207.185.201.162,Canada
+99d90a8f-2595-4b86-806a-5185c197ba4e,7ae204a568643db3,Billy Powell,56,Japan,withdrawal,61.02,CAD,paypal,Tyler-Lopez,travel,2024-11-25T19:37:15,False,failed,tablet,137.143.200.232,Germany
+dc13f781-aa0a-4dd9-b28c-c692d5b1fba7,68f94371d14b290e,Devin Mcdonald,31,Japan,deposit,628.24,JPY,credit_card,Brown Group,groceries,2025-06-08T10:27:31,False,failed,tablet,215.242.180.4,USA
+aaca0005-8b29-4659-8e33-34b8b20c010d,ec01fa6e538369d6,Alex Kerr,58,France,transfer,6.89,USD,credit_card,Hammond-Taylor,groceries,2024-09-14T22:15:30,False,pending,desktop,51.83.228.184,Germany
+a58e7612-d0b4-46d9-bcd4-f9bf5df12339,e7e70666d7ee038f,Matthew Hale,50,Germany,transfer,4.24,JPY,debit_card,Daugherty PLC,clothing,2025-04-11T03:57:56,False,failed,desktop,138.163.246.113,UK
+b13b6356-92da-444e-af7f-a9514525459a,7be21778db08f8f9,Jasmine Gibson,23,Australia,transfer,50.23,USD,debit_card,"Shields, Walker and Tyler",travel,2024-12-24T05:08:40,False,pending,desktop,57.18.155.80,Japan
+9e9b1c93-b686-4373-a590-5c739b30e15e,08294bd3216ccda1,Christine Hardy,35,Japan,withdrawal,97.13,AUD,credit_card,Hoffman Inc,clothing,2024-10-14T12:08:16,False,failed,mobile,35.101.19.167,France
+2f547c08-9dc5-4988-bc8a-9486e3260c65,53fb4ad2c2cbc763,Mary Warner,58,UK,deposit,51.99,CAD,bank_transfer,Serrano-Oliver,groceries,2024-08-30T18:05:56,False,failed,tablet,187.163.198.54,Japan
+4976e370-e44f-4acd-8725-2fbb0e00bfb8,7943de2cf7564714,Zachary Jones,27,UK,transfer,2.46,GBP,credit_card,Ramirez Ltd,groceries,2024-09-11T22:50:22,False,failed,mobile,33.71.95.222,Germany
+87262899-9ed7-484a-b13f-0a7c5c7cfd29,53fb4ad2c2cbc763,Mary Warner,58,UK,transfer,47.77,CAD,credit_card,Brooks-Rogers,health,2025-01-11T18:49:31,False,pending,desktop,207.97.230.84,UK
+8386a187-4ebd-4260-bf9f-ed190d5797fb,3516dc20cc11a21a,Vanessa Velasquez,58,Australia,transfer,7.72,EUR,crypto,"Diaz, Chase and Aguilar",travel,2024-10-09T22:49:38,True,failed,tablet,155.66.237.154,Canada
+889f0711-2ab8-4bd3-88c7-633a45405f97,718dbe9e0f4f93e5,Linda Brown,47,UK,deposit,149.08,GBP,credit_card,Serrano-Oliver,electronics,2024-09-02T13:19:30,False,pending,tablet,86.122.177.189,Germany
+4dfb42c6-88cf-446d-af8b-0e98be5f8f05,66fe3667006bca9b,Donna Smith,41,France,withdrawal,94.62,GBP,credit_card,Morales-Perez,clothing,2025-07-13T20:07:55,False,failed,desktop,39.134.172.43,Australia
+1f0acbc3-bb8b-4828-b266-d140a97cc3cf,c53a8bbb01f6893a,Cynthia Mccarty,69,Australia,transfer,13.33,USD,debit_card,Fuller Group,groceries,2024-08-10T16:26:21,False,completed,desktop,211.191.41.7,Australia
+0ee2b4cb-26eb-4c52-86b0-bbd04503294b,c67d15af20107823,Donna Burns,43,Canada,purchase,25.26,CAD,credit_card,Tyler-Lopez,clothing,2025-06-05T17:33:24,False,completed,desktop,186.52.109.68,Germany
+e4161b5f-81fd-4646-9957-debba3e865ca,3e0a941e39064020,Brittany Miller,74,France,purchase,11.15,EUR,debit_card,Henry PLC,travel,2025-02-08T10:14:04,False,pending,desktop,15.114.212.0,France
+fe44b060-79c1-43e5-9e7d-a8c7a8ea91c8,2927aeb8aef73e54,Hayden Nelson,58,USA,purchase,49.7,AUD,crypto,"Diaz, Salazar and Chandler",electronics,2024-11-24T23:06:07,False,failed,mobile,215.141.220.30,UK
+28e0c08d-af86-4702-8de9-ba44ed0bdf2b,82b6e205329d024f,Katherine Thompson,35,UK,purchase,228.77,AUD,debit_card,Lam-Pacheco,groceries,2024-12-11T06:32:04,False,pending,tablet,122.52.6.179,UK
+afad7538-f851-423b-9471-f2883c9dfb5e,8300e12d10e12c6f,Brenda Jones,34,UK,transfer,12.45,USD,debit_card,Garcia LLC,groceries,2025-02-20T15:25:11,False,failed,tablet,167.28.216.120,USA
+0402fce6-339c-4629-9781-64e066ad37dd,d581ed942fedca03,Wayne Price,43,Canada,transfer,116.29,GBP,bank_transfer,Hammond-Taylor,travel,2025-05-09T06:02:06,False,completed,mobile,223.114.18.90,Japan
+45eb0cef-b323-4857-96f0-b3436bd6986d,08294bd3216ccda1,Christine Hardy,35,Japan,purchase,24.65,AUD,debit_card,Morales-Perez,clothing,2024-11-15T15:41:59,False,failed,tablet,8.191.22.218,UK
+9c6a2950-0116-4dff-a47d-b53a662380b5,c16840c8f199623e,Jesse Austin,62,Germany,purchase,16.62,AUD,paypal,Duncan-Ross,travel,2024-07-30T00:55:31,False,pending,tablet,50.168.84.247,Japan
+9183685e-3304-413f-b4f3-cfc35d4e997f,8c870fb2bdd7868c,Christopher Wyatt,55,Germany,purchase,46.5,AUD,crypto,Garcia-West,health,2025-07-07T23:53:29,False,completed,tablet,182.254.5.102,USA
+104b0b6f-8f01-40de-93a4-21802b7b2ad7,3444cd002bd69b5c,Tamara Reed,59,Japan,withdrawal,11.56,USD,bank_transfer,"Flores, Woodward and Wagner",groceries,2024-12-14T03:37:50,False,completed,mobile,156.16.175.230,Germany
+a6bf8623-c111-4998-9b6c-b20d0afaf228,ee18e712f9378408,Kimberly James,68,Japan,purchase,23.8,AUD,paypal,Garcia-West,health,2024-12-26T20:12:01,False,failed,tablet,145.223.17.26,Germany
+136821fd-ff65-4091-b99e-0408759c561e,a55fa98c973653c7,Victoria Hanson,45,France,refund,9.05,USD,bank_transfer,Serrano-Oliver,health,2024-11-18T14:46:57,False,pending,mobile,18.164.235.216,Australia
+94f4fae6-3349-484b-97ae-5ead4a4fb51a,edd55c890e536a77,Stephanie Morales,30,Japan,withdrawal,1040.12,GBP,debit_card,Carter Group,groceries,2025-02-01T21:42:36,False,completed,desktop,117.136.157.185,France
+aabfbd34-6974-4260-abdb-0ac51b2732de,2aadcd7a10decf0e,Mary Thomas,22,Germany,withdrawal,57.56,USD,paypal,"Flores, Woodward and Wagner",travel,2025-06-12T03:16:51,False,failed,desktop,208.142.65.60,UK
+9c18c834-4a2a-40c4-9490-d82e355f61bd,8cc0d62966382e19,Glenda Myers,67,Canada,refund,19.11,AUD,credit_card,George Ltd,electronics,2025-02-23T04:55:29,False,failed,desktop,44.185.96.76,USA
+e112c4e9-3fb5-4084-83a7-a271c06ca438,a66d10edf41252e6,Kelly Michael,18,Australia,purchase,75.26,AUD,crypto,Lozano-Gonzalez,electronics,2024-09-07T05:34:23,False,failed,mobile,62.17.166.62,USA
+f1126efe-270d-401c-9d7e-7ccfe9c74971,75e46e24100c1725,Mrs. Renee Myers,42,Canada,transfer,46.13,USD,paypal,Garcia-West,clothing,2025-06-13T03:28:10,False,pending,desktop,117.204.114.177,Germany
+d5726dab-f4b5-41b9-9c1a-26aff6da06ac,1bfa5e3ead23689e,Rodney Mills,25,UK,transfer,39.19,USD,bank_transfer,Garcia-West,electronics,2025-01-28T20:11:57,True,completed,tablet,153.82.52.23,Japan
+153e7f5e-ffff-4dfb-bbe3-e9f2c093d230,82fc861c7e95babd,Yvonne Moody,32,UK,refund,137.17,EUR,paypal,Rodriguez-Webb,groceries,2025-06-04T20:46:49,False,completed,desktop,128.20.64.5,Canada
+860d5359-44c1-4074-9859-1fca59578ae2,bf7b169681540988,Tyler Sanchez,23,Australia,refund,170.08,EUR,credit_card,Parker PLC,groceries,2024-08-03T08:29:38,False,failed,desktop,96.46.79.186,Germany
+8f2597ba-6c63-47ba-b71b-7c442361664c,77aab47038494a47,Theresa Whitney,59,USA,refund,24.64,AUD,credit_card,Lozano-Gonzalez,electronics,2025-03-31T16:35:37,False,completed,mobile,191.69.184.155,UK
+a1156ad9-5dcf-4433-bb13-50b558e8b914,77aab47038494a47,Theresa Whitney,59,USA,deposit,23.02,JPY,bank_transfer,Allen LLC,travel,2025-02-18T00:15:28,False,pending,desktop,30.96.43.229,Australia
+33a6a50a-49c5-4e77-8b4d-6f0a5cfb75ec,244b5124c8490968,Kimberly Romero,34,Japan,purchase,36.14,EUR,debit_card,"Diaz, Chase and Aguilar",travel,2025-03-23T08:38:20,False,completed,desktop,174.229.176.251,Germany
+ea2185ca-da7f-4d1d-80dc-ae51a10292e6,e7e70666d7ee038f,Matthew Hale,50,Germany,transfer,1.73,AUD,credit_card,Prince-Smith,health,2025-06-16T14:38:50,False,failed,mobile,171.109.145.125,Japan
+ceba3478-be1d-4ffc-b7f6-0dab2fea8981,a59bf44642d3ad42,Ashley Bishop,21,Australia,transfer,5.62,AUD,crypto,Larson-Brown,entertainment,2025-07-04T05:13:24,True,failed,tablet,194.120.148.153,France
+87e9266a-81bd-467d-abc7-267bb0f916fa,e62fbc73717451d9,Thomas Crawford,64,Germany,withdrawal,424.25,AUD,paypal,"Shields, Walker and Tyler",travel,2024-12-22T02:44:23,False,failed,tablet,150.122.10.242,Japan
+144eee46-5374-4817-9433-a6cbececbe4a,ac6d47ffa3255be2,Dr. Daniel Hughes,75,France,purchase,643.84,EUR,debit_card,Fuller Group,clothing,2025-03-30T11:06:53,False,pending,desktop,6.78.147.102,France
+74c8dbca-599b-4e78-9d2b-0e20c367fb6b,1e78d9414c8effec,Lisa Nichols,69,USA,transfer,37.58,JPY,paypal,Brooks-Rogers,entertainment,2025-04-01T09:28:28,False,pending,mobile,152.34.178.234,USA
+442473de-fd91-4043-b999-a417f719c9c9,e2b78eec195dc5d9,Christopher Brown,31,UK,withdrawal,129.65,JPY,bank_transfer,"Mcknight, Solis and Lewis",electronics,2025-04-02T13:30:10,False,pending,desktop,48.8.108.153,Australia
+37eac0b0-5244-4766-a121-c8f78658d853,aefba2684c669e74,John Perez,52,Germany,withdrawal,87.08,EUR,credit_card,"Smith, Joseph and Banks",electronics,2025-02-07T15:27:21,False,completed,mobile,201.115.196.114,USA
+e5f77b3e-3174-4e62-85fb-892d4e44fd87,f33918d764b92e1d,Mr. Mark Silva,53,France,deposit,5532.09,JPY,paypal,Tyler-Lopez,health,2024-12-21T06:23:22,False,pending,desktop,29.44.175.167,France
+0d5c396a-90c0-46f2-8840-108874cea051,ac6d47ffa3255be2,Dr. Daniel Hughes,75,France,refund,292.76,JPY,bank_transfer,Carter Group,entertainment,2025-03-28T00:26:19,False,failed,tablet,107.22.59.254,Canada
+2481d9c0-1195-4ac8-83c7-e6dd05461895,45d5eda345d1bba8,Riley Adams,35,Germany,withdrawal,45.07,AUD,credit_card,Brooks-Rogers,electronics,2024-10-10T02:10:09,False,failed,desktop,46.126.232.56,USA
+40a22239-8b34-4b11-af90-03039d199a79,9ff4eb1c6a4d1701,James Kirk,74,Japan,deposit,13.02,USD,paypal,Duncan-Ross,clothing,2025-06-23T06:32:13,False,failed,tablet,43.183.254.250,Japan
+160959ee-8644-4c4c-b3a0-2b5ed847d9b0,81af3edb3c839d6d,Jamie Johnson,47,France,withdrawal,4.91,JPY,credit_card,Jackson Group,clothing,2024-10-10T11:08:38,False,pending,mobile,222.48.80.240,Canada
+9e724008-33ab-44ad-be86-5667008105cc,75e46e24100c1725,Mrs. Renee Myers,42,Canada,refund,74.08,EUR,paypal,Duncan-Ross,health,2025-05-02T20:05:54,False,failed,mobile,137.115.95.0,USA
+099736d8-386d-4cd8-a0d9-27979a2bc717,0178cd1f9cd700ce,Steven Riddle,66,Canada,withdrawal,17.56,JPY,bank_transfer,Serrano-Oliver,clothing,2025-01-31T12:10:50,False,completed,tablet,181.5.167.191,Japan
+33e0d6bc-2ccc-4a79-8d25-05b01a27030c,c353841d5c159051,Noah Anderson,73,USA,purchase,6.47,JPY,crypto,Ortiz-Johnson,entertainment,2024-10-22T08:12:33,False,completed,tablet,221.187.176.75,Germany
+5fd8a9f1-ded5-4a4e-ab64-751aa5d8ad79,718dbe9e0f4f93e5,Linda Brown,47,UK,refund,20.7,EUR,debit_card,Brown Group,entertainment,2025-02-23T12:39:49,False,pending,tablet,160.43.112.94,USA
+b75736a1-043c-43dc-87c9-2ad7cebbaf05,33652b494b6e8db8,Ethan James,41,Canada,withdrawal,10.78,GBP,crypto,"Morales, Jordan and Sullivan",travel,2025-06-25T22:54:41,False,pending,desktop,122.217.154.210,Japan
+b0d0274a-c153-41ef-91af-7ddc6df0ebec,c12f09953e81046c,Mr. Jeremy Gonzalez,55,Canada,refund,685.89,AUD,bank_transfer,Ramirez Ltd,entertainment,2025-02-05T11:04:05,False,failed,tablet,24.220.96.49,France
+e987fbac-c713-4502-934d-a0d8eefb114b,80ded0a7d5e0cb2d,Steven Moyer,22,USA,deposit,204.89,GBP,debit_card,Rodriguez-Webb,health,2025-05-03T20:11:11,False,pending,tablet,69.207.125.174,UK
+00e01edb-4724-480e-a23a-00779310d342,5c0635be9a3c2e9d,Philip Durham,32,Germany,refund,53.95,AUD,crypto,Henry PLC,groceries,2024-07-29T21:51:43,False,pending,tablet,199.23.102.234,France
+a03c9509-c148-4383-9c62-bf353cd2ae63,05337f2077d7f85d,Jose Stark,32,Japan,deposit,502.66,AUD,crypto,"Smith, Joseph and Banks",health,2025-07-14T12:55:55,False,failed,desktop,124.216.42.15,Japan
+b09706f1-ecce-407a-bed6-ce2bf2562e1f,7ae204a568643db3,Billy Powell,56,Japan,purchase,61.32,USD,crypto,Avila-Bradford,clothing,2024-12-12T03:55:38,True,completed,mobile,154.79.169.218,USA
+9fd6882f-9176-4511-82b7-74ae90347221,7f7c9c4743259366,William Ruiz,23,France,refund,15.0,CAD,paypal,Williams PLC,electronics,2025-02-03T19:53:00,False,pending,mobile,92.11.81.131,Japan
+b18f9363-d6f9-4d04-8428-eedb01ae5390,2f0a5bfdfeecaa93,Jason Zuniga,25,Japan,deposit,536.3,EUR,credit_card,Garcia-West,entertainment,2025-07-14T20:45:51,False,failed,tablet,151.179.152.97,Canada
+73b0a671-b72e-42e4-8582-a45782bc538e,7b97e0be299b04c5,Pamela Davis,72,Canada,deposit,122.53,JPY,bank_transfer,Larson-Brown,groceries,2025-05-29T12:26:50,False,completed,desktop,121.161.55.56,UK
+81a6ee2f-0577-4688-a8f4-2a3047612770,33652b494b6e8db8,Ethan James,41,Canada,withdrawal,11.52,USD,paypal,Morales Inc,health,2024-12-19T00:05:05,False,failed,desktop,70.101.47.107,France
+617ba7de-0bf0-4d61-90ee-bc36b1de2675,7b97e0be299b04c5,Pamela Davis,72,Canada,transfer,41.04,AUD,crypto,Hays-Solomon,clothing,2024-11-05T07:46:06,False,completed,desktop,76.174.27.225,France
+7cb8fc40-2888-43d9-a2de-ae9d4e8b9da4,42ae2d5e2b8f0083,Kendra Olson,28,Germany,refund,14.68,GBP,credit_card,Ramirez Ltd,entertainment,2025-05-29T05:46:19,False,completed,desktop,131.148.248.107,UK
+2fa3154c-1d71-470d-94ef-82885ab34ef2,5e0190cd3f9de295,Susan Beck,36,Australia,deposit,6.86,GBP,paypal,Goodwin LLC,groceries,2024-09-04T19:25:03,True,pending,tablet,45.116.105.240,UK
+238c07d5-c85c-49f9-9dcd-31f60f71e3df,a66d10edf41252e6,Kelly Michael,18,Australia,purchase,219.04,JPY,debit_card,"Ford, Dorsey and Alvarado",health,2025-03-26T23:34:44,False,failed,desktop,177.156.222.24,Canada
+5629ab54-594b-4de7-98d0-81689b995cef,a689bb0993547dc5,Corey Jones DDS,38,Australia,deposit,957.31,USD,crypto,"Jones, Francis and Mitchell",groceries,2025-01-25T23:34:12,False,completed,tablet,220.187.231.63,Canada
+8dc71111-7485-4070-903a-01251ac7de00,1af4811557b604eb,Kristen Glenn,45,USA,deposit,6.7,JPY,debit_card,Ramirez-Gates,travel,2024-12-28T15:35:54,False,completed,mobile,58.117.168.156,Germany
+3c231d3e-2e8f-4aee-a25b-7cb69a2176d9,7be21778db08f8f9,Jasmine Gibson,23,Australia,transfer,127.03,CAD,paypal,Tyler-Lopez,entertainment,2024-10-05T21:10:36,False,failed,tablet,109.7.31.113,Canada
+db06e743-868a-4757-a2f4-faac36f48cfb,82ea76d55d802f16,Joseph Berry,19,Japan,purchase,20.57,GBP,paypal,"Shields, Walker and Tyler",entertainment,2024-12-15T23:03:38,False,completed,mobile,124.70.234.65,Germany
+18787889-5a9f-4fd6-94e5-13fa3763fd44,53fb4ad2c2cbc763,Mary Warner,58,UK,transfer,26.29,USD,bank_transfer,Avila-Bradford,groceries,2025-01-27T16:15:46,False,pending,mobile,112.38.40.127,Australia
+30f69273-cae3-4201-8971-c0e4b2b74e42,8c783345c6c8f5cd,Bradley Miller,69,Canada,transfer,22.45,JPY,crypto,"Mcknight, Solis and Lewis",travel,2025-07-01T13:42:19,True,failed,mobile,45.98.238.19,Australia
+96e1ffa2-c304-4d6c-8205-cbf8f9081e50,cab4b02147bae504,Robert Hatfield,60,UK,deposit,14.94,GBP,credit_card,Carter Group,entertainment,2024-10-04T15:47:32,False,failed,mobile,138.176.88.57,USA
+ffe90b01-7004-4642-ac9c-b2a8a1b11d40,977e73656e8bc592,David Ferguson MD,23,Germany,refund,58.72,USD,bank_transfer,Tyler-Lopez,entertainment,2025-04-02T19:48:11,False,failed,desktop,25.196.56.45,Australia
+090b66d1-db68-4684-a61f-d06b896719d6,82fc861c7e95babd,Yvonne Moody,32,UK,purchase,15.7,EUR,debit_card,"Jones, Francis and Mitchell",groceries,2024-12-14T16:06:36,False,completed,mobile,197.117.130.65,USA
+0fe350d1-35ec-4d96-b75d-d8b8702d7cae,77c033f1e67c252b,Austin Snyder,39,Canada,transfer,81.92,JPY,crypto,Brooks-Rogers,groceries,2025-07-07T17:37:38,False,pending,tablet,16.174.10.96,USA
+5616c9e6-42c7-4952-a1fe-fa53236da706,08294bd3216ccda1,Christine Hardy,35,Japan,withdrawal,50.63,EUR,paypal,Allen LLC,electronics,2024-10-30T17:13:07,False,failed,tablet,190.68.28.6,USA
+e6f6ab23-fa3d-4725-8516-d1b53d33adf4,8c870fb2bdd7868c,Christopher Wyatt,55,Germany,purchase,38.15,AUD,crypto,Bryant-Smith,groceries,2024-10-20T15:04:53,False,completed,desktop,193.141.80.198,USA
+fde1716d-743a-4a54-81df-387271713a88,53fb4ad2c2cbc763,Mary Warner,58,UK,transfer,13.99,CAD,crypto,Daugherty PLC,travel,2024-12-14T09:42:05,False,failed,mobile,28.183.118.168,USA
+11393caa-bfc9-4a7e-9c31-3ea1bca47cd7,d831cfceb9a491a3,Christopher Snow,62,France,refund,22.99,GBP,crypto,Ramirez Ltd,travel,2025-06-01T19:13:49,False,failed,desktop,206.93.128.130,UK
+4fa5006e-c039-4c91-997c-8bc6fbaefb3f,c67d15af20107823,Donna Burns,43,Canada,refund,169.54,AUD,paypal,"Shields, Walker and Tyler",groceries,2024-08-21T05:43:12,False,completed,tablet,147.34.25.166,Japan
+8519ef45-5301-4ada-b4db-7a257f6e54fc,09b32f4e94745a3f,Thomas Guzman MD,38,UK,refund,115.74,USD,credit_card,Hoffman Inc,entertainment,2025-06-07T01:13:32,False,failed,mobile,167.219.179.7,USA
+f1954aea-0d19-4bcc-9a3f-05abd371ecc5,84d68aeb51eb41be,Stephen Powell,30,Japan,refund,12.6,EUR,paypal,"Shields, Walker and Tyler",entertainment,2025-05-29T20:06:58,False,completed,mobile,36.104.104.139,UK
+b70c40ea-aff9-4b40-abe5-b702a30cb697,244b5124c8490968,Kimberly Romero,34,Japan,transfer,63.37,GBP,debit_card,Brown Group,entertainment,2025-05-30T21:57:52,False,failed,desktop,43.38.32.149,USA
+cde53f9f-8b9e-4d11-840f-2872e64d939c,82fc861c7e95babd,Yvonne Moody,32,UK,deposit,168.52,AUD,credit_card,Bryant-Smith,groceries,2024-09-26T09:18:50,False,failed,tablet,11.114.98.16,Canada
+27c8b1df-c5f6-4d7e-a70b-7fa85bd8bc6d,a689bb0993547dc5,Corey Jones DDS,38,Australia,transfer,4.46,AUD,paypal,"Shields, Walker and Tyler",clothing,2025-01-29T23:44:38,False,failed,mobile,223.160.85.203,UK
+c63fdd6e-9689-4ce1-b1a3-c2b36542af1a,9526eee5caca2be7,Nicole Stanley,79,Australia,transfer,123.35,CAD,bank_transfer,Rodriguez-Webb,health,2024-08-02T04:58:53,False,failed,mobile,217.255.48.162,Germany
+4a6dcefc-da85-4d40-a208-2cc20ffd9c96,9cc7b788cb3d8c82,Tiffany Banks,59,Germany,deposit,20.21,CAD,paypal,"Morgan, Page and Russell",clothing,2024-12-01T10:49:00,True,completed,mobile,24.152.62.80,Australia
+8e8734e6-1f90-4bff-a5f2-db2c519895d6,1cdf24ea265a1099,Sherry Stevenson,42,France,withdrawal,128.5,CAD,paypal,Morales-Perez,health,2025-06-06T10:07:49,False,pending,desktop,27.28.117.202,Australia
+c50be0c4-bc72-49c1-bd74-b3047bb4ea4c,42ae2d5e2b8f0083,Kendra Olson,28,Germany,transfer,17.38,JPY,paypal,Garcia-West,clothing,2025-01-20T10:16:31,False,completed,desktop,156.232.139.119,Germany
+18fd4e25-3b0b-45eb-822e-72662df386b7,c12f09953e81046c,Mr. Jeremy Gonzalez,55,Canada,deposit,3.64,AUD,debit_card,Henry PLC,electronics,2024-11-30T00:36:40,False,completed,tablet,123.9.55.136,Canada
+a211dcef-99dd-4a90-b6fc-c4cebcf8f44a,0365db1b96573654,Morgan Rivers,75,France,purchase,4.75,EUR,crypto,Carter Group,entertainment,2024-11-02T14:33:51,False,completed,tablet,35.12.62.77,France
+b401fcb2-73a0-4eb1-b8fb-2278745a46f2,e8cdbad60dc1e84c,Danielle Fletcher,80,Germany,deposit,58.68,AUD,crypto,Carter Group,clothing,2024-08-28T20:01:15,False,completed,tablet,85.47.219.66,Germany
+14f88bcb-f436-4b05-b158-59cb7e27901d,772c83953f8abccf,Robert Miller,34,France,transfer,80.61,JPY,debit_card,Serrano-Oliver,electronics,2025-04-28T16:00:57,False,failed,mobile,22.224.95.139,Germany
+96f39ea4-25bf-40ac-bf39-fa100241ac62,7be21778db08f8f9,Jasmine Gibson,23,Australia,refund,14.06,GBP,crypto,Daugherty PLC,entertainment,2025-05-10T10:44:34,False,completed,mobile,66.234.10.89,Japan
+0118e0c3-1e33-4c23-9309-fc789ea160cf,9cc7b788cb3d8c82,Tiffany Banks,59,Germany,deposit,142.29,AUD,debit_card,Ortiz-Johnson,groceries,2025-01-31T00:00:32,False,pending,mobile,177.167.24.219,Japan
+ff6e8482-6212-4653-b4dc-ea9ada1998a9,1af4811557b604eb,Kristen Glenn,45,USA,transfer,4.52,USD,paypal,Brown Group,clothing,2024-10-22T08:55:08,False,pending,desktop,17.167.145.129,UK
+6f752075-4660-4f35-8057-049c02c8b4f0,d831cfceb9a491a3,Christopher Snow,62,France,withdrawal,49.45,AUD,credit_card,Bender and Sons,electronics,2024-09-28T23:09:38,False,failed,tablet,82.177.196.222,USA
+324bcab9-3893-4bb2-874e-9349fb8d536e,5e0190cd3f9de295,Susan Beck,36,Australia,transfer,8.88,JPY,crypto,"Poole, Martin and Daugherty",travel,2025-01-08T16:39:39,False,pending,tablet,188.99.71.229,France
+3cb097fc-a974-44e8-b9ce-e310e26b1196,e7e70666d7ee038f,Matthew Hale,50,Germany,purchase,20.54,EUR,crypto,Brooks-Rogers,entertainment,2025-02-07T10:48:08,False,pending,desktop,129.181.198.55,Canada
+d06728c1-d665-4dc6-8074-4f5c9d84497d,05337f2077d7f85d,Jose Stark,32,Japan,deposit,58.62,GBP,credit_card,"Mcknight, Solis and Lewis",clothing,2025-03-16T14:43:56,False,failed,tablet,140.57.51.203,France
+11ac3af1-9588-413d-b06e-624c128bf63d,5e0190cd3f9de295,Susan Beck,36,Australia,refund,15.02,GBP,debit_card,"Diaz, Salazar and Chandler",entertainment,2025-04-28T16:05:14,False,completed,tablet,83.22.54.227,UK
+6cb582b2-17ad-4586-80ea-1c58ce17e0c9,2b3538f663837972,April Moore,56,Canada,withdrawal,30.67,USD,paypal,Ortiz-Johnson,health,2025-06-30T02:46:54,False,completed,tablet,188.29.128.78,Japan
+a9b52235-a4ba-4c3d-aaaf-f00d3845baf0,ec18375130d9b273,Julie Munoz,69,UK,withdrawal,247.01,USD,credit_card,Morales-Perez,entertainment,2024-09-04T11:57:13,False,completed,tablet,110.58.83.61,UK
+5e32f4b9-23c2-4d43-832b-ad41dd9fd488,11760e2b6f925fb1,Jennifer Gallegos,70,USA,purchase,22.98,USD,crypto,Padilla LLC,groceries,2024-08-06T11:32:04,False,failed,desktop,13.58.244.243,UK
+30f3d3d5-e461-40c2-ac11-4968361b698b,3ae6f92455717996,Amy Mckenzie,33,Japan,deposit,191.24,AUD,credit_card,Brown Group,groceries,2024-10-21T10:29:54,False,completed,desktop,166.231.235.119,Japan
+d0bc46fa-4ab6-4d9e-bbcd-5e8b1268e5a1,f33918d764b92e1d,Mr. Mark Silva,53,France,withdrawal,10.03,GBP,bank_transfer,"Smith, Joseph and Banks",entertainment,2024-10-15T06:37:50,False,failed,mobile,183.223.92.170,UK
+4061d980-5840-4721-a469-78eae508f9e1,8c870fb2bdd7868c,Christopher Wyatt,55,Germany,deposit,120.87,AUD,paypal,Allen LLC,groceries,2025-03-30T04:42:05,False,failed,tablet,201.45.55.30,UK
+8b745675-d7b5-42f9-a7cb-48d4ff12d42d,1af4811557b604eb,Kristen Glenn,45,USA,refund,474.54,GBP,bank_transfer,Garcia-West,electronics,2024-08-31T09:40:26,False,failed,tablet,1.182.39.213,Germany
+5ff41217-4ea5-4ff3-b8a5-9feb25bf2b17,77aab47038494a47,Theresa Whitney,59,USA,refund,1.34,GBP,crypto,Ortiz-Johnson,entertainment,2025-04-04T11:25:56,False,failed,tablet,22.78.154.155,USA
+5886bdbe-82cd-4807-9677-5e8310c3e1f2,2f0a5bfdfeecaa93,Jason Zuniga,25,Japan,purchase,16.52,AUD,credit_card,Morales-Perez,entertainment,2025-02-24T20:51:50,False,completed,tablet,168.140.214.212,Germany
+683c43b5-8f84-4ab8-a402-d7437f457b0c,e7e70666d7ee038f,Matthew Hale,50,Germany,withdrawal,129.75,CAD,crypto,Duncan-Ross,health,2025-04-15T07:59:49,False,completed,desktop,36.37.158.153,Germany
+1f18671b-26d0-4c54-bd7f-c64665d3e7e7,0178cd1f9cd700ce,Steven Riddle,66,Canada,withdrawal,40.26,AUD,paypal,Daugherty PLC,health,2025-01-27T01:16:43,False,pending,mobile,123.190.19.110,France
+398480fc-4261-43a4-b527-11f4b377766e,00f212a760aa541a,Brian Welch,52,USA,withdrawal,95.27,USD,debit_card,"Bell, Harris and Tyler",entertainment,2024-09-22T19:53:29,False,pending,desktop,81.35.199.99,Australia
+2cdfa4c0-b722-4f86-80e5-2c6a34ffe556,9526eee5caca2be7,Nicole Stanley,79,Australia,purchase,22.07,JPY,credit_card,"Diaz, Chase and Aguilar",entertainment,2025-04-28T17:41:46,True,failed,mobile,59.250.26.95,France
+a972865e-5399-4b2d-9378-eb9fdc33a417,ee18e712f9378408,Kimberly James,68,Japan,transfer,62.17,USD,bank_transfer,Williams PLC,travel,2024-09-23T06:50:36,False,pending,desktop,140.186.140.50,Canada
+070ca3eb-6b20-4b27-a112-e77b4a59801a,5de5eb4abe50f40a,Anthony Raymond,22,UK,withdrawal,43.23,JPY,crypto,"Morales, Jordan and Sullivan",health,2024-08-13T15:26:02,False,completed,desktop,138.212.205.29,Canada
+cb28c7ae-51e4-43af-acff-8d5124d9d8dd,9ff4eb1c6a4d1701,James Kirk,74,Japan,deposit,314.72,CAD,bank_transfer,"Flores, Woodward and Wagner",entertainment,2025-01-30T04:01:50,False,pending,tablet,135.66.36.141,UK
+ecd8aa85-6dbe-4bbd-9d2f-99de7ad80363,fc69bffc08cb4410,Jeffery Elliott,32,Australia,withdrawal,79.97,AUD,debit_card,"Diaz, Chase and Aguilar",health,2025-01-26T10:20:28,False,failed,mobile,162.112.151.230,Australia
+f61f071d-8a39-4910-aed5-8dc88e6fdeb4,7bab8232f28e10f5,Barbara Rivera DDS,19,France,refund,90.6,CAD,crypto,"Flores, Woodward and Wagner",entertainment,2025-05-29T18:44:36,False,failed,mobile,67.3.195.0,Germany
+2cfb5f9d-7d30-4012-89a7-7a70db661e1e,ec18375130d9b273,Julie Munoz,69,UK,withdrawal,29.44,USD,credit_card,Williams PLC,travel,2025-01-24T01:42:14,False,pending,mobile,97.60.48.243,Australia
+f073333a-dd96-4cc7-9c40-a67688fb6387,1af4811557b604eb,Kristen Glenn,45,USA,transfer,26.27,USD,debit_card,Hays-Solomon,electronics,2025-02-06T02:07:13,False,pending,tablet,13.255.217.13,Canada
+dffe20f5-5f5d-4624-9c22-ea6dcb67b352,e7e70666d7ee038f,Matthew Hale,50,Germany,deposit,28.54,JPY,paypal,"Ford, Dorsey and Alvarado",clothing,2025-07-16T11:03:03,False,pending,mobile,82.57.26.220,Japan
+56d38b96-5527-4ba8-8d9a-052736445054,718f2238b0eae57e,Emily Wilson,39,USA,deposit,98.66,USD,paypal,Hays-Solomon,entertainment,2024-08-29T19:19:18,False,completed,tablet,27.164.64.136,UK
+08db8b1d-b86d-431d-919c-a1878e0d5fef,c16840c8f199623e,Jesse Austin,62,Germany,purchase,29.04,AUD,paypal,Morales Inc,clothing,2025-07-15T22:56:36,False,pending,desktop,95.251.86.85,UK
+f4087209-c246-46cc-a9a4-eb3a05747abc,bfa4523aa6574f66,Robin Miller,24,Germany,withdrawal,84.32,GBP,bank_transfer,Prince-Smith,electronics,2025-07-17T21:31:01,False,completed,mobile,197.168.82.21,France
+fce5dec4-0d11-4de1-8e8b-2179705e849a,9ff4eb1c6a4d1701,James Kirk,74,Japan,transfer,1227.95,CAD,crypto,Lam-Pacheco,groceries,2025-03-08T11:03:09,True,completed,desktop,92.122.226.132,France
+6f1f01fe-f248-4f6f-947a-fa7c660915f7,08294bd3216ccda1,Christine Hardy,35,Japan,deposit,201.68,GBP,credit_card,"Smith, Joseph and Banks",entertainment,2024-10-11T02:03:44,False,completed,tablet,83.121.63.106,Canada
+b98f7d24-95b9-4220-8b01-ec84e583bd0b,b8a698125e561e8c,Samantha Perez MD,74,Australia,transfer,33.48,JPY,credit_card,Hendricks PLC,entertainment,2025-01-28T19:11:50,False,failed,desktop,100.160.223.82,Australia
+ca0736ab-8ba0-49b3-9055-65f9c663765b,ee18e712f9378408,Kimberly James,68,Japan,withdrawal,330.9,EUR,bank_transfer,Carter Group,clothing,2024-09-15T12:16:17,False,pending,tablet,39.99.14.214,France
+df0f7256-44e9-44d9-a903-c70e0709203d,75e46e24100c1725,Mrs. Renee Myers,42,Canada,deposit,29.6,USD,credit_card,Hendricks PLC,electronics,2025-05-13T01:08:21,False,completed,tablet,190.167.62.29,Germany
+a7ddac13-f8b6-4b14-a7bc-3d90b6489194,a55fa98c973653c7,Victoria Hanson,45,France,refund,2.57,CAD,paypal,Prince-Smith,entertainment,2024-12-15T13:30:15,True,pending,mobile,50.120.235.98,Germany
+5bd9baa8-b33b-447d-8531-5a66e8668709,ec01fa6e538369d6,Alex Kerr,58,France,purchase,12.04,AUD,bank_transfer,Hammond-Taylor,electronics,2025-03-26T08:07:46,False,completed,desktop,116.29.144.236,Japan
+9675e237-4744-487d-9af2-c69c8cc5f45d,80ded0a7d5e0cb2d,Steven Moyer,22,USA,transfer,3.3,CAD,debit_card,"Poole, Martin and Daugherty",health,2025-06-21T20:31:52,False,completed,desktop,93.169.99.108,France
+ece7e9e0-9843-42a5-84c5-f2367fcd046c,c353841d5c159051,Noah Anderson,73,USA,refund,32.22,GBP,debit_card,Hendricks PLC,clothing,2025-05-05T05:03:28,False,completed,tablet,115.154.55.238,Japan
+158a9151-697a-4576-ae79-8999d4537d5c,bfa4523aa6574f66,Robin Miller,24,Germany,refund,56.13,USD,credit_card,Allen LLC,health,2024-10-26T18:45:49,False,completed,tablet,211.164.221.223,USA
+a2e89036-519a-4607-a263-8643b2c0936f,13dd2268e14de24e,Veronica Alvarado,61,Japan,withdrawal,674.96,CAD,paypal,Fuller Group,entertainment,2025-04-18T14:45:58,False,pending,mobile,94.244.224.87,France
+c8705cbf-b482-479e-a923-70cca4dd669b,3e0a941e39064020,Brittany Miller,74,France,deposit,89.16,GBP,paypal,Daugherty PLC,entertainment,2025-03-24T10:09:58,False,failed,desktop,143.87.224.61,Germany
+0697296b-23e5-46b3-94cc-560c01bea554,05337f2077d7f85d,Jose Stark,32,Japan,deposit,39.3,CAD,credit_card,"Moss, Bell and Stuart",health,2025-06-25T23:15:18,False,pending,mobile,209.178.221.31,France
+b36da19d-941f-4328-ab55-a1d07ed09d3b,a55fa98c973653c7,Victoria Hanson,45,France,deposit,189.45,AUD,bank_transfer,Morales Inc,electronics,2025-01-19T13:43:47,False,pending,tablet,74.156.67.63,Canada
+a648d709-8c27-4fbe-9a22-29eb787f091f,7bab8232f28e10f5,Barbara Rivera DDS,19,France,transfer,1.98,CAD,paypal,"Poole, Martin and Daugherty",entertainment,2024-08-03T16:21:24,False,pending,desktop,35.4.152.247,France
+ebffd2ff-39df-439a-b43a-a71685b296e9,244b5124c8490968,Kimberly Romero,34,Japan,transfer,77.74,EUR,paypal,"Morgan, Page and Russell",clothing,2024-08-15T19:37:44,False,pending,desktop,120.188.226.61,UK
+47685050-af37-4447-b1e9-4d085a8816cd,08294bd3216ccda1,Christine Hardy,35,Japan,transfer,173.52,JPY,bank_transfer,Morales-Perez,entertainment,2024-12-18T19:32:20,False,completed,tablet,96.29.132.36,UK
+53ec57fa-0c3a-481b-911f-46cab400f14a,7f7c9c4743259366,William Ruiz,23,France,refund,5.94,EUR,crypto,Jackson Group,clothing,2025-04-27T20:26:40,False,failed,mobile,79.44.139.49,Germany
+eee2956a-ae85-4f66-b74c-bc268278655e,d831cfceb9a491a3,Christopher Snow,62,France,purchase,303.58,EUR,debit_card,Morales-Perez,health,2025-05-05T15:55:23,False,failed,desktop,13.81.60.196,Germany
+79fa5217-887f-49f8-88c3-b6496b73dfec,a689bb0993547dc5,Corey Jones DDS,38,Australia,transfer,90.72,JPY,paypal,"Ford, Dorsey and Alvarado",travel,2025-01-09T13:08:04,False,completed,mobile,35.164.145.86,France
+e655b4ed-2c18-4525-9d8f-86a06ac3a5b7,f16ad5a0c0393eb4,Beth Meyer,24,Canada,transfer,29.28,AUD,bank_transfer,Garcia-West,travel,2025-01-11T19:04:45,False,pending,desktop,59.226.176.3,Australia
+1995928c-77c0-412a-aaea-1ec5367ca03f,45d5eda345d1bba8,Riley Adams,35,Germany,deposit,141.06,CAD,crypto,Lam-Pacheco,electronics,2025-03-12T08:16:32,False,pending,tablet,143.158.172.182,Australia
+f136f779-a770-4ac8-b1a2-69eee5444fc6,f33918d764b92e1d,Mr. Mark Silva,53,France,refund,1645.89,AUD,crypto,"Shields, Walker and Tyler",entertainment,2024-08-30T05:33:17,True,pending,desktop,9.98.68.44,France
+c0532765-154a-45cd-8c6d-f77738e42c1b,cab4b02147bae504,Robert Hatfield,60,UK,deposit,71.72,AUD,bank_transfer,"Mcknight, Solis and Lewis",electronics,2024-12-23T08:48:44,False,pending,desktop,211.233.131.180,Australia
+d93e5c30-7974-49a9-9aa7-a10525081530,0365db1b96573654,Morgan Rivers,75,France,refund,79.23,CAD,debit_card,"Smith, Joseph and Banks",health,2025-06-17T05:19:56,False,pending,mobile,80.158.72.99,Japan
+c958a7f1-4eb7-4d09-98a8-14fa71a53ff5,e2b78eec195dc5d9,Christopher Brown,31,UK,refund,27.41,CAD,paypal,Bender and Sons,health,2024-11-14T20:47:03,False,pending,tablet,85.115.129.145,UK
+640fa087-c641-41b8-bdf3-e9cfeaa9f297,82fc861c7e95babd,Yvonne Moody,32,UK,withdrawal,15.26,CAD,paypal,Ramirez Ltd,entertainment,2024-12-28T23:20:03,False,pending,desktop,68.10.96.250,Germany
+86240226-590b-47b1-bb57-d94ac8dffad0,c16840c8f199623e,Jesse Austin,62,Germany,refund,189.71,AUD,credit_card,"Leblanc, Herring and Casey",health,2024-12-03T01:59:14,False,failed,tablet,75.25.94.36,UK
+59a1d2a1-2cf5-4682-8227-23a9e0b1461d,bd399182db5cf017,Lauren Davis,61,Japan,purchase,15.12,EUR,debit_card,Garcia-West,electronics,2024-08-25T20:59:00,False,pending,tablet,220.21.153.186,UK
+4c8ca398-cb5e-48c8-a680-bcdbfaea2997,ac6d47ffa3255be2,Dr. Daniel Hughes,75,France,purchase,60.79,USD,bank_transfer,Garcia-West,groceries,2025-07-22T09:03:43,False,completed,tablet,166.15.90.172,France
+4c919b89-15a0-405c-869a-e1d61629c487,33652b494b6e8db8,Ethan James,41,Canada,transfer,26.67,AUD,debit_card,"Bell, Harris and Tyler",travel,2025-01-01T12:02:18,False,completed,tablet,82.127.52.229,UK
+0f0d33cf-4506-4162-84da-474392c6fb63,c16840c8f199623e,Jesse Austin,62,Germany,purchase,112.0,CAD,credit_card,Bender and Sons,travel,2024-12-26T06:08:10,False,failed,desktop,81.20.5.219,Japan
+4facaf25-3853-4ba8-93dc-f29ffe6839ad,9ff4eb1c6a4d1701,James Kirk,74,Japan,withdrawal,90.06,JPY,debit_card,"Poole, Martin and Daugherty",entertainment,2025-01-19T00:59:16,False,failed,tablet,105.81.185.132,Japan
+834d7910-a663-4d3c-9e26-319e151da512,c67d15af20107823,Donna Burns,43,Canada,deposit,258.87,AUD,bank_transfer,Henry PLC,entertainment,2025-01-22T10:40:40,False,pending,desktop,212.173.107.157,France
+b3d42118-10a5-4658-ba1f-ccf79d7857b9,d8c620b9d519e440,Mr. Anthony Diaz,76,France,refund,25.41,CAD,credit_card,"Diaz, Salazar and Chandler",travel,2025-04-03T00:36:37,False,pending,mobile,2.78.68.203,Germany
+093bf0ee-390c-4258-b1a3-a50137d51674,2927aeb8aef73e54,Hayden Nelson,58,USA,deposit,36.42,CAD,debit_card,Ortiz-Johnson,entertainment,2024-07-31T08:39:07,True,pending,desktop,33.137.96.213,Canada
+7d90b9a5-1381-425b-9000-66b4fc07de99,66fe3667006bca9b,Donna Smith,41,France,purchase,12.58,CAD,bank_transfer,Hays-Solomon,clothing,2025-06-03T05:33:09,False,failed,desktop,112.151.49.84,Australia
+7e256770-95e1-4720-ac11-f4ff67f4d0b3,9526eee5caca2be7,Nicole Stanley,79,Australia,withdrawal,28.04,EUR,crypto,"Leblanc, Herring and Casey",clothing,2025-04-08T08:04:20,False,failed,desktop,108.250.229.60,Germany
+41c84f85-8bc4-4ddf-8d92-2f5b9a60c32c,1b71c25fa2c67d79,Robert Petersen,41,UK,refund,96.15,EUR,paypal,Henry PLC,clothing,2024-11-25T13:57:51,False,failed,tablet,103.85.68.132,USA
+74a8f2e2-c19f-42fe-b26f-9ec3bca3789f,53fb4ad2c2cbc763,Mary Warner,58,UK,transfer,169.95,AUD,paypal,Ramirez-Gates,groceries,2025-05-21T10:03:27,False,completed,mobile,40.107.220.165,Japan
+8b6b9b4c-f29e-4a60-9160-6abdbc71971a,c12f09953e81046c,Mr. Jeremy Gonzalez,55,Canada,transfer,13.69,EUR,credit_card,Rodriguez-Webb,travel,2024-11-15T15:39:48,False,failed,desktop,114.150.27.70,Japan
+b245f100-6743-4d4a-9fd8-c0ac3e4de856,9526eee5caca2be7,Nicole Stanley,79,Australia,transfer,201.22,USD,credit_card,Ramirez-Gates,electronics,2024-09-25T15:48:54,False,completed,desktop,151.138.132.64,UK
+e4c3f53d-44a0-4db2-bcdb-0fd792e53e3f,7f7c9c4743259366,William Ruiz,23,France,refund,417.15,USD,bank_transfer,Brooks-Rogers,electronics,2024-07-28T19:14:52,False,pending,mobile,217.248.222.34,Japan
+8612af1f-8b7e-4462-8b93-e413d822ec6d,bf7b169681540988,Tyler Sanchez,23,Australia,withdrawal,101.51,EUR,paypal,"Diaz, Salazar and Chandler",travel,2024-11-26T13:41:53,False,completed,desktop,30.22.47.234,Australia
+65c82f7f-05bd-4bdf-bdff-ad84059179a0,e2b78eec195dc5d9,Christopher Brown,31,UK,refund,911.59,EUR,credit_card,Bryant-Smith,entertainment,2025-01-12T17:13:48,False,completed,desktop,2.64.46.129,Canada
+00fe3221-5b03-4e64-81a3-be87e949e2d5,1b71c25fa2c67d79,Robert Petersen,41,UK,purchase,17.1,AUD,credit_card,"Leblanc, Herring and Casey",travel,2024-10-02T17:51:43,False,pending,mobile,79.6.31.36,Australia
+57f6fee9-4235-4b73-aed3-a0395be7354c,c353841d5c159051,Noah Anderson,73,USA,purchase,8.44,AUD,debit_card,Carter Group,electronics,2025-02-24T18:52:02,False,completed,desktop,215.234.85.24,Germany
+8382db98-9570-4231-82ac-ea48913b47c0,33652b494b6e8db8,Ethan James,41,Canada,transfer,3.79,AUD,paypal,Lozano-Gonzalez,electronics,2025-07-06T03:43:28,False,failed,tablet,100.215.178.40,UK
+529d4cee-7f1a-4d6c-82be-93b376d05fad,aefba2684c669e74,John Perez,52,Germany,transfer,514.95,CAD,bank_transfer,Jackson Group,groceries,2024-09-28T19:43:40,False,failed,mobile,181.234.13.231,Japan
+be748b13-1ea2-47da-8727-2d675fdca030,3444cd002bd69b5c,Tamara Reed,59,Japan,refund,145.7,USD,bank_transfer,Padilla LLC,groceries,2024-12-12T23:40:23,False,pending,mobile,54.112.195.206,Canada
+59de546c-d330-4663-ba7e-76641ee8d24f,82ea76d55d802f16,Joseph Berry,19,Japan,purchase,50.23,AUD,crypto,Ortiz-Johnson,health,2025-07-08T13:10:58,False,pending,mobile,14.173.113.235,Australia
+a82cf5f9-2d59-484c-acf4-6e05e1bc9881,e62fbc73717451d9,Thomas Crawford,64,Germany,refund,83.09,AUD,bank_transfer,Rodriguez-Webb,groceries,2024-09-24T07:49:54,False,failed,mobile,145.102.251.31,USA
+f8fac999-936e-4fc1-a1e7-657682a2bd7f,4f8d76abc6c5826a,James Jackson,23,France,transfer,10.09,JPY,debit_card,Garcia-West,clothing,2025-02-25T14:31:26,False,pending,tablet,176.105.26.141,Japan
+2b668535-56e7-4ba0-9757-98f37b79b94d,82fc861c7e95babd,Yvonne Moody,32,UK,transfer,2140.14,GBP,bank_transfer,"Harris, Turner and Powell",health,2025-06-12T04:47:40,False,failed,mobile,111.16.108.26,Japan
+158049a5-7b63-4219-a48f-408389b9702f,00f212a760aa541a,Brian Welch,52,USA,purchase,66.28,EUR,bank_transfer,"Flores, Woodward and Wagner",groceries,2024-10-11T07:04:04,False,pending,mobile,66.186.225.52,Japan
+678ed7b7-22f6-4d5a-acae-476d22289f55,9cc7b788cb3d8c82,Tiffany Banks,59,Germany,refund,64.33,CAD,crypto,Lozano-Gonzalez,travel,2025-02-01T13:59:54,False,failed,tablet,51.161.2.51,Canada
+ec377294-aa9b-47ef-92dc-7c0927a6198b,ec18375130d9b273,Julie Munoz,69,UK,purchase,162.17,EUR,crypto,"Bell, Harris and Tyler",groceries,2025-06-17T21:20:28,False,pending,mobile,52.134.171.90,UK
+735a6b93-87b2-4163-9d5b-7f314c640d26,6eca2a8030a0f31f,Sheila Sexton,67,Japan,deposit,112.34,GBP,bank_transfer,"Harris, Turner and Powell",entertainment,2024-12-03T17:52:40,False,failed,mobile,9.27.67.89,Japan
+34f02b15-816f-4892-87e2-53911f812323,cab4b02147bae504,Robert Hatfield,60,UK,purchase,76.39,EUR,crypto,Jackson Group,entertainment,2024-07-30T08:12:14,False,failed,mobile,82.60.251.251,Australia
+1ac28205-de45-4a91-8e25-043e427d716f,244b5124c8490968,Kimberly Romero,34,Japan,transfer,16.68,AUD,paypal,Bender and Sons,electronics,2025-05-14T04:39:03,False,failed,mobile,10.214.84.24,Germany
+a1e7eee7-7d2a-4fef-9f99-d82bdfa6cbd5,13dd2268e14de24e,Veronica Alvarado,61,Japan,refund,110.74,USD,debit_card,Jackson Group,electronics,2025-03-31T01:40:40,False,completed,mobile,59.134.185.238,Australia
+b25a8db7-f2bb-49a5-b1b6-b74da45b475d,33d4ff6b4e776d40,Abigail Hoffman,43,Japan,withdrawal,918.77,JPY,bank_transfer,Larson-Brown,entertainment,2025-07-02T10:59:45,False,pending,mobile,180.178.181.174,France
+959e364c-0db6-4619-a765-dc587e3b744d,f33918d764b92e1d,Mr. Mark Silva,53,France,purchase,410.81,AUD,credit_card,Fuller Group,electronics,2024-08-03T19:03:20,False,failed,mobile,56.65.51.57,UK
+9f6a8939-6a35-4919-836d-40564dc216b9,45d5eda345d1bba8,Riley Adams,35,Germany,deposit,595.73,CAD,bank_transfer,"Jones, Francis and Mitchell",electronics,2025-01-25T04:24:22,False,pending,tablet,143.158.197.124,Australia
+941bd129-e69a-48f8-9967-3aa998db35b3,13dd2268e14de24e,Veronica Alvarado,61,Japan,purchase,25.36,GBP,paypal,Prince-Smith,electronics,2025-03-09T20:54:14,False,completed,tablet,196.245.163.233,USA
+b51953ba-13b3-4ca1-b618-b63b3c1a145f,33652b494b6e8db8,Ethan James,41,Canada,refund,12.37,AUD,debit_card,"Leblanc, Herring and Casey",entertainment,2025-07-14T06:42:48,False,completed,tablet,33.39.83.114,France
+62ec8855-c76f-48a5-ae20-52460c08b1b7,bd399182db5cf017,Lauren Davis,61,Japan,deposit,45.21,USD,bank_transfer,Carter Group,health,2025-01-24T22:26:58,False,failed,desktop,20.154.183.252,Japan
+7d295cdd-6969-4ee3-acb0-66bf0a9adf59,a55fa98c973653c7,Victoria Hanson,45,France,withdrawal,59.36,GBP,credit_card,"Flores, Woodward and Wagner",travel,2025-06-14T06:11:18,False,failed,mobile,133.107.204.160,UK
+34ff8812-3662-4847-a23d-3ee121e7140a,5de5eb4abe50f40a,Anthony Raymond,22,UK,deposit,281.83,CAD,bank_transfer,"Flores, Woodward and Wagner",groceries,2025-06-09T17:05:15,False,pending,tablet,201.179.207.82,Canada
+a5ec89ee-7926-490d-a357-968076b8592c,24b1684acefadc04,Mrs. Barbara Walters,28,France,transfer,4.31,JPY,crypto,Ramirez-Gates,clothing,2025-06-19T06:36:48,False,failed,tablet,104.132.245.147,UK
+f1478d8c-c049-47cb-b7b6-a02e93f4d496,00f212a760aa541a,Brian Welch,52,USA,transfer,541.49,EUR,bank_transfer,Morales Inc,health,2024-12-27T05:58:01,True,pending,tablet,161.154.131.201,Germany
+abd17949-2419-46cc-8ac7-e4a6718434f0,82b6e205329d024f,Katherine Thompson,35,UK,deposit,43.08,USD,debit_card,Garcia LLC,clothing,2024-12-03T08:35:08,False,pending,mobile,82.103.184.24,Canada
+a8bd7155-8ba1-40c0-ad56-48c09222d34e,0178cd1f9cd700ce,Steven Riddle,66,Canada,transfer,28.78,JPY,crypto,Hoffman Inc,entertainment,2024-08-16T21:30:38,True,completed,desktop,74.124.203.13,France
+7a6e7955-510a-4208-a4fa-ef2a67c8bbb2,bfa4523aa6574f66,Robin Miller,24,Germany,refund,11.96,CAD,debit_card,Goodwin LLC,clothing,2025-01-17T15:00:53,False,pending,mobile,70.92.195.78,Canada
+fd112039-b1ef-49c8-b067-c83e7c0f1dd1,33d4ff6b4e776d40,Abigail Hoffman,43,Japan,withdrawal,4.56,AUD,crypto,Bryant-Smith,health,2025-02-28T04:28:23,False,pending,mobile,150.157.39.134,UK
+0207bc46-0c5f-4e3c-9be0-b2c59b4e8a1d,a689bb0993547dc5,Corey Jones DDS,38,Australia,deposit,187.68,AUD,credit_card,Garcia LLC,electronics,2025-03-31T04:33:52,False,failed,desktop,190.161.138.216,France
+6d149559-81bd-4dd2-9356-05f74d1b526b,e2b78eec195dc5d9,Christopher Brown,31,UK,purchase,60.95,EUR,paypal,"Smith, Joseph and Banks",electronics,2025-07-10T03:49:19,False,completed,tablet,65.126.177.194,Canada
+e374d48c-11a1-4594-8e8f-2915c1a4aa4a,e7e70666d7ee038f,Matthew Hale,50,Germany,deposit,7.89,AUD,credit_card,Avila-Bradford,electronics,2024-11-21T10:19:36,False,completed,desktop,114.241.13.214,Japan
+790c2eae-fb3b-4631-ab4a-e36f7b42cc22,d8c620b9d519e440,Mr. Anthony Diaz,76,France,deposit,7.83,JPY,debit_card,Larson-Brown,clothing,2024-08-25T16:51:10,False,failed,tablet,150.180.126.195,Canada
+341564cf-bf3b-4ede-b72b-65f5cd2ff75e,68f94371d14b290e,Devin Mcdonald,31,Japan,withdrawal,32.99,JPY,crypto,George Ltd,clothing,2024-10-19T15:50:46,False,pending,mobile,206.89.215.165,France
+0282e7e5-63f0-42f3-8c11-20d50c2138e1,5c0635be9a3c2e9d,Philip Durham,32,Germany,transfer,667.5,JPY,credit_card,Ramirez Ltd,electronics,2025-02-27T22:51:41,False,pending,mobile,109.37.203.123,Germany
+07b4e3a3-d20d-4b19-956c-8b3a0789cbee,08294bd3216ccda1,Christine Hardy,35,Japan,deposit,36.99,AUD,bank_transfer,Morales-Perez,clothing,2025-03-30T02:23:55,False,completed,desktop,169.24.216.94,Australia
+49c98f70-e418-4ff6-bc85-620b3dd3ec80,68f94371d14b290e,Devin Mcdonald,31,Japan,deposit,5.73,JPY,debit_card,Ramirez Ltd,entertainment,2025-02-25T15:23:26,False,completed,desktop,203.27.237.40,France
+c00d87e6-8b50-4b27-9910-1acca93b2790,6eca2a8030a0f31f,Sheila Sexton,67,Japan,withdrawal,37.77,JPY,paypal,George Ltd,electronics,2025-04-12T22:53:53,False,pending,desktop,34.245.19.70,Japan
+1b6513a9-a618-4c7e-89ef-a0bc4da89e74,fc69bffc08cb4410,Jeffery Elliott,32,Australia,refund,36.27,JPY,paypal,"Shields, Walker and Tyler",electronics,2024-11-25T02:26:32,False,completed,desktop,88.79.140.42,Canada
+aa29fce4-6ac2-4591-a5d5-826861ad1f0c,244b5124c8490968,Kimberly Romero,34,Japan,withdrawal,0.96,EUR,crypto,Duncan-Ross,clothing,2024-12-25T08:15:23,False,pending,mobile,205.110.231.88,UK
+9372a1bb-1f2a-46d6-8e54-bd403b1cc248,2f0a5bfdfeecaa93,Jason Zuniga,25,Japan,purchase,50.33,USD,credit_card,"Leblanc, Herring and Casey",entertainment,2024-10-24T01:22:13,False,pending,mobile,143.149.102.99,Japan
+a6300d06-637e-4590-a6af-b47643df1cfc,bf7b169681540988,Tyler Sanchez,23,Australia,purchase,38.61,EUR,paypal,"Harris, Turner and Powell",groceries,2025-04-15T18:43:50,False,failed,mobile,142.202.117.19,Germany
+0d15a46d-4c4b-40a0-a8a4-8163c3ef7680,977e73656e8bc592,David Ferguson MD,23,Germany,deposit,155.14,CAD,crypto,"Flores, Woodward and Wagner",travel,2025-03-01T08:58:28,False,completed,tablet,223.120.204.101,Australia
+350a7aa2-821c-4b14-8cc8-bc944fcb7d8f,a55fa98c973653c7,Victoria Hanson,45,France,purchase,874.31,AUD,bank_transfer,Prince-Smith,electronics,2024-11-28T03:31:44,False,completed,desktop,174.189.23.107,France
+37e7fedd-56d6-40fa-986a-ae3e74ae9fd6,718f2238b0eae57e,Emily Wilson,39,USA,deposit,295.85,EUR,paypal,"Shields, Walker and Tyler",electronics,2024-10-27T01:31:41,False,failed,desktop,79.248.132.69,USA
+3bd90de6-4395-4bc2-b7da-4fb9db7e313b,7be21778db08f8f9,Jasmine Gibson,23,Australia,transfer,36.48,CAD,credit_card,"Shields, Walker and Tyler",travel,2025-07-12T18:12:23,False,pending,tablet,101.107.199.120,USA
+bb8b6b1c-cae7-4115-aac2-0ad679bc5baf,2aadcd7a10decf0e,Mary Thomas,22,Germany,purchase,10.38,JPY,paypal,Ramirez-Gates,electronics,2024-12-28T14:39:11,False,failed,desktop,135.173.221.34,Germany
+7fb57c72-fb86-4b2e-ad2e-4e5c4468eb49,09b32f4e94745a3f,Thomas Guzman MD,38,UK,purchase,2591.62,JPY,credit_card,Garcia LLC,groceries,2024-11-16T16:13:58,False,failed,mobile,74.247.206.38,UK
+cbd08c7a-fde7-4aa3-a8f7-a902024a538c,82b6e205329d024f,Katherine Thompson,35,UK,transfer,59.67,AUD,paypal,Garcia LLC,clothing,2025-04-24T08:51:06,False,failed,desktop,98.57.92.227,Canada
+e1415249-e681-485a-b950-9a22743b6da1,4f8d76abc6c5826a,James Jackson,23,France,transfer,55.75,USD,bank_transfer,"Flores, Woodward and Wagner",groceries,2024-09-06T08:44:37,False,pending,desktop,168.138.70.148,Australia
+e3b611f2-9049-4a17-a56d-e9ea790dcdfe,7be21778db08f8f9,Jasmine Gibson,23,Australia,refund,52.66,EUR,credit_card,Prince-Smith,health,2025-07-07T19:38:55,False,failed,tablet,115.188.128.72,Japan
+87406f10-c3d3-4e29-a7fa-d5710b658dd8,2b3538f663837972,April Moore,56,Canada,withdrawal,73.49,GBP,debit_card,"Morgan, Page and Russell",groceries,2024-12-10T23:34:24,False,pending,desktop,59.99.242.43,France
+25fb5c49-c72a-40eb-ae71-8b3a56679771,d8c620b9d519e440,Mr. Anthony Diaz,76,France,refund,43.97,GBP,debit_card,Goodwin LLC,entertainment,2024-08-22T02:34:52,False,completed,mobile,6.48.209.162,Japan
+5960f5ad-5c07-410c-8b55-b78889de9d61,84d68aeb51eb41be,Stephen Powell,30,Japan,deposit,23.09,GBP,debit_card,"Shields, Walker and Tyler",entertainment,2024-10-27T16:14:24,False,pending,mobile,11.113.244.207,Germany
+e593e167-bc31-4423-8dfc-4007ed5d520a,09b32f4e94745a3f,Thomas Guzman MD,38,UK,deposit,24.04,CAD,credit_card,Williams PLC,health,2025-06-30T03:44:15,True,pending,desktop,133.0.113.136,UK
+8a64f11b-48d2-40f3-a620-018072aee507,4f6cf57268da9690,Tiffany Love,77,Japan,transfer,51.98,AUD,bank_transfer,Ramirez Ltd,groceries,2024-08-11T11:13:59,False,completed,mobile,114.194.120.73,Japan
+848330d7-8861-4097-a98d-e6077cab0ac2,5c0635be9a3c2e9d,Philip Durham,32,Germany,refund,24.16,JPY,credit_card,Rodriguez-Webb,groceries,2025-07-21T11:22:06,False,failed,mobile,125.223.95.189,Australia
+096e2a16-d372-4ae8-9b21-cc6a2b5b4655,3ae6f92455717996,Amy Mckenzie,33,Japan,refund,18.74,USD,debit_card,Lam-Pacheco,electronics,2024-11-08T14:29:45,False,pending,mobile,35.95.171.220,Japan
+70d8c53a-2781-46c8-beb9-b3b2f90187aa,eebbe04a788493b2,Krystal White,21,UK,deposit,64.05,AUD,bank_transfer,"Diaz, Salazar and Chandler",clothing,2025-01-21T17:37:10,False,pending,desktop,93.210.148.151,Japan
+fc063b4c-6c20-4f25-b38d-9b475db337c3,c12f09953e81046c,Mr. Jeremy Gonzalez,55,Canada,refund,37.25,USD,debit_card,"Smith, Joseph and Banks",electronics,2024-08-18T07:44:38,False,pending,mobile,220.238.83.213,UK
+5b3aee7a-5ed0-4149-a26f-91733e287525,bd399182db5cf017,Lauren Davis,61,Japan,refund,521.12,GBP,debit_card,"Mcknight, Solis and Lewis",entertainment,2024-11-17T20:51:54,False,pending,desktop,99.186.140.108,USA
+fff439ab-9cb9-4af3-9ce5-8718565cc3b5,e62fbc73717451d9,Thomas Crawford,64,Germany,withdrawal,1.02,USD,bank_transfer,Hays-Solomon,health,2025-04-29T10:37:46,False,failed,desktop,30.161.164.229,Australia
+08b38fc2-a988-49a6-b314-878f8bc1c4c0,68f94371d14b290e,Devin Mcdonald,31,Japan,deposit,280.69,JPY,crypto,Prince-Smith,health,2025-04-05T09:37:53,False,completed,tablet,21.72.213.234,France
+db9aae85-0df8-40f6-a2e0-434fb580acfd,edd55c890e536a77,Stephanie Morales,30,Japan,withdrawal,353.94,USD,bank_transfer,"Leblanc, Herring and Casey",entertainment,2025-01-09T00:57:55,False,failed,mobile,16.21.15.106,Australia
+9aa1cc50-7c5d-4bf7-b8ab-8f1b8556f5f0,09b32f4e94745a3f,Thomas Guzman MD,38,UK,withdrawal,2.43,AUD,crypto,"Ford, Dorsey and Alvarado",clothing,2025-07-10T15:40:42,False,pending,desktop,44.30.52.241,Australia
+a7fed3f5-add3-46a8-8550-b3812570cb5d,6eca2a8030a0f31f,Sheila Sexton,67,Japan,transfer,32.65,EUR,bank_transfer,"Bell, Harris and Tyler",entertainment,2025-06-27T09:52:01,False,failed,tablet,201.159.32.22,UK
+0319c0de-4c41-4970-8556-269538bb0185,c53a8bbb01f6893a,Cynthia Mccarty,69,Australia,withdrawal,31.28,AUD,bank_transfer,Serrano-Oliver,electronics,2025-03-29T20:58:06,False,failed,tablet,184.44.71.105,USA
+c242e554-2ef0-4d5e-be2e-1f8ebd4da4cd,d8c620b9d519e440,Mr. Anthony Diaz,76,France,refund,6.61,CAD,bank_transfer,"Mcknight, Solis and Lewis",electronics,2024-07-31T07:51:08,False,failed,tablet,188.16.197.175,Germany
+eb405068-9dee-44e6-bafb-5b4e8d5bf647,718f2238b0eae57e,Emily Wilson,39,USA,withdrawal,17.0,CAD,credit_card,Larson-Brown,health,2025-03-31T19:29:23,False,completed,tablet,18.202.251.30,Canada
+f2a5d7b1-a63e-45df-9c3d-a78bb0e700c8,772c83953f8abccf,Robert Miller,34,France,purchase,10.32,AUD,credit_card,"Mcknight, Solis and Lewis",health,2025-03-29T21:56:12,False,failed,tablet,83.221.187.21,USA
+4e71c1a4-61b1-47ee-8d43-fe90478083dc,33652b494b6e8db8,Ethan James,41,Canada,deposit,756.28,EUR,crypto,"Flores, Woodward and Wagner",travel,2025-06-03T07:12:16,True,completed,desktop,207.172.207.141,UK
+d66c980e-11eb-4894-8b20-f03d7a21bda7,9cc7b788cb3d8c82,Tiffany Banks,59,Germany,refund,222.19,GBP,debit_card,"Poole, Martin and Daugherty",health,2024-10-29T23:55:58,False,pending,desktop,19.145.141.115,Australia
+ebc6578a-bbc6-4750-822e-1cb5bc4bc109,772c83953f8abccf,Robert Miller,34,France,withdrawal,367.72,GBP,paypal,"Diaz, Chase and Aguilar",clothing,2024-12-21T13:48:03,False,completed,tablet,165.184.222.206,Japan
+218231e3-cbf0-4a7f-8df9-eff34b4fd8d5,3e0a941e39064020,Brittany Miller,74,France,transfer,161.18,EUR,credit_card,Fuller Group,entertainment,2025-02-21T05:17:57,False,failed,desktop,131.55.244.184,Germany
+a47d4eaf-e0e8-4d6a-8cb0-f8048880c671,1e78d9414c8effec,Lisa Nichols,69,USA,refund,10.04,EUR,crypto,Parker PLC,travel,2025-02-27T05:11:39,False,failed,tablet,193.172.84.32,Japan
+dc62889d-4500-45da-81e9-c62f6074007c,2927aeb8aef73e54,Hayden Nelson,58,USA,refund,24.86,JPY,crypto,Henry PLC,entertainment,2024-08-16T18:23:24,False,completed,mobile,223.240.24.73,Canada
+d257bb64-6c60-4af3-8c76-04aa362674db,7943de2cf7564714,Zachary Jones,27,UK,refund,113.76,CAD,credit_card,Duncan-Ross,clothing,2025-06-19T06:56:39,False,failed,tablet,220.12.156.36,Japan
+2c051bea-7328-417c-a4ed-1178da96a57e,f33918d764b92e1d,Mr. Mark Silva,53,France,transfer,8.73,USD,paypal,Garcia-West,travel,2024-07-28T21:35:51,False,completed,tablet,45.229.133.240,USA
+d948768c-f558-4892-9c22-ea466ffc3183,ec01fa6e538369d6,Alex Kerr,58,France,deposit,159.09,JPY,crypto,"Poole, Martin and Daugherty",travel,2025-05-30T02:35:50,False,pending,mobile,125.148.171.206,France
+231cd051-c028-4aac-9af2-5051ce7c9f65,21453c624618b8d5,Frances Jackson,50,France,transfer,38.07,EUR,paypal,Bryant-Smith,travel,2024-10-04T17:22:23,False,completed,desktop,187.201.38.224,Canada
+c77d2f6d-a7c1-4970-84ff-42fca6cd7a4d,d831cfceb9a491a3,Christopher Snow,62,France,refund,31.12,CAD,credit_card,Hammond-Taylor,entertainment,2024-12-22T14:21:24,False,completed,tablet,68.193.246.14,Japan
+c46b6411-b739-4268-8cb9-3f8ed7b53460,977e73656e8bc592,David Ferguson MD,23,Germany,deposit,158.61,JPY,credit_card,Lozano-Gonzalez,health,2024-08-18T22:40:45,False,completed,desktop,156.226.166.160,USA
+5ff5a3c1-cb56-4aa6-b4ef-9a7835296833,81af3edb3c839d6d,Jamie Johnson,47,France,deposit,106.31,JPY,paypal,Bender and Sons,groceries,2024-09-30T13:44:26,False,failed,desktop,219.21.220.225,Germany
+00a596a4-1595-4f51-be11-62c74c1a4cf0,5c0635be9a3c2e9d,Philip Durham,32,Germany,deposit,31.77,JPY,crypto,Lozano-Gonzalez,health,2025-05-31T07:35:56,False,completed,tablet,62.235.162.90,Germany
+b3d06d24-27b9-406e-9102-86d9a36ca820,2b3538f663837972,April Moore,56,Canada,transfer,310.75,USD,debit_card,"Harris, Turner and Powell",travel,2024-11-06T16:29:41,False,completed,tablet,208.83.207.154,USA
+b99b3497-f423-482b-bb50-59980a23b4f4,977e73656e8bc592,David Ferguson MD,23,Germany,deposit,10.79,USD,bank_transfer,Hammond-Taylor,groceries,2024-11-03T23:57:48,False,failed,mobile,32.15.134.70,Germany
+02c0e052-c7a9-45c2-9979-910b8069a681,82ea76d55d802f16,Joseph Berry,19,Japan,refund,137.54,USD,paypal,Garcia LLC,groceries,2025-07-11T07:09:55,False,pending,mobile,164.10.82.54,Canada
+6a7ef5a4-7157-4ca9-9258-6b0a6f5aeb6a,3444cd002bd69b5c,Tamara Reed,59,Japan,transfer,132.91,AUD,paypal,Hoffman Inc,entertainment,2024-12-22T09:48:34,False,completed,mobile,31.89.178.140,Germany
+43eff955-12f0-4424-b7ce-898f38c99dd7,8cc0d62966382e19,Glenda Myers,67,Canada,transfer,34.32,USD,bank_transfer,"Shields, Walker and Tyler",clothing,2025-06-07T08:02:11,False,failed,desktop,197.146.101.189,Germany
+42480f72-9f49-4830-b194-fc0c81c48bfb,5de5eb4abe50f40a,Anthony Raymond,22,UK,transfer,89.05,EUR,bank_transfer,Ramirez Ltd,electronics,2025-03-22T16:51:54,False,pending,tablet,121.50.67.225,Australia
+e712933f-2de5-41b9-9cab-ca371d9fc6e5,81af3edb3c839d6d,Jamie Johnson,47,France,transfer,8.36,USD,crypto,Tyler-Lopez,entertainment,2024-10-31T13:06:30,False,pending,mobile,204.17.121.7,France
+ff18a434-7bc8-46e1-a4e2-aa3987dde8d4,a66d10edf41252e6,Kelly Michael,18,Australia,transfer,218.34,EUR,credit_card,Henry PLC,entertainment,2024-08-12T08:55:41,False,failed,tablet,163.1.254.115,Canada
+d69f86d7-dc81-4e54-926f-543ce77c8699,33652b494b6e8db8,Ethan James,41,Canada,refund,41.37,CAD,crypto,"Jones, Francis and Mitchell",groceries,2025-02-03T07:10:12,False,pending,desktop,205.144.178.133,USA
+02fe2642-cc85-4e27-8c03-b5e81badbcdd,21453c624618b8d5,Frances Jackson,50,France,withdrawal,24.93,EUR,debit_card,Garcia LLC,clothing,2025-01-07T01:57:46,False,completed,mobile,15.70.107.203,Canada
+6499b6f5-9653-4ae3-ae0d-4785baf88b44,3516dc20cc11a21a,Vanessa Velasquez,58,Australia,purchase,263.36,EUR,debit_card,Serrano-Oliver,electronics,2024-12-16T03:10:03,False,failed,mobile,43.144.148.45,USA
+4939997a-74d0-4988-9e6b-866e3292bf66,9526eee5caca2be7,Nicole Stanley,79,Australia,transfer,18.98,JPY,bank_transfer,Garcia LLC,groceries,2024-11-27T12:08:00,False,completed,tablet,95.132.109.154,Japan
+5479b140-65b7-45fc-bc25-ef56cf2a7275,1bfa5e3ead23689e,Rodney Mills,25,UK,refund,6.6,USD,debit_card,Parker PLC,travel,2025-07-24T20:57:59,False,failed,mobile,191.221.124.252,Japan
+c4f00fe5-12e4-459a-8275-09cbfbc4dfd6,2927aeb8aef73e54,Hayden Nelson,58,USA,transfer,5.29,JPY,credit_card,George Ltd,groceries,2025-07-01T09:58:56,False,completed,mobile,30.70.197.184,Japan
+e10bac4a-25a8-415e-9aa6-4552e881b7e3,8c783345c6c8f5cd,Bradley Miller,69,Canada,transfer,135.51,CAD,credit_card,Henry PLC,clothing,2025-05-29T06:02:36,False,completed,desktop,106.207.162.207,France
+4553a242-a2c6-41c2-8c15-2122f6546baa,5e0190cd3f9de295,Susan Beck,36,Australia,deposit,8.0,EUR,paypal,Brown Group,electronics,2024-09-27T21:36:27,False,completed,desktop,74.120.126.205,Australia
+1200d672-d932-44aa-9fbb-4df69271257c,3444cd002bd69b5c,Tamara Reed,59,Japan,purchase,759.14,JPY,crypto,Garcia-West,clothing,2025-01-09T00:10:04,False,failed,desktop,20.120.236.78,France
+d796ff41-ed23-4321-8378-4b4726c35e3c,7f7c9c4743259366,William Ruiz,23,France,refund,2.4,GBP,paypal,Padilla LLC,electronics,2025-06-23T16:40:58,False,pending,tablet,131.53.12.170,France
+0472d08b-4733-4725-9696-360f7fc3dd47,37bbd4657d09d6c8,Rebecca Phillips,64,UK,purchase,695.54,EUR,debit_card,Allen LLC,electronics,2024-09-08T16:58:42,False,completed,mobile,79.216.23.127,USA
+d1f2f153-1402-4ed3-b1da-ada80e81332f,7ae204a568643db3,Billy Powell,56,Japan,withdrawal,74.93,JPY,debit_card,Goodwin LLC,health,2024-10-01T04:57:52,False,failed,desktop,205.134.145.125,Japan
+253d58c8-af89-4a25-a55e-97ecb6debe4c,244b5124c8490968,Kimberly Romero,34,Japan,transfer,47.23,GBP,paypal,"Jones, Francis and Mitchell",health,2024-12-20T13:31:20,False,completed,desktop,46.245.150.168,Canada
+c406cc20-d4e5-4c62-98fc-534833a708f0,9cc7b788cb3d8c82,Tiffany Banks,59,Germany,refund,24.11,AUD,credit_card,Parker PLC,electronics,2025-07-12T04:58:07,False,failed,tablet,148.83.194.173,Australia
+fbe4b0bc-c21c-410f-8e87-a0e64e2d86c4,2aadcd7a10decf0e,Mary Thomas,22,Germany,withdrawal,99.36,GBP,bank_transfer,Williams PLC,entertainment,2024-10-29T01:29:30,False,pending,desktop,22.191.5.134,UK
+69c3c3ee-7e38-4a03-bcc7-8117dcb90224,7943de2cf7564714,Zachary Jones,27,UK,transfer,51.6,EUR,paypal,"Harris, Turner and Powell",electronics,2025-04-18T02:59:01,False,pending,desktop,51.2.65.255,Germany
+83f13532-a80e-4550-9e02-bf51cef52dd0,9de8bea628dd96b4,Cindy Mccullough,77,Japan,refund,285.7,CAD,paypal,Hays-Solomon,entertainment,2025-06-19T09:22:05,False,completed,desktop,34.124.108.252,Australia
+ed1794e2-2cd1-4725-9911-012f67caf942,1cdf24ea265a1099,Sherry Stevenson,42,France,purchase,64.8,AUD,paypal,Bryant-Smith,groceries,2025-02-23T01:09:52,False,pending,tablet,194.60.76.192,France
+74677407-ec92-4bf6-b9cc-c20f8e120242,4f6cf57268da9690,Tiffany Love,77,Japan,refund,68.41,JPY,crypto,Padilla LLC,travel,2025-03-17T15:34:56,False,pending,mobile,136.5.236.0,UK
+72ed3a7d-1626-49b2-b19f-24b37e37f570,ee18e712f9378408,Kimberly James,68,Japan,deposit,31.65,EUR,bank_transfer,Hoffman Inc,groceries,2025-01-18T14:09:52,False,completed,mobile,177.245.175.132,Australia
+6112d53b-cb84-4d3a-8b86-444a6ba43b11,7be21778db08f8f9,Jasmine Gibson,23,Australia,purchase,50.13,EUR,crypto,"Diaz, Chase and Aguilar",entertainment,2024-12-04T20:38:07,False,pending,tablet,99.248.55.187,Australia
+23b27c67-6855-4923-8230-e9b440628d76,7bab8232f28e10f5,Barbara Rivera DDS,19,France,withdrawal,86.63,EUR,debit_card,Bryant-Smith,entertainment,2024-08-06T21:31:11,False,failed,desktop,123.19.241.178,Canada
+5d808d8c-1a79-441b-b6d5-56df888bcf8a,cab4b02147bae504,Robert Hatfield,60,UK,withdrawal,4.2,GBP,credit_card,Morales-Perez,entertainment,2025-04-10T13:49:29,False,failed,mobile,63.75.130.55,USA
+9e2e97d4-144b-4977-bc17-1b0a3cc665c2,2f0a5bfdfeecaa93,Jason Zuniga,25,Japan,refund,7.23,JPY,debit_card,"Bell, Harris and Tyler",travel,2025-06-14T23:28:32,False,pending,mobile,88.54.206.68,Germany
+002e24a7-f7c1-4230-8055-43a2572b76f1,977e73656e8bc592,David Ferguson MD,23,Germany,transfer,166.48,AUD,paypal,Garcia LLC,travel,2024-09-19T12:59:05,False,pending,mobile,15.38.246.146,France
+f156c318-13a0-4399-a123-96e552c244c8,718dbe9e0f4f93e5,Linda Brown,47,UK,purchase,70.55,EUR,crypto,Morales-Perez,groceries,2024-09-14T07:35:56,True,failed,mobile,83.75.168.133,France
+9e4d593e-ce0c-4aa7-b161-765acf74f888,2927aeb8aef73e54,Hayden Nelson,58,USA,deposit,41.43,CAD,paypal,"Harris, Turner and Powell",clothing,2024-08-18T21:01:43,False,failed,desktop,168.34.165.175,USA
+f1fda074-d49c-41cb-a842-de1d5c780cff,0365db1b96573654,Morgan Rivers,75,France,transfer,56.13,EUR,bank_transfer,"Morgan, Page and Russell",entertainment,2025-02-18T16:13:37,False,completed,desktop,92.26.85.224,Germany
+6be6712e-dd57-4312-adb5-456d0fab2582,c12f09953e81046c,Mr. Jeremy Gonzalez,55,Canada,refund,91.96,CAD,crypto,"Smith, Joseph and Banks",clothing,2024-09-14T07:37:31,False,failed,mobile,99.150.110.86,Germany
+9888b9c7-7a6c-4a73-89c0-fab363763675,c12f09953e81046c,Mr. Jeremy Gonzalez,55,Canada,purchase,24.3,USD,credit_card,Williams PLC,health,2024-09-14T19:07:46,False,failed,desktop,90.100.171.98,Japan
+35018180-158d-4a6b-b75f-330e5ff5b6ea,c12f09953e81046c,Mr. Jeremy Gonzalez,55,Canada,purchase,16.99,EUR,debit_card,Parker PLC,health,2024-08-09T15:10:01,False,pending,tablet,128.44.2.198,Japan
+51d92bd1-a69a-4aaf-9ab2-69e6ff3c713b,7943de2cf7564714,Zachary Jones,27,UK,withdrawal,73.24,JPY,crypto,"Mcknight, Solis and Lewis",travel,2025-03-23T22:56:58,False,completed,desktop,168.156.136.242,Germany
+0098fb2e-b6e2-4055-843c-ea314f526e91,f33918d764b92e1d,Mr. Mark Silva,53,France,purchase,12.58,AUD,crypto,"Leblanc, Herring and Casey",health,2025-03-30T08:09:44,False,pending,tablet,140.239.136.244,Germany
+117f31ee-4ea2-4d1e-a656-bdc22aca5b1e,33d4ff6b4e776d40,Abigail Hoffman,43,Japan,transfer,100.72,JPY,credit_card,Ortiz-Johnson,health,2025-01-24T01:18:52,False,failed,desktop,183.184.8.51,USA
+4ccc7e49-10f0-4119-ae8e-207931023037,ee18e712f9378408,Kimberly James,68,Japan,purchase,4.25,AUD,debit_card,Prince-Smith,groceries,2024-11-06T13:48:04,False,completed,tablet,85.82.41.92,Japan
+fa793a77-3f45-421d-b052-695624ba4252,244b5124c8490968,Kimberly Romero,34,Japan,purchase,255.63,AUD,debit_card,Ramirez Ltd,health,2025-07-07T07:07:39,False,completed,tablet,37.175.117.244,Germany
+f3170d5a-d343-4ca1-9a11-fde52bd42283,c67d15af20107823,Donna Burns,43,Canada,deposit,110.93,JPY,crypto,"Ford, Dorsey and Alvarado",groceries,2024-08-03T22:48:04,False,completed,desktop,101.132.217.56,Canada
+1d7b0f9c-2f2a-44cc-a052-05c9acee34df,75e46e24100c1725,Mrs. Renee Myers,42,Canada,deposit,80.16,AUD,bank_transfer,Hammond-Taylor,travel,2024-12-14T10:55:10,False,pending,desktop,4.207.71.165,France
+d61f6721-938f-424d-9c1a-4cbc2c177deb,c16840c8f199623e,Jesse Austin,62,Germany,purchase,238.42,CAD,crypto,Lozano-Gonzalez,entertainment,2024-08-10T20:17:54,False,failed,desktop,75.124.157.106,Japan
+73fc03c8-1c06-430a-a80a-bcf3af512ed7,718dbe9e0f4f93e5,Linda Brown,47,UK,refund,663.95,AUD,crypto,"Bell, Harris and Tyler",health,2025-02-19T19:56:00,False,pending,desktop,219.16.242.81,USA
+f29fe174-9632-4544-9179-5e5290f6dd6e,e2b78eec195dc5d9,Christopher Brown,31,UK,refund,250.02,CAD,crypto,Hendricks PLC,clothing,2024-10-24T04:26:32,False,pending,desktop,73.243.96.144,USA
+4789aa99-265e-4a7d-ba3a-75e1f954cdc4,82ea76d55d802f16,Joseph Berry,19,Japan,purchase,3.45,JPY,crypto,Ramirez Ltd,clothing,2024-12-20T16:57:58,False,pending,mobile,38.195.196.35,UK
+96f6e30d-2c27-4b1a-9e0f-66e76b48719c,e8cdbad60dc1e84c,Danielle Fletcher,80,Germany,refund,8.01,JPY,bank_transfer,Duncan-Ross,groceries,2024-10-09T12:36:03,False,completed,tablet,6.42.161.83,UK
+0c8440d3-3b7a-40ea-8d3f-b4e57230b1a0,a66d10edf41252e6,Kelly Michael,18,Australia,withdrawal,21.39,EUR,bank_transfer,"Leblanc, Herring and Casey",health,2025-03-26T09:10:32,False,failed,mobile,74.51.117.173,Australia
+c62ca58a-460d-40be-8786-b21d687feeb8,977e73656e8bc592,David Ferguson MD,23,Germany,deposit,56.78,AUD,paypal,Hendricks PLC,electronics,2025-05-02T03:58:39,False,pending,desktop,75.235.239.133,USA
+c91fc89a-8cd3-4343-9ab7-ad2054334577,d831cfceb9a491a3,Christopher Snow,62,France,transfer,118.69,JPY,bank_transfer,Brooks-Rogers,travel,2024-09-18T08:32:16,False,pending,desktop,62.76.250.35,Japan
+7b1ee2c3-2002-4f99-ab97-f34c0de84abf,e8cdbad60dc1e84c,Danielle Fletcher,80,Germany,refund,18.38,EUR,crypto,Morales Inc,groceries,2025-04-28T19:25:18,False,pending,desktop,183.215.100.14,Australia
+c2fc6130-089a-4f90-9d4c-ef450e5aeef0,1bfa5e3ead23689e,Rodney Mills,25,UK,transfer,72.25,USD,crypto,Garcia-West,entertainment,2024-10-05T00:29:13,False,pending,tablet,191.47.9.224,Japan
+df7916ba-97d4-49f2-b792-c4c3df3e6f11,e7e70666d7ee038f,Matthew Hale,50,Germany,transfer,17.58,CAD,paypal,Garcia-West,groceries,2025-05-13T13:03:16,False,pending,desktop,27.77.180.246,Canada
+e04d6e62-d8ba-4c0c-aa9d-7ba9f7d326a9,0178cd1f9cd700ce,Steven Riddle,66,Canada,refund,21.82,GBP,crypto,Prince-Smith,groceries,2024-08-07T13:16:46,False,completed,desktop,26.147.130.169,Australia
+3a7576de-0a2c-4a1b-8041-81799eb8312d,9ff4eb1c6a4d1701,James Kirk,74,Japan,purchase,6.62,USD,credit_card,Morales Inc,travel,2024-09-29T04:03:47,False,completed,tablet,183.155.149.80,Australia
+9a9ae375-16a7-4f04-8f1a-439ed5c24641,42ae2d5e2b8f0083,Kendra Olson,28,Germany,transfer,13.67,CAD,debit_card,Hendricks PLC,clothing,2024-12-06T06:03:59,True,failed,mobile,89.196.10.246,Japan
+3cae7c84-4794-4ffe-ab72-dd9d23156ecf,4f8d76abc6c5826a,James Jackson,23,France,deposit,7.19,AUD,debit_card,"Diaz, Chase and Aguilar",health,2025-01-16T01:14:28,False,completed,tablet,183.27.6.20,France
+76d45fa5-0702-4d9b-a072-f4eb1eec9951,5c0635be9a3c2e9d,Philip Durham,32,Germany,withdrawal,12.63,GBP,crypto,"Diaz, Chase and Aguilar",health,2024-11-06T20:43:54,False,pending,desktop,104.63.173.86,Australia
+1c5543a5-cde6-43b5-b462-e2b345cb5ca8,7be21778db08f8f9,Jasmine Gibson,23,Australia,purchase,265.19,EUR,bank_transfer,Larson-Brown,health,2025-03-12T15:12:45,False,pending,desktop,199.113.137.75,Canada
+6d3b1d3b-e99b-4ca3-9cc6-dc61294c6e7b,ec18375130d9b273,Julie Munoz,69,UK,purchase,13.14,USD,paypal,Avila-Bradford,travel,2025-06-26T15:27:42,False,completed,desktop,79.76.131.36,Australia
+972724b3-9790-4d96-b8cb-be74d35c84a9,e8cdbad60dc1e84c,Danielle Fletcher,80,Germany,refund,2831.53,EUR,bank_transfer,Jackson Group,entertainment,2024-08-06T17:34:15,False,failed,desktop,219.110.165.154,USA
+fd5403bf-ebdb-42ea-8105-aec4b578f77c,edd55c890e536a77,Stephanie Morales,30,Japan,refund,114.43,EUR,crypto,Tyler-Lopez,entertainment,2024-11-27T11:10:22,False,pending,tablet,6.247.162.205,Australia
+99603e07-301f-4ad0-900c-d9ed14002166,e8cdbad60dc1e84c,Danielle Fletcher,80,Germany,purchase,72.04,USD,credit_card,Hoffman Inc,health,2025-02-14T13:40:16,False,pending,mobile,171.176.191.117,USA
+62c4da2c-9d65-4d91-95a9-880279fcecee,301e3b19165d5029,Heather Smith,67,Australia,refund,15.07,AUD,credit_card,Avila-Bradford,groceries,2025-06-09T05:14:36,False,pending,desktop,62.98.80.30,USA
+7cdf0f21-f601-43a1-ad2c-d28e5bacaa61,33d4ff6b4e776d40,Abigail Hoffman,43,Japan,purchase,156.1,EUR,crypto,Ortiz-Johnson,travel,2025-02-01T22:37:20,False,failed,mobile,181.211.214.110,Japan
+318a1282-65cd-4793-8988-76aedf29d1ff,d8c620b9d519e440,Mr. Anthony Diaz,76,France,refund,23.02,AUD,credit_card,Carter Group,travel,2025-05-13T22:04:49,False,failed,desktop,62.231.103.177,Germany
+e34716e1-b8a6-4f76-ae1f-71dea31ecc10,8cc0d62966382e19,Glenda Myers,67,Canada,transfer,65.56,AUD,bank_transfer,"Shields, Walker and Tyler",electronics,2025-04-14T07:15:39,False,pending,mobile,55.20.53.239,USA
+ac0e3db0-a34d-4131-a8c5-a3ff571de1e4,75e46e24100c1725,Mrs. Renee Myers,42,Canada,transfer,2540.53,JPY,debit_card,Duncan-Ross,travel,2024-12-03T20:59:44,False,pending,tablet,91.46.11.141,UK
+ead630ee-d74d-44f2-9b61-904fb1bb9e89,33652b494b6e8db8,Ethan James,41,Canada,purchase,47.27,USD,paypal,Henry PLC,travel,2025-03-21T11:20:50,False,completed,mobile,102.90.35.59,Germany
+ed789044-b3e1-4f19-bdd7-b7ba72d28ff5,9526eee5caca2be7,Nicole Stanley,79,Australia,purchase,306.1,EUR,crypto,Avila-Bradford,electronics,2024-09-13T01:13:34,False,failed,desktop,59.145.105.74,UK
+e357079e-c4fb-4b1c-9015-cf0de3627110,301e3b19165d5029,Heather Smith,67,Australia,deposit,19.02,USD,bank_transfer,Hammond-Taylor,electronics,2025-07-22T14:40:50,False,failed,mobile,44.172.11.193,USA
+cffe8bbb-3602-4d31-9c1e-8a8b8063fc8f,08294bd3216ccda1,Christine Hardy,35,Japan,purchase,51.81,AUD,debit_card,Brown Group,entertainment,2025-05-18T10:23:00,False,failed,tablet,52.10.215.111,Australia
+0caac9bc-9a51-448c-bdb3-708fd8981733,a66d10edf41252e6,Kelly Michael,18,Australia,deposit,777.59,USD,debit_card,Ramirez Ltd,clothing,2024-09-02T00:22:43,False,completed,desktop,12.240.124.93,USA
+90c10668-8ddc-41f8-bb92-b2721f5a54eb,8c870fb2bdd7868c,Christopher Wyatt,55,Germany,purchase,21.32,AUD,debit_card,Morales-Perez,electronics,2025-02-21T05:36:16,False,completed,desktop,131.225.13.26,Japan
+38f1705f-8685-4345-b353-ba84160a5d43,7bab8232f28e10f5,Barbara Rivera DDS,19,France,withdrawal,827.72,JPY,crypto,Bryant-Smith,electronics,2025-02-07T04:07:00,True,failed,tablet,175.253.167.159,UK
+a5b6b91a-e91a-47f9-a75d-28605ade311b,7b97e0be299b04c5,Pamela Davis,72,Canada,purchase,157.85,CAD,debit_card,Ramirez Ltd,health,2025-04-16T05:21:33,False,completed,tablet,65.43.201.70,Germany
+050ea8f3-d013-4964-a2c3-68b4e31b5bea,33d4ff6b4e776d40,Abigail Hoffman,43,Japan,deposit,23.48,GBP,debit_card,Daugherty PLC,electronics,2025-03-19T21:36:37,False,pending,mobile,160.23.45.233,Canada
+9cb7a2a3-b964-4c20-96d3-b2c0bea78338,aefba2684c669e74,John Perez,52,Germany,transfer,140.98,EUR,debit_card,Padilla LLC,health,2025-07-14T17:04:28,False,completed,desktop,36.75.174.187,Australia
+069b5395-e471-4292-8568-bf576503af5e,e62fbc73717451d9,Thomas Crawford,64,Germany,deposit,234.82,USD,credit_card,Henry PLC,entertainment,2024-12-27T17:48:52,False,completed,mobile,161.55.48.149,UK
+135ad404-0de9-4e7d-af8e-60d2fe6cc1f3,a689bb0993547dc5,Corey Jones DDS,38,Australia,purchase,138.76,GBP,credit_card,George Ltd,health,2025-03-14T00:30:24,False,pending,desktop,149.51.32.187,USA
+7fbb75ac-c504-41f7-8a9b-b519937f96e1,ee18e712f9378408,Kimberly James,68,Japan,withdrawal,5.18,GBP,debit_card,Henry PLC,groceries,2025-04-25T11:14:10,False,pending,mobile,105.154.37.185,UK
+ebafab7f-b4f2-413b-9b6c-cc2b1f8dbc6b,77c033f1e67c252b,Austin Snyder,39,Canada,deposit,18.34,GBP,credit_card,"Jones, Francis and Mitchell",travel,2025-04-24T14:44:45,False,completed,tablet,98.194.93.222,France
+ad7caa17-0a6c-42ba-8f55-76ca8b5569ff,66fe3667006bca9b,Donna Smith,41,France,transfer,37.66,JPY,bank_transfer,"Leblanc, Herring and Casey",clothing,2025-01-10T22:35:13,False,failed,mobile,197.44.21.74,USA
+daf374a0-d2d7-4371-beda-0dd9b02237c5,8c870fb2bdd7868c,Christopher Wyatt,55,Germany,transfer,48.83,GBP,crypto,Parker PLC,health,2025-05-20T17:34:26,False,pending,mobile,160.80.42.251,France
+fbe60e3c-3dfe-43b2-be22-7594b3e7e50e,9526eee5caca2be7,Nicole Stanley,79,Australia,purchase,138.52,EUR,debit_card,Fuller Group,clothing,2024-10-07T04:25:19,False,completed,mobile,117.43.96.221,Japan
+17639215-a924-45f1-967b-b38fe8c2abad,82fc861c7e95babd,Yvonne Moody,32,UK,transfer,71.28,EUR,paypal,Hendricks PLC,groceries,2024-10-08T20:59:11,False,pending,mobile,130.235.210.37,UK
+0112ddae-ee26-4ede-a9f1-80084a97e29e,edd55c890e536a77,Stephanie Morales,30,Japan,purchase,7.37,GBP,crypto,"Harris, Turner and Powell",travel,2025-07-13T08:05:53,False,completed,mobile,14.128.215.119,UK
+be507d33-fe27-4fe4-bced-b68dc19786c1,81af3edb3c839d6d,Jamie Johnson,47,France,withdrawal,96.57,CAD,crypto,"Smith, Joseph and Banks",clothing,2025-01-21T14:46:34,False,pending,mobile,45.51.34.103,France
+457903ba-5e19-417e-b5f8-d716a95cd44e,6eca2a8030a0f31f,Sheila Sexton,67,Japan,purchase,136.44,USD,paypal,"Leblanc, Herring and Casey",health,2025-05-18T02:23:05,False,completed,desktop,25.61.244.165,UK
+0ca3afe6-4a42-4948-9411-03ef5e928ed9,7b97e0be299b04c5,Pamela Davis,72,Canada,purchase,126.43,EUR,bank_transfer,"Ford, Dorsey and Alvarado",travel,2025-07-04T03:00:49,False,failed,desktop,14.39.55.249,France
+a214f375-660d-4789-889a-5db8957e6818,77c033f1e67c252b,Austin Snyder,39,Canada,withdrawal,276.21,EUR,paypal,Lozano-Gonzalez,clothing,2024-12-21T11:06:59,False,pending,mobile,167.218.63.178,UK
+ab72cd9a-a2a0-4b3f-ad59-010387fea1be,8cc0d62966382e19,Glenda Myers,67,Canada,refund,190.73,JPY,credit_card,"Ford, Dorsey and Alvarado",groceries,2024-08-23T06:50:43,False,pending,desktop,55.29.225.178,Japan
+1a8b81a5-5d45-4a82-a041-4aca1768ffb9,77aab47038494a47,Theresa Whitney,59,USA,refund,108.72,CAD,paypal,Hays-Solomon,clothing,2024-08-24T05:36:57,False,failed,tablet,1.70.123.81,UK
+2e2866b1-d186-4df1-bcf4-67f8cffc7f35,c16840c8f199623e,Jesse Austin,62,Germany,deposit,49.14,GBP,crypto,George Ltd,travel,2024-11-21T04:44:50,False,pending,mobile,7.195.150.126,Australia
+03a1bf5a-7d09-40af-86d2-f002a86ae8b2,8300e12d10e12c6f,Brenda Jones,34,UK,withdrawal,4.52,USD,bank_transfer,Lozano-Gonzalez,travel,2025-05-23T18:00:57,False,completed,mobile,29.74.117.185,Canada
+bb8f8329-9741-4546-ad57-a0efdd9122c1,cab4b02147bae504,Robert Hatfield,60,UK,withdrawal,104.0,JPY,crypto,Williams PLC,entertainment,2024-12-19T13:52:24,False,pending,mobile,156.179.117.151,UK
+c2b7bd37-f3c6-416b-b2b4-4dda1ed21563,13dd2268e14de24e,Veronica Alvarado,61,Japan,withdrawal,74.55,EUR,crypto,Prince-Smith,travel,2024-08-30T01:28:35,False,failed,mobile,62.167.227.82,USA
+5506cfbf-f0d1-423d-883d-84577d5a9a1a,42ae2d5e2b8f0083,Kendra Olson,28,Germany,withdrawal,82.05,JPY,debit_card,Daugherty PLC,electronics,2025-05-12T10:10:56,False,pending,mobile,7.183.218.198,USA
+45703802-d6cc-4de6-97dd-61fdd05544fe,5c0635be9a3c2e9d,Philip Durham,32,Germany,transfer,8.04,AUD,paypal,George Ltd,electronics,2025-05-26T00:51:39,False,pending,mobile,198.194.205.231,UK
+c9a8234f-a784-4319-adaf-255b97ee6f16,2aadcd7a10decf0e,Mary Thomas,22,Germany,withdrawal,10.79,JPY,crypto,"Harris, Turner and Powell",travel,2025-03-25T08:13:30,False,completed,tablet,167.167.18.57,Japan
+66e455b2-92b0-4644-a61c-3dae1ee076cd,08294bd3216ccda1,Christine Hardy,35,Japan,refund,265.0,EUR,paypal,"Jones, Francis and Mitchell",health,2024-09-20T01:56:46,True,failed,mobile,69.170.227.211,Japan
+703194f6-4e54-4220-ae4e-194160737374,33652b494b6e8db8,Ethan James,41,Canada,transfer,51.45,CAD,crypto,"Morgan, Page and Russell",groceries,2024-09-19T16:32:42,False,failed,tablet,213.201.83.121,USA
+9fb4e3a3-1982-4ce8-959c-63dacf41c527,33d4ff6b4e776d40,Abigail Hoffman,43,Japan,refund,151.75,CAD,credit_card,Ramirez Ltd,electronics,2025-07-23T17:26:20,False,failed,desktop,211.179.168.130,France
+6ad3873c-932d-4420-928e-2af90248f4c3,ac6d47ffa3255be2,Dr. Daniel Hughes,75,France,purchase,56.97,EUR,bank_transfer,Rodriguez-Webb,electronics,2025-04-03T22:50:01,False,completed,tablet,77.236.95.65,Canada
+08dfbc93-fc9c-4237-af8f-5be7cff3f82d,09b32f4e94745a3f,Thomas Guzman MD,38,UK,purchase,57.09,GBP,crypto,Morales-Perez,groceries,2024-09-29T04:09:53,False,completed,tablet,126.180.142.122,Japan
+01ac233f-2595-482c-8ca2-232f0e71a7a6,05337f2077d7f85d,Jose Stark,32,Japan,deposit,223.06,AUD,debit_card,Daugherty PLC,clothing,2024-09-02T00:04:55,False,pending,tablet,60.202.158.117,Australia
+3ac0dba2-da5d-48db-951b-e1c77827cde6,53fb4ad2c2cbc763,Mary Warner,58,UK,withdrawal,25.18,USD,paypal,"Diaz, Salazar and Chandler",groceries,2025-01-05T12:27:51,False,failed,tablet,177.115.137.138,USA
+f3f980db-7f92-4c4f-8f72-2ac5a56018e4,aefba2684c669e74,John Perez,52,Germany,withdrawal,63.07,JPY,crypto,"Bell, Harris and Tyler",travel,2024-09-23T02:28:42,False,failed,tablet,24.59.196.164,Japan
+2481a735-ee60-49f4-bbc4-bf97d73f5307,1af4811557b604eb,Kristen Glenn,45,USA,refund,27.29,USD,bank_transfer,"Moss, Bell and Stuart",clothing,2024-12-07T19:55:57,False,completed,mobile,166.1.229.118,USA
+b1f5f815-0bc8-4e87-bbff-65fc203c9b89,c16840c8f199623e,Jesse Austin,62,Germany,transfer,28.45,GBP,credit_card,Fuller Group,clothing,2024-09-26T21:52:58,False,failed,tablet,73.167.45.219,Japan
+6cefe523-d7b2-47a6-b49b-56a667ddad11,82b6e205329d024f,Katherine Thompson,35,UK,transfer,34.34,JPY,bank_transfer,Morales-Perez,travel,2025-05-18T21:25:59,False,pending,tablet,191.37.218.200,Japan
+fcc3c73a-403c-44e4-a8bf-ac27e07cfccd,82fc861c7e95babd,Yvonne Moody,32,UK,purchase,76.19,USD,paypal,"Harris, Turner and Powell",clothing,2024-08-21T16:10:31,False,failed,tablet,123.134.86.222,UK
+1ed89031-e2bb-4caf-96c6-9c8a6ce3e9a2,8cc0d62966382e19,Glenda Myers,67,Canada,withdrawal,26.63,AUD,crypto,"Shields, Walker and Tyler",groceries,2024-11-26T21:47:56,False,failed,tablet,166.107.170.69,Canada
+ea0e77eb-e38c-456e-b402-d7bbbc42443d,d581ed942fedca03,Wayne Price,43,Canada,deposit,359.11,CAD,bank_transfer,Hoffman Inc,clothing,2024-10-04T06:53:24,False,pending,mobile,52.122.37.196,Germany
+b32a8ddc-edec-4690-a8b9-8030bc7b0ad4,e8cdbad60dc1e84c,Danielle Fletcher,80,Germany,refund,14.27,CAD,bank_transfer,Carter Group,electronics,2025-05-15T20:55:52,False,pending,desktop,2.8.173.170,Canada
+373c0230-8968-444e-87ac-7f9f605da6dc,c16840c8f199623e,Jesse Austin,62,Germany,deposit,41.25,JPY,debit_card,"Bell, Harris and Tyler",clothing,2024-09-04T20:33:25,False,failed,tablet,115.20.74.152,Japan
+ded467c3-f9c9-45d9-a875-db93515f67ff,a59bf44642d3ad42,Ashley Bishop,21,Australia,refund,28.23,USD,debit_card,Duncan-Ross,groceries,2024-10-15T15:13:32,False,pending,desktop,134.227.40.169,UK
+bc8ecbea-5709-4a6e-b6d8-d2eca2973dfc,3516dc20cc11a21a,Vanessa Velasquez,58,Australia,refund,478.41,AUD,debit_card,Duncan-Ross,health,2024-10-22T21:08:22,False,pending,mobile,204.109.66.82,France
+996ab660-c295-4b45-867b-eac04aad0b96,3516dc20cc11a21a,Vanessa Velasquez,58,Australia,withdrawal,73.32,JPY,crypto,Garcia LLC,electronics,2025-07-19T02:23:18,False,pending,desktop,39.240.120.31,UK
+8dd0c219-ca4f-4eb4-aa26-baeaa57e3dba,0178cd1f9cd700ce,Steven Riddle,66,Canada,refund,256.66,GBP,bank_transfer,Morales Inc,health,2025-02-24T21:59:36,False,failed,desktop,125.2.159.100,Canada
+802e53e3-ba6e-408e-9e06-3ad0e0db3c67,82fc861c7e95babd,Yvonne Moody,32,UK,transfer,5.88,JPY,bank_transfer,Brown Group,clothing,2024-08-30T20:09:14,False,failed,desktop,218.53.236.171,Canada
+77f46a80-b683-486c-9fe8-92f95c7cf839,bf7b169681540988,Tyler Sanchez,23,Australia,purchase,81.5,GBP,bank_transfer,Allen LLC,entertainment,2025-07-05T04:44:56,False,completed,desktop,25.202.209.72,USA
+97c1bb53-c691-420c-b54a-700cf683cad6,8c870fb2bdd7868c,Christopher Wyatt,55,Germany,refund,207.36,USD,bank_transfer,Bender and Sons,electronics,2025-04-26T00:45:22,False,completed,tablet,115.147.37.135,Canada
+70f4b591-b416-437a-9901-534ec7d74a02,d581ed942fedca03,Wayne Price,43,Canada,refund,61.77,USD,paypal,George Ltd,entertainment,2025-01-09T17:07:28,False,failed,tablet,54.172.131.232,UK
+4b505e67-77ef-4351-a142-4411714d91db,21453c624618b8d5,Frances Jackson,50,France,deposit,269.95,EUR,bank_transfer,Bender and Sons,entertainment,2025-07-08T20:43:57,False,completed,tablet,71.10.102.63,UK
+0e9824b3-a813-4165-a4b3-3f46f9f0886f,45d5eda345d1bba8,Riley Adams,35,Germany,withdrawal,25.13,EUR,debit_card,"Diaz, Salazar and Chandler",travel,2024-10-05T02:06:33,False,pending,desktop,144.205.197.102,Japan
+6d58ed62-b6c2-42dc-a2bc-8637c0e8143d,fc69bffc08cb4410,Jeffery Elliott,32,Australia,transfer,452.15,JPY,bank_transfer,George Ltd,clothing,2025-02-15T18:19:34,False,pending,tablet,110.130.251.248,Australia
+10e4caba-0494-4eab-b3c6-1e57922bb671,77aab47038494a47,Theresa Whitney,59,USA,withdrawal,1717.02,AUD,paypal,"Morgan, Page and Russell",health,2025-05-03T15:38:53,False,completed,tablet,205.207.66.200,UK
+e7c67ed1-f175-4937-bf36-f24b2e5a2488,3ae6f92455717996,Amy Mckenzie,33,Japan,purchase,31.68,CAD,debit_card,Ortiz-Johnson,entertainment,2024-11-04T14:09:15,False,completed,tablet,53.196.11.251,UK
+bb5a4026-7117-47d6-a8c2-7b2160fd0130,2f0a5bfdfeecaa93,Jason Zuniga,25,Japan,withdrawal,27.99,EUR,credit_card,Henry PLC,groceries,2025-03-19T11:49:30,False,failed,desktop,171.25.245.129,USA
+9f73c651-77dc-49fc-a59b-5e086ffa1b8a,2aadcd7a10decf0e,Mary Thomas,22,Germany,deposit,483.03,GBP,debit_card,Avila-Bradford,groceries,2025-04-19T05:12:07,False,completed,desktop,60.59.174.236,UK
+5fdddd0b-44f4-4073-b502-3aed0371a4d9,718dbe9e0f4f93e5,Linda Brown,47,UK,transfer,583.68,AUD,bank_transfer,Parker PLC,clothing,2024-11-04T00:46:11,True,completed,mobile,219.39.124.153,France
+ebfa3671-2182-44ae-8819-68c641589435,e8cdbad60dc1e84c,Danielle Fletcher,80,Germany,transfer,24.92,AUD,bank_transfer,Brown Group,groceries,2025-05-22T23:01:23,False,pending,tablet,129.225.193.177,USA
+aacfd654-28be-46bc-934d-2445506f7cd3,82fc861c7e95babd,Yvonne Moody,32,UK,refund,29.07,CAD,credit_card,Fuller Group,electronics,2025-03-28T06:14:54,False,pending,tablet,140.119.248.43,USA
+c585caa2-e115-4e7d-9a63-df5ece996d4f,05337f2077d7f85d,Jose Stark,32,Japan,deposit,35.78,CAD,bank_transfer,Henry PLC,health,2025-05-29T08:12:28,False,failed,mobile,113.98.65.71,Australia
+a1065aa2-b0bf-4f82-9eeb-4d50f2418b2e,3516dc20cc11a21a,Vanessa Velasquez,58,Australia,deposit,7.27,CAD,crypto,Padilla LLC,entertainment,2025-03-10T05:04:24,True,pending,desktop,64.224.228.7,USA
+98c04825-17ef-45f2-bbce-0b75e4439589,ee18e712f9378408,Kimberly James,68,Japan,refund,13.76,USD,paypal,"Morales, Jordan and Sullivan",groceries,2024-08-09T19:40:20,False,pending,mobile,95.143.141.134,UK
+325d3d63-8168-4d3e-87a6-70bbb9cda31e,b8a698125e561e8c,Samantha Perez MD,74,Australia,transfer,12.11,USD,crypto,Serrano-Oliver,clothing,2025-04-19T23:18:23,False,completed,mobile,167.181.41.97,Japan
+9bc14a11-f578-45d5-9d09-e8aa1fa4f9bb,3ae6f92455717996,Amy Mckenzie,33,Japan,refund,17.26,CAD,crypto,Allen LLC,groceries,2025-03-26T10:03:12,False,failed,tablet,117.154.58.110,Canada
+b93ee875-8109-41db-ba9c-65d2552a2a33,45d5eda345d1bba8,Riley Adams,35,Germany,purchase,51.83,CAD,crypto,Williams PLC,electronics,2024-12-04T14:54:24,False,pending,desktop,123.41.67.163,France
+c0dfadfa-08ca-456d-a1aa-162d9fdbdb7b,6eca2a8030a0f31f,Sheila Sexton,67,Japan,withdrawal,77.58,GBP,bank_transfer,Garcia-West,clothing,2024-10-17T04:00:13,False,completed,mobile,62.146.72.83,Canada
+2dfeac56-7d42-4e09-af17-6ace61fa367c,09b32f4e94745a3f,Thomas Guzman MD,38,UK,deposit,558.78,JPY,crypto,"Jones, Francis and Mitchell",entertainment,2024-09-27T06:22:32,False,completed,desktop,120.163.21.135,Australia
+1e79b4b6-bdea-4fb3-b078-03c365975604,75e46e24100c1725,Mrs. Renee Myers,42,Canada,purchase,12.21,GBP,credit_card,"Harris, Turner and Powell",travel,2025-06-03T16:15:37,False,failed,desktop,218.8.198.118,Australia
+c74d8040-8bb2-4102-be24-4258a542a2be,c12f09953e81046c,Mr. Jeremy Gonzalez,55,Canada,withdrawal,239.0,CAD,crypto,"Poole, Martin and Daugherty",health,2024-12-14T02:30:25,False,failed,mobile,25.180.224.219,France
+66738c5d-2676-4df0-bdaa-2129cb674121,7b97e0be299b04c5,Pamela Davis,72,Canada,refund,39.61,GBP,debit_card,Garcia LLC,clothing,2024-08-12T08:49:16,False,completed,desktop,72.131.40.192,Japan
+eca3e00b-dfb6-4ae6-9309-27bd41480284,ee18e712f9378408,Kimberly James,68,Japan,purchase,50.69,EUR,credit_card,Daugherty PLC,travel,2024-08-02T06:24:26,False,completed,mobile,133.162.146.175,USA
+9445f005-8e1b-4371-b3c6-b53011691174,7be21778db08f8f9,Jasmine Gibson,23,Australia,deposit,150.24,EUR,crypto,"Diaz, Chase and Aguilar",groceries,2025-06-19T23:45:09,True,pending,tablet,212.237.85.59,USA
+999b1fd5-4d76-4747-b292-1b231de89266,82ea76d55d802f16,Joseph Berry,19,Japan,purchase,10.13,GBP,credit_card,Goodwin LLC,clothing,2025-06-23T07:52:02,False,pending,mobile,42.247.221.225,France
+e784e225-9589-4fea-ac42-88b4aa092671,21453c624618b8d5,Frances Jackson,50,France,refund,96.89,CAD,paypal,Lam-Pacheco,clothing,2024-12-19T13:29:49,False,failed,tablet,86.3.202.197,France
+3def0283-37d9-4387-ac1b-417b73ddc12f,1e78d9414c8effec,Lisa Nichols,69,USA,deposit,70.08,USD,crypto,Goodwin LLC,electronics,2024-11-22T09:40:11,False,failed,mobile,123.164.97.50,USA
+5cda8320-f8d2-493a-b611-6bd692fe256c,ec01fa6e538369d6,Alex Kerr,58,France,refund,114.28,AUD,crypto,Garcia-West,clothing,2025-04-08T09:37:24,False,failed,desktop,148.157.210.49,USA
+5558d74c-5b10-4aeb-b1ed-9792cf785e55,45d5eda345d1bba8,Riley Adams,35,Germany,deposit,84.25,AUD,debit_card,Garcia-West,clothing,2025-06-03T09:22:07,False,pending,desktop,26.209.146.88,Germany
+b9f9d0a8-c40d-487c-98ac-abfdb57b5a47,f16ad5a0c0393eb4,Beth Meyer,24,Canada,deposit,2171.02,USD,debit_card,Daugherty PLC,groceries,2025-01-15T03:10:37,True,completed,tablet,85.141.128.104,Germany
+5ff45d9a-0df1-48e5-af10-9e72682906f8,c12f09953e81046c,Mr. Jeremy Gonzalez,55,Canada,withdrawal,20.98,CAD,paypal,"Flores, Woodward and Wagner",health,2024-09-14T19:52:32,True,pending,desktop,89.11.135.101,Japan
+d1e451c8-abc2-46a8-8a54-d3238cc721b1,3444cd002bd69b5c,Tamara Reed,59,Japan,withdrawal,24.62,JPY,paypal,Ramirez Ltd,groceries,2025-06-10T11:24:10,False,pending,mobile,214.241.161.245,Germany
+765c8934-d789-4501-89c8-41fda4ee0e97,9ff4eb1c6a4d1701,James Kirk,74,Japan,withdrawal,21.44,EUR,paypal,Jackson Group,electronics,2024-09-13T14:22:01,False,pending,tablet,123.96.39.175,Australia
+18fee795-2f96-4dde-929f-e32f60175fb4,3516dc20cc11a21a,Vanessa Velasquez,58,Australia,refund,23.73,EUR,credit_card,Allen LLC,electronics,2024-12-25T03:59:06,False,failed,tablet,67.131.210.122,Japan
+66ac9667-36e0-4a21-97a2-e401529fea8d,1bfa5e3ead23689e,Rodney Mills,25,UK,purchase,20.99,EUR,credit_card,"Moss, Bell and Stuart",health,2025-02-23T16:22:18,False,completed,tablet,4.98.183.111,UK
+4c42a8c7-77d7-4fa5-8044-16ad470bad23,c16840c8f199623e,Jesse Austin,62,Germany,purchase,324.9,CAD,paypal,Jackson Group,entertainment,2024-11-17T00:01:05,False,pending,mobile,212.247.94.180,UK
+aa68fda0-bc4b-4628-a5ce-fe8efa954c4b,2b3538f663837972,April Moore,56,Canada,withdrawal,459.78,AUD,bank_transfer,Carter Group,entertainment,2024-08-10T20:14:40,False,failed,desktop,152.166.77.230,Canada
+06f8ac6c-860e-4799-97e2-0f2b35dbc0bf,bfa4523aa6574f66,Robin Miller,24,Germany,withdrawal,23.19,EUR,crypto,Serrano-Oliver,groceries,2025-07-13T09:38:53,True,pending,mobile,36.150.218.38,Germany
+4c28e036-5a95-484f-9c5a-2c2590379365,aefba2684c669e74,John Perez,52,Germany,transfer,15.67,GBP,bank_transfer,Henry PLC,clothing,2024-08-10T01:47:57,True,failed,mobile,73.173.10.112,Germany
+b152c440-c321-4beb-8006-c1eb3260f28b,1af4811557b604eb,Kristen Glenn,45,USA,withdrawal,110.73,EUR,credit_card,Hays-Solomon,health,2024-08-19T10:11:45,False,pending,tablet,7.198.157.69,UK
+d606238e-db72-425a-9e9c-4172779a15d4,8c870fb2bdd7868c,Christopher Wyatt,55,Germany,purchase,23.85,JPY,credit_card,Carter Group,travel,2025-06-02T13:48:26,False,completed,desktop,198.178.169.81,Japan
+41d8948d-5388-4927-9fe4-0704943ea7df,7be21778db08f8f9,Jasmine Gibson,23,Australia,withdrawal,141.09,CAD,bank_transfer,Ramirez-Gates,groceries,2024-10-11T09:30:33,False,failed,tablet,115.136.198.154,France
+67f63a93-18ea-41dd-9f27-5ac0320b45b4,82b6e205329d024f,Katherine Thompson,35,UK,purchase,74.02,EUR,bank_transfer,"Mcknight, Solis and Lewis",groceries,2025-03-02T09:02:09,False,pending,desktop,213.121.27.236,USA
+9b34db98-bf03-4506-a99d-4a26e3837e76,14218e5da1de3823,Samantha Davis,65,USA,purchase,5.62,AUD,debit_card,Carter Group,groceries,2025-03-13T15:56:07,False,completed,desktop,182.150.171.69,France
+dd751cc6-7a37-4bf3-8031-32a8583fac1e,24b1684acefadc04,Mrs. Barbara Walters,28,France,refund,556.27,EUR,paypal,Fuller Group,electronics,2024-10-04T15:35:48,False,pending,tablet,189.143.166.221,Japan
+c16969d3-ae82-4052-935e-99763c8be23d,9ff4eb1c6a4d1701,James Kirk,74,Japan,deposit,807.4,EUR,crypto,"Flores, Woodward and Wagner",clothing,2025-04-24T21:15:55,False,pending,desktop,157.72.161.82,Germany
+8892d987-0f91-48b1-8fb1-245e4b94a863,301e3b19165d5029,Heather Smith,67,Australia,deposit,21.78,AUD,bank_transfer,Lam-Pacheco,groceries,2025-02-09T02:01:30,False,completed,tablet,157.120.48.93,France
+efe271dc-9d00-46de-8dfd-91056de8ed2f,13dd2268e14de24e,Veronica Alvarado,61,Japan,refund,30.52,AUD,paypal,Goodwin LLC,electronics,2024-12-31T06:08:12,False,failed,desktop,153.202.21.174,Canada
+aa3f5a31-fe3c-4776-89c3-06e90de534bc,1b71c25fa2c67d79,Robert Petersen,41,UK,purchase,83.83,CAD,bank_transfer,"Smith, Joseph and Banks",groceries,2025-06-19T20:56:38,False,completed,mobile,195.114.181.57,Canada
+8ac26bc7-360a-45e0-994b-de1b56df7de7,1e78d9414c8effec,Lisa Nichols,69,USA,transfer,90.17,AUD,crypto,Bryant-Smith,groceries,2025-07-17T22:21:52,True,completed,mobile,149.221.127.172,USA
+032724c2-31f7-454a-b4d3-ed98a5bc3d65,5de5eb4abe50f40a,Anthony Raymond,22,UK,transfer,146.62,AUD,credit_card,"Morgan, Page and Russell",entertainment,2025-07-06T19:41:11,False,pending,desktop,36.73.43.249,Germany
+86df4fa7-4ad6-4eda-af3e-10ddc4165709,82b6e205329d024f,Katherine Thompson,35,UK,withdrawal,1113.55,CAD,crypto,Avila-Bradford,entertainment,2025-01-10T02:54:00,False,failed,mobile,190.208.239.40,USA
+688ba973-d4d1-4acf-ad68-acee8d43a994,a689bb0993547dc5,Corey Jones DDS,38,Australia,purchase,41.87,EUR,debit_card,Serrano-Oliver,health,2024-10-21T21:56:13,False,failed,desktop,191.112.89.154,Canada
+4abec9d9-75c0-4a79-9fd8-871b7a468209,45d5eda345d1bba8,Riley Adams,35,Germany,withdrawal,16.49,AUD,debit_card,Bryant-Smith,entertainment,2025-05-16T11:46:23,False,pending,mobile,14.117.32.0,Germany
+778dbf9d-0277-46de-bbce-152e2146b2b3,66fe3667006bca9b,Donna Smith,41,France,deposit,6.9,GBP,bank_transfer,Rodriguez-Webb,health,2024-12-08T15:57:33,False,failed,tablet,116.171.204.235,Australia
+5526549d-0a99-4b51-b5de-144cb7cb95e8,7bab8232f28e10f5,Barbara Rivera DDS,19,France,deposit,18.24,USD,paypal,Hoffman Inc,entertainment,2024-08-17T00:41:06,False,completed,desktop,152.43.192.144,Canada
+f24c3927-8d31-4a4c-857d-45a552a906fe,08744fb04db5e3b3,Keith Robinson,19,USA,transfer,51.95,CAD,crypto,"Morgan, Page and Russell",health,2025-07-13T07:16:49,False,completed,desktop,185.130.209.222,Australia
+01c27130-e4f4-4eef-81e1-f331638c1887,08294bd3216ccda1,Christine Hardy,35,Japan,transfer,805.8,EUR,crypto,Brown Group,entertainment,2025-02-04T05:06:41,False,completed,tablet,181.104.207.18,France
+13bafb2a-c65e-46ba-8ebf-c0082f1eba80,2aadcd7a10decf0e,Mary Thomas,22,Germany,deposit,25.12,EUR,debit_card,Tyler-Lopez,health,2024-12-03T23:11:22,False,failed,desktop,69.141.181.153,France
+afad3c41-d081-4ca0-a9a6-4a466879a979,7f7c9c4743259366,William Ruiz,23,France,deposit,76.38,EUR,crypto,Hoffman Inc,health,2025-06-14T02:19:45,False,failed,mobile,174.219.69.0,Australia
+391559ec-4ec0-40ad-80b1-dbdf93efe9cf,45d5eda345d1bba8,Riley Adams,35,Germany,withdrawal,53.27,GBP,debit_card,Ramirez Ltd,health,2025-04-07T13:14:56,False,pending,desktop,47.253.210.215,UK
+5cc28f34-2c1d-4520-8fb7-46bfb44cee6a,80ded0a7d5e0cb2d,Steven Moyer,22,USA,purchase,324.6,EUR,debit_card,"Morales, Jordan and Sullivan",groceries,2024-11-08T11:45:11,False,pending,tablet,17.190.79.230,Australia
+90b5e24b-471c-494b-94c7-81e7a018277d,3ae6f92455717996,Amy Mckenzie,33,Japan,refund,2417.28,USD,bank_transfer,Williams PLC,clothing,2025-03-26T07:19:07,True,pending,desktop,80.173.200.153,UK
+219e0844-991d-466e-aa53-8b5f1a4699d1,a689bb0993547dc5,Corey Jones DDS,38,Australia,deposit,24.62,AUD,bank_transfer,Duncan-Ross,clothing,2024-08-22T01:52:56,False,completed,mobile,18.80.135.150,Germany
+933f1b23-e719-4f90-ae30-5f5f73ce6398,e8cdbad60dc1e84c,Danielle Fletcher,80,Germany,transfer,26.2,AUD,crypto,Duncan-Ross,health,2024-08-02T02:04:53,False,completed,mobile,193.192.179.229,UK
+85ee3fc7-ea21-4789-8bfa-68837fbdef58,e2b78eec195dc5d9,Christopher Brown,31,UK,transfer,261.45,USD,crypto,"Smith, Joseph and Banks",groceries,2025-07-06T16:07:48,False,completed,desktop,35.220.68.75,Canada
+8cb373c4-ccf6-47fc-a9a2-5886b9ed4143,81af3edb3c839d6d,Jamie Johnson,47,France,refund,151.84,JPY,debit_card,Ramirez Ltd,entertainment,2025-05-05T10:13:29,False,failed,tablet,137.245.2.178,USA
+7bd926a6-80ad-412b-974a-411c62b1a94d,718dbe9e0f4f93e5,Linda Brown,47,UK,deposit,871.37,USD,paypal,"Leblanc, Herring and Casey",entertainment,2025-05-15T00:14:57,False,pending,desktop,16.249.146.88,Germany
+cb869559-0db9-45d2-8206-0d7916d0b84d,718dbe9e0f4f93e5,Linda Brown,47,UK,withdrawal,131.09,GBP,debit_card,Williams PLC,electronics,2024-12-29T07:23:07,False,pending,desktop,150.91.190.147,Germany
+2462aa6f-bad5-42d6-ab40-b9242a699ab9,4f6cf57268da9690,Tiffany Love,77,Japan,transfer,31.85,EUR,crypto,Ramirez-Gates,groceries,2025-05-27T09:54:11,False,completed,desktop,76.101.108.99,USA
+7fa409fc-adbb-4954-a157-ea9e6ade6e33,d8c620b9d519e440,Mr. Anthony Diaz,76,France,withdrawal,132.42,GBP,bank_transfer,"Morales, Jordan and Sullivan",clothing,2024-09-08T13:18:28,False,failed,desktop,208.5.33.89,Japan
+bcacde59-8078-4191-8011-a4e220e7a54b,84d68aeb51eb41be,Stephen Powell,30,Japan,purchase,288.03,AUD,crypto,Brown Group,electronics,2024-12-17T11:54:49,False,failed,mobile,159.205.196.165,USA
+51dc264a-988d-4434-8cf9-360a85d4faec,00f212a760aa541a,Brian Welch,52,USA,deposit,186.93,AUD,bank_transfer,Larson-Brown,groceries,2025-05-17T01:21:05,False,failed,mobile,205.83.199.19,Canada
+a3ec44bc-0df3-4768-8672-37b8867d9287,5de5eb4abe50f40a,Anthony Raymond,22,UK,refund,116.85,USD,bank_transfer,"Moss, Bell and Stuart",groceries,2024-10-06T21:15:43,False,completed,desktop,129.157.21.232,Germany
+4f93f3d9-c1b8-4ef6-a23c-151a9dbb5038,977e73656e8bc592,David Ferguson MD,23,Germany,refund,270.43,CAD,bank_transfer,Carter Group,health,2024-09-19T08:24:33,False,completed,desktop,35.88.120.199,Japan
+86a486be-95c6-4a55-b4c8-25610b86ba06,e2b78eec195dc5d9,Christopher Brown,31,UK,withdrawal,315.43,EUR,bank_transfer,Hammond-Taylor,health,2025-03-22T04:49:15,False,completed,mobile,39.176.176.10,Japan
+edfaa420-07e6-4fe5-9bdd-d2eb07086c56,a55fa98c973653c7,Victoria Hanson,45,France,transfer,434.08,CAD,crypto,"Smith, Joseph and Banks",entertainment,2025-03-11T13:39:12,False,failed,tablet,203.21.172.12,USA
+e27131f8-9a8d-4644-8ca7-f1452941de9d,cab4b02147bae504,Robert Hatfield,60,UK,withdrawal,144.47,USD,credit_card,"Shields, Walker and Tyler",health,2025-03-24T13:24:07,False,pending,tablet,59.139.5.206,Australia
+8f1e31be-607a-474d-9175-3363a3e09363,c12f09953e81046c,Mr. Jeremy Gonzalez,55,Canada,purchase,42.49,AUD,bank_transfer,Garcia LLC,groceries,2024-10-29T19:26:25,False,completed,mobile,29.187.192.173,UK
+e3f2fbf6-2d53-4496-85bd-ca0f59613588,e62fbc73717451d9,Thomas Crawford,64,Germany,deposit,68.04,JPY,debit_card,Allen LLC,travel,2025-07-12T20:57:02,False,pending,desktop,63.30.133.225,Australia
+9a39c943-7f57-4936-86f3-e81a5623754b,05337f2077d7f85d,Jose Stark,32,Japan,refund,333.54,AUD,paypal,Goodwin LLC,groceries,2025-04-08T12:24:03,False,completed,mobile,94.201.224.160,UK
+a7c64e47-2af1-4147-901c-c6bc8e9d8d79,77aab47038494a47,Theresa Whitney,59,USA,transfer,16.03,EUR,debit_card,Hoffman Inc,clothing,2025-02-21T16:23:25,True,completed,tablet,218.105.239.227,Germany
+ac2693e3-a71a-4bf9-968d-b507f89e6a83,82fc861c7e95babd,Yvonne Moody,32,UK,deposit,94.92,EUR,debit_card,Jackson Group,groceries,2024-07-28T12:57:53,False,completed,mobile,6.217.74.102,USA
+aef095d7-8e28-4223-8743-261627b6f8e7,08294bd3216ccda1,Christine Hardy,35,Japan,deposit,30.26,CAD,bank_transfer,Williams PLC,electronics,2025-05-30T18:12:19,False,completed,tablet,32.160.123.146,France
+7b33e3ee-94cc-463e-b7ee-91cc172492cb,aefba2684c669e74,John Perez,52,Germany,purchase,57.0,EUR,crypto,Allen LLC,travel,2025-04-15T11:41:58,False,failed,mobile,177.204.217.62,Germany
+a8d93e48-869c-4558-881d-87e09f1cb268,9526eee5caca2be7,Nicole Stanley,79,Australia,transfer,371.55,EUR,paypal,Avila-Bradford,clothing,2025-05-28T07:05:43,False,completed,tablet,67.123.20.13,Japan
+30ad230b-fe47-416b-aada-986bb6248736,f16ad5a0c0393eb4,Beth Meyer,24,Canada,transfer,72.72,GBP,debit_card,"Smith, Joseph and Banks",clothing,2025-07-06T19:48:27,True,pending,mobile,203.244.255.65,Germany
+71c6c246-6239-455f-88b2-d288c109a4f6,8c870fb2bdd7868c,Christopher Wyatt,55,Germany,withdrawal,58.54,JPY,debit_card,Allen LLC,health,2024-11-01T20:48:10,False,completed,desktop,84.153.204.7,Canada
+8b4e5df7-c346-4a19-a4df-f54d54d25ba9,c12f09953e81046c,Mr. Jeremy Gonzalez,55,Canada,transfer,7.1,GBP,bank_transfer,"Jones, Francis and Mitchell",travel,2024-09-25T13:46:50,False,failed,tablet,24.206.192.176,Japan
+cf173c1c-1893-4fdf-9ab9-1f695c1b987f,00f212a760aa541a,Brian Welch,52,USA,purchase,167.23,USD,credit_card,"Ford, Dorsey and Alvarado",groceries,2024-12-10T05:18:34,False,pending,desktop,151.46.82.235,France
+6beba2ca-fa34-44b0-9cce-bfc341dec90e,f33918d764b92e1d,Mr. Mark Silva,53,France,deposit,143.77,CAD,credit_card,Serrano-Oliver,entertainment,2025-07-23T07:17:39,False,pending,tablet,103.233.219.43,USA
+6a1eecc6-c1bc-4efb-be5d-03b8cb1a8ceb,3516dc20cc11a21a,Vanessa Velasquez,58,Australia,refund,1400.92,JPY,crypto,"Poole, Martin and Daugherty",groceries,2025-01-02T13:46:06,True,pending,desktop,91.215.122.32,USA
+3d691be2-5831-4827-ba7e-4f1bc6a262b7,9de8bea628dd96b4,Cindy Mccullough,77,Japan,refund,34.41,AUD,credit_card,Prince-Smith,travel,2024-09-09T23:55:01,False,completed,desktop,80.197.37.251,Canada
+d2fbd86b-4a7d-4cfa-a5ce-6dc6488840a4,13dd2268e14de24e,Veronica Alvarado,61,Japan,refund,75.85,CAD,bank_transfer,Ramirez Ltd,groceries,2025-06-11T08:11:34,False,pending,desktop,70.153.77.149,Australia
+07f900b8-4629-4c48-bfdd-f5ba7e8ac1c6,244b5124c8490968,Kimberly Romero,34,Japan,transfer,79.37,EUR,crypto,Padilla LLC,groceries,2024-09-13T20:36:59,False,pending,mobile,57.170.168.139,Canada
+7d24c285-3e37-4cc1-a985-8a287fec72b6,09b32f4e94745a3f,Thomas Guzman MD,38,UK,withdrawal,581.83,GBP,credit_card,"Ford, Dorsey and Alvarado",clothing,2025-01-11T07:04:54,False,pending,desktop,104.153.119.204,UK
+f9ee1f34-4731-4d4a-8980-9192a9bb3f1e,ec18375130d9b273,Julie Munoz,69,UK,withdrawal,47.33,EUR,bank_transfer,Duncan-Ross,travel,2024-08-19T15:53:55,False,failed,tablet,103.231.224.162,USA
+5b5300df-d0ce-496a-88f8-bf2b7907b617,a689bb0993547dc5,Corey Jones DDS,38,Australia,withdrawal,82.97,AUD,bank_transfer,Williams PLC,electronics,2025-05-30T04:06:17,False,completed,desktop,165.123.135.81,USA
+9a9aeb2e-7247-435b-be96-ec9dc1270239,7943de2cf7564714,Zachary Jones,27,UK,refund,135.89,CAD,crypto,Hoffman Inc,health,2025-04-05T16:02:26,False,failed,mobile,62.156.214.231,Australia
+e4db9a89-b80f-4e6c-883d-ac78eb3d479a,d581ed942fedca03,Wayne Price,43,Canada,deposit,72.23,USD,debit_card,"Leblanc, Herring and Casey",travel,2024-08-22T19:39:31,False,pending,mobile,15.254.60.253,Germany
+13e27145-fcae-4425-b9ba-3570ea35c380,ec01fa6e538369d6,Alex Kerr,58,France,purchase,27.95,JPY,bank_transfer,Garcia-West,groceries,2025-05-14T06:04:17,False,completed,desktop,90.37.220.237,Canada
+35ba2a6f-4f42-4fc6-96fc-8a2bb41edb22,2aadcd7a10decf0e,Mary Thomas,22,Germany,withdrawal,73.05,CAD,bank_transfer,Hays-Solomon,health,2025-03-18T13:10:07,True,completed,tablet,208.59.120.170,Japan
+efe6d2ef-be62-463a-8973-3d5b50076e35,8c870fb2bdd7868c,Christopher Wyatt,55,Germany,withdrawal,273.27,AUD,paypal,Hoffman Inc,clothing,2025-05-10T11:34:40,False,completed,tablet,115.236.211.251,Japan
+10ed47de-49eb-4109-a515-ab5fcb846329,ec01fa6e538369d6,Alex Kerr,58,France,transfer,11.71,USD,credit_card,"Flores, Woodward and Wagner",entertainment,2024-11-10T01:26:46,False,pending,desktop,122.104.4.67,Japan
+bd1f6cef-7fee-43f1-9707-4acdc7c47c9d,77c033f1e67c252b,Austin Snyder,39,Canada,refund,66.65,USD,bank_transfer,Tyler-Lopez,clothing,2025-06-07T22:51:05,False,pending,desktop,152.49.59.188,USA
+7330dacc-53cf-49f7-8afe-aac8ace1c1ae,82fc861c7e95babd,Yvonne Moody,32,UK,refund,19.1,EUR,credit_card,"Morgan, Page and Russell",health,2025-06-13T20:49:38,False,pending,tablet,70.133.66.226,Canada
+eaacbd0d-8780-4447-a673-a51514946f1e,f33918d764b92e1d,Mr. Mark Silva,53,France,refund,327.85,USD,paypal,"Diaz, Salazar and Chandler",entertainment,2025-04-16T19:37:54,False,pending,desktop,21.111.56.221,Japan
+d737722d-ece6-4d24-bd20-7cd41925d176,d831cfceb9a491a3,Christopher Snow,62,France,transfer,5.56,EUR,crypto,George Ltd,travel,2025-05-12T08:27:28,False,failed,mobile,204.180.34.81,France
+bbf08b04-fce3-496d-a0e5-5bcaf66577b8,24b1684acefadc04,Mrs. Barbara Walters,28,France,withdrawal,23.61,JPY,credit_card,Hammond-Taylor,travel,2025-01-10T18:04:56,False,failed,tablet,219.174.224.69,USA
+a9eb0599-9ccd-4b65-b3d3-171b2902c488,1cdf24ea265a1099,Sherry Stevenson,42,France,refund,96.14,AUD,bank_transfer,"Shields, Walker and Tyler",entertainment,2024-09-29T06:53:38,False,pending,desktop,27.218.204.72,France
+81955e11-1dd3-4c32-a4e6-82aecd73b489,e2b78eec195dc5d9,Christopher Brown,31,UK,withdrawal,571.51,GBP,paypal,Allen LLC,groceries,2024-08-12T10:03:08,False,failed,desktop,107.153.8.249,UK
+88379436-400d-4543-9e94-1c7e28a15c5f,b8a698125e561e8c,Samantha Perez MD,74,Australia,deposit,49.47,USD,credit_card,Duncan-Ross,entertainment,2024-10-20T21:23:03,False,pending,desktop,163.156.175.51,France
+06167f8f-8e6a-41ba-9e13-fbb608c7f6ee,7bab8232f28e10f5,Barbara Rivera DDS,19,France,withdrawal,23.74,CAD,crypto,Lam-Pacheco,groceries,2024-09-01T22:43:09,False,failed,mobile,58.250.246.57,Australia
+5e01b1c3-25b7-451f-a355-534f065512ac,3444cd002bd69b5c,Tamara Reed,59,Japan,withdrawal,917.58,GBP,debit_card,"Moss, Bell and Stuart",electronics,2024-11-03T17:57:16,True,failed,desktop,191.208.141.173,Australia
+8d382629-2005-45a5-902a-caa1e5aea76b,80ded0a7d5e0cb2d,Steven Moyer,22,USA,deposit,6.22,AUD,bank_transfer,"Mcknight, Solis and Lewis",entertainment,2025-01-11T04:47:02,False,pending,mobile,104.175.62.189,Australia
+e057f971-c0bb-4168-ae36-ef536fa5a48c,f16ad5a0c0393eb4,Beth Meyer,24,Canada,refund,2.02,JPY,credit_card,Hendricks PLC,health,2025-05-28T18:39:04,False,failed,mobile,5.115.255.53,Japan
+99590435-9073-4c01-9ef6-ba519b382fc6,2927aeb8aef73e54,Hayden Nelson,58,USA,withdrawal,105.64,GBP,credit_card,"Shields, Walker and Tyler",travel,2025-05-20T18:43:22,False,pending,tablet,172.166.107.235,USA
+ac0258ed-2961-4310-be8e-d0eeb647bd29,bd399182db5cf017,Lauren Davis,61,Japan,deposit,25.71,JPY,bank_transfer,Rodriguez-Webb,groceries,2025-01-19T23:01:37,False,failed,tablet,8.210.163.199,Canada
+f74e6f42-67bd-40a9-8bb8-e0e0424d1e44,68f94371d14b290e,Devin Mcdonald,31,Japan,transfer,11.8,GBP,credit_card,Morales Inc,clothing,2025-01-31T14:49:25,False,completed,tablet,138.213.176.188,UK
+ad59830e-1276-45ba-9dff-33bd13ccb19d,9526eee5caca2be7,Nicole Stanley,79,Australia,purchase,157.99,AUD,debit_card,Williams PLC,health,2024-10-25T14:30:55,False,failed,tablet,209.169.195.188,Germany
+b28842d3-8ac6-4074-882e-99d5724605d7,9526eee5caca2be7,Nicole Stanley,79,Australia,purchase,78.7,EUR,paypal,Williams PLC,travel,2024-09-22T09:18:12,False,completed,mobile,177.113.177.204,Australia
+afb4dfd3-49b1-454f-be5c-d6276651c8b2,a66d10edf41252e6,Kelly Michael,18,Australia,withdrawal,23.43,USD,bank_transfer,"Mcknight, Solis and Lewis",entertainment,2025-05-18T06:04:16,False,pending,tablet,150.184.106.14,Germany
+e3bc239b-44b3-400d-85b4-ef79e603ccce,68f94371d14b290e,Devin Mcdonald,31,Japan,purchase,8.0,USD,paypal,Henry PLC,health,2024-11-30T22:16:11,False,pending,desktop,25.29.92.119,USA
+ca47fc78-7ae1-437a-9a97-0fd74c15e939,c353841d5c159051,Noah Anderson,73,USA,deposit,202.08,JPY,crypto,"Bell, Harris and Tyler",electronics,2025-05-23T08:11:00,False,pending,tablet,108.45.212.232,Japan
+7b470734-6fcb-4747-8b39-750674006ef1,8300e12d10e12c6f,Brenda Jones,34,UK,deposit,144.79,AUD,bank_transfer,"Ford, Dorsey and Alvarado",entertainment,2024-08-25T01:47:09,True,failed,desktop,50.75.33.189,UK
+9b6ed050-2419-4ca8-8030-ea172018b654,9ff4eb1c6a4d1701,James Kirk,74,Japan,purchase,47.05,EUR,paypal,Ortiz-Johnson,electronics,2025-06-22T23:54:04,False,failed,desktop,116.43.107.195,Japan
+9f581028-b0f1-4177-b80e-dacd2fd1dffe,42ae2d5e2b8f0083,Kendra Olson,28,Germany,withdrawal,871.27,CAD,credit_card,Lozano-Gonzalez,clothing,2024-09-04T10:43:12,False,pending,mobile,108.227.231.114,UK
+fb93c373-fb81-40bb-b765-fc54277a2784,eebbe04a788493b2,Krystal White,21,UK,refund,10.97,CAD,crypto,Hays-Solomon,health,2025-05-13T14:57:06,False,completed,desktop,29.80.158.54,Japan
+8d94906a-b30f-4de6-b9f1-4107e38db628,81af3edb3c839d6d,Jamie Johnson,47,France,withdrawal,5.54,AUD,bank_transfer,"Shields, Walker and Tyler",health,2024-09-07T13:06:57,False,pending,mobile,68.214.177.99,Australia
+524cc76c-8f54-4fed-a068-97bc3e0e1d15,8c870fb2bdd7868c,Christopher Wyatt,55,Germany,refund,19.34,AUD,paypal,George Ltd,health,2024-08-16T08:25:44,False,completed,mobile,78.174.7.252,Japan
+1f24732a-4975-4f3d-95d3-1550beee92bb,ec18375130d9b273,Julie Munoz,69,UK,deposit,50.99,EUR,bank_transfer,Fuller Group,groceries,2025-05-21T23:48:52,False,failed,mobile,206.97.34.171,USA
+66ae7ad3-5046-41b5-abb6-fe008696ce55,82b6e205329d024f,Katherine Thompson,35,UK,transfer,78.65,AUD,paypal,Padilla LLC,clothing,2025-03-09T03:18:02,False,failed,mobile,76.75.73.135,Canada
+cc883da9-4541-4811-84e6-5d15014d2749,1af4811557b604eb,Kristen Glenn,45,USA,transfer,38.02,JPY,bank_transfer,Brooks-Rogers,electronics,2025-03-18T08:29:08,False,pending,desktop,124.163.16.251,USA
+095e932f-5c6d-426b-840a-be0c2f258c9f,bf7b169681540988,Tyler Sanchez,23,Australia,transfer,92.58,JPY,credit_card,"Morales, Jordan and Sullivan",clothing,2025-02-13T20:39:15,False,failed,tablet,4.71.136.147,Australia
+5cea311a-8c81-4ffc-98e9-26418a1adb07,a59bf44642d3ad42,Ashley Bishop,21,Australia,purchase,8.35,EUR,credit_card,Daugherty PLC,electronics,2025-04-19T22:23:38,False,failed,tablet,171.233.105.127,Germany
+d4066d71-8a2b-49d9-8cbc-06e1e95fbbe4,edd55c890e536a77,Stephanie Morales,30,Japan,deposit,476.11,USD,credit_card,Padilla LLC,health,2025-05-07T18:06:08,False,completed,desktop,129.53.228.118,France
+5eb44e6a-4912-4bbb-86dc-391085c1b2ed,ec18375130d9b273,Julie Munoz,69,UK,transfer,48.27,JPY,bank_transfer,Fuller Group,health,2025-05-31T23:16:02,False,completed,tablet,182.66.148.4,Australia
+5ac2072d-bf93-4956-ae97-c2afd5973a3f,45d5eda345d1bba8,Riley Adams,35,Germany,transfer,291.76,GBP,debit_card,"Mcknight, Solis and Lewis",travel,2025-03-11T00:59:33,False,completed,mobile,200.181.59.87,USA
+56dcb245-8e7a-4e72-bb33-9ff20930db52,d831cfceb9a491a3,Christopher Snow,62,France,transfer,91.29,GBP,paypal,George Ltd,groceries,2025-06-12T20:20:16,False,pending,desktop,38.6.192.232,France
+14a9673a-852f-4f5a-aed6-32f2b25e99e4,0365db1b96573654,Morgan Rivers,75,France,refund,108.32,JPY,debit_card,"Smith, Joseph and Banks",clothing,2025-06-24T12:09:29,False,pending,desktop,183.214.204.97,Australia
+940246b1-71fa-48d9-a77b-5b3386c2997d,4f6cf57268da9690,Tiffany Love,77,Japan,withdrawal,128.34,AUD,crypto,"Diaz, Salazar and Chandler",electronics,2025-05-10T17:18:56,False,completed,tablet,11.29.168.228,Australia
+2a5ee2b6-a74a-49cd-b232-18336289cca2,8c783345c6c8f5cd,Bradley Miller,69,Canada,purchase,106.86,CAD,credit_card,"Moss, Bell and Stuart",clothing,2024-08-20T23:35:47,False,pending,mobile,37.50.254.132,Canada
+daf4e634-adde-4141-80ec-4c6e0cccef31,7be21778db08f8f9,Jasmine Gibson,23,Australia,refund,143.18,AUD,crypto,"Jones, Francis and Mitchell",health,2025-01-15T09:33:36,False,pending,desktop,118.31.50.132,USA
+63514440-8114-4821-9427-efdf9a9cdaa0,08294bd3216ccda1,Christine Hardy,35,Japan,deposit,400.91,AUD,paypal,Bender and Sons,groceries,2025-04-05T13:37:06,True,pending,tablet,113.174.254.90,Japan
+bf9542e1-cdcc-4091-8f9c-fd11026a555f,244b5124c8490968,Kimberly Romero,34,Japan,refund,73.32,AUD,bank_transfer,Tyler-Lopez,entertainment,2025-03-29T03:30:22,False,failed,tablet,98.2.56.242,Germany
+446b744c-5f68-4757-a6ff-73cb3e3b3458,37bbd4657d09d6c8,Rebecca Phillips,64,UK,transfer,158.14,GBP,bank_transfer,Garcia LLC,electronics,2025-02-11T16:22:18,True,pending,desktop,89.116.101.99,Australia
+d5da619e-6311-4f17-b665-e1568263586f,81af3edb3c839d6d,Jamie Johnson,47,France,refund,47.72,CAD,crypto,Tyler-Lopez,electronics,2025-05-15T05:37:17,False,pending,tablet,192.161.198.38,France
+cc4dbfb1-9d48-4431-a53a-d255292f018a,bf7b169681540988,Tyler Sanchez,23,Australia,refund,473.51,JPY,credit_card,Goodwin LLC,groceries,2024-12-27T14:22:12,False,pending,tablet,79.158.137.171,USA
+143afc44-79b0-4204-a29f-66002f389e7f,7ae204a568643db3,Billy Powell,56,Japan,deposit,19.79,USD,credit_card,"Diaz, Salazar and Chandler",groceries,2025-03-31T22:10:53,False,pending,mobile,113.12.31.121,Japan
+8c8fa2ff-ddae-418d-b7c1-1b384b2b7720,ac6d47ffa3255be2,Dr. Daniel Hughes,75,France,purchase,813.55,JPY,bank_transfer,Ramirez Ltd,electronics,2024-10-02T18:17:13,False,completed,tablet,30.45.30.250,Canada
+53d71171-7b76-44e8-b8d5-ea46af4c28dc,718dbe9e0f4f93e5,Linda Brown,47,UK,deposit,51.41,JPY,crypto,Brooks-Rogers,groceries,2025-01-08T12:30:12,False,failed,tablet,126.200.197.79,Australia
+cf42579d-e548-4ab1-b250-db1f08f9021a,33d4ff6b4e776d40,Abigail Hoffman,43,Japan,refund,6.38,AUD,bank_transfer,"Leblanc, Herring and Casey",electronics,2024-08-12T06:51:52,False,failed,mobile,24.39.125.100,France
+f06e7b23-d968-45f3-88e5-9ee8449492bf,6eca2a8030a0f31f,Sheila Sexton,67,Japan,transfer,66.17,GBP,bank_transfer,"Jones, Francis and Mitchell",travel,2024-12-05T23:29:00,False,completed,mobile,110.16.250.252,USA
+56d3d4b8-d03d-42e2-bdf0-e9801ad20557,4f8d76abc6c5826a,James Jackson,23,France,withdrawal,19.66,GBP,debit_card,"Mcknight, Solis and Lewis",electronics,2025-03-29T23:53:59,False,failed,desktop,149.91.163.86,Germany
+77c2039e-ad62-41a1-aace-dc9f7261c0a1,8300e12d10e12c6f,Brenda Jones,34,UK,deposit,192.67,EUR,crypto,Hendricks PLC,entertainment,2025-03-15T05:39:27,False,pending,desktop,45.120.116.196,Australia
+bcbd4e47-2e22-4f6e-88fa-ebbfdf1785f5,ee18e712f9378408,Kimberly James,68,Japan,withdrawal,20.51,GBP,bank_transfer,Williams PLC,entertainment,2025-07-04T13:52:21,False,failed,desktop,157.85.14.179,Australia
+1902abb4-e2e6-43ab-863f-696a06ba4bf9,5c0635be9a3c2e9d,Philip Durham,32,Germany,deposit,27.96,AUD,crypto,Tyler-Lopez,travel,2024-08-01T11:30:14,False,failed,mobile,71.22.224.74,USA
+d31d5950-2d76-41c7-8414-5990394ffd5d,09b32f4e94745a3f,Thomas Guzman MD,38,UK,transfer,3.21,EUR,credit_card,"Diaz, Chase and Aguilar",electronics,2025-06-28T19:26:27,False,pending,mobile,63.117.7.35,France
+e5060593-1daa-46aa-93a3-b3f0a8afb90c,8c783345c6c8f5cd,Bradley Miller,69,Canada,refund,27.7,CAD,credit_card,"Diaz, Salazar and Chandler",groceries,2025-06-16T21:23:17,False,completed,mobile,141.73.89.38,Canada
+1323ba50-ece1-4f15-a8af-98fc3762386b,c53a8bbb01f6893a,Cynthia Mccarty,69,Australia,deposit,1.44,CAD,bank_transfer,"Bell, Harris and Tyler",clothing,2025-06-24T01:15:37,False,failed,desktop,196.206.59.129,USA
+edef20ec-b49a-4a94-813a-65013a7c980a,2927aeb8aef73e54,Hayden Nelson,58,USA,purchase,5.07,USD,crypto,Duncan-Ross,travel,2025-01-11T16:43:43,False,pending,tablet,222.83.51.248,Canada
+d9bb9bb1-eb6a-4ba1-b78f-810a4a07be30,42ae2d5e2b8f0083,Kendra Olson,28,Germany,transfer,170.82,AUD,bank_transfer,Hays-Solomon,clothing,2025-03-12T07:41:18,False,failed,tablet,45.163.15.131,Germany
+c1e08f24-1f10-4b45-9cfb-1b45b27ffe9f,75e46e24100c1725,Mrs. Renee Myers,42,Canada,withdrawal,177.45,AUD,bank_transfer,Bender and Sons,electronics,2024-08-30T04:48:19,False,failed,tablet,86.8.71.38,UK
+da1cf47b-727d-4f13-8d4c-716823861bf0,4f6cf57268da9690,Tiffany Love,77,Japan,withdrawal,103.36,CAD,debit_card,Ramirez-Gates,electronics,2025-03-28T07:37:13,False,pending,tablet,131.210.28.223,Germany
+509deaef-af3b-48c2-98a1-cc52b96dbb04,5e0190cd3f9de295,Susan Beck,36,Australia,purchase,12.8,USD,debit_card,Hoffman Inc,health,2024-08-15T17:29:58,False,failed,desktop,151.108.94.176,Japan
+59cd0c71-edef-4b41-ae2d-2bf648c047ec,09b32f4e94745a3f,Thomas Guzman MD,38,UK,purchase,50.83,GBP,crypto,Rodriguez-Webb,entertainment,2024-10-27T14:00:02,False,completed,tablet,159.165.104.173,USA
+1a62cfd2-8dec-481c-9340-b47c27b11317,8c783345c6c8f5cd,Bradley Miller,69,Canada,refund,54.3,USD,bank_transfer,"Diaz, Chase and Aguilar",health,2025-02-19T01:12:40,False,completed,mobile,159.227.109.208,France
+9d95f464-d1dd-488a-a885-700c7cf9509b,5e0190cd3f9de295,Susan Beck,36,Australia,refund,9.61,AUD,debit_card,Goodwin LLC,travel,2025-06-16T02:51:19,False,failed,tablet,63.142.184.34,Australia
+f600db80-73b7-4fef-bdee-17b85cc9b1ad,cab4b02147bae504,Robert Hatfield,60,UK,withdrawal,520.66,EUR,crypto,"Harris, Turner and Powell",groceries,2025-01-04T20:10:57,False,pending,mobile,12.209.55.117,USA
+53e812f3-3438-4fd6-9443-0531dcc89c06,d581ed942fedca03,Wayne Price,43,Canada,transfer,203.58,USD,bank_transfer,"Diaz, Chase and Aguilar",electronics,2025-02-22T22:06:30,False,pending,mobile,14.113.0.76,Canada
+bbf288ed-b3ae-43dd-b2bd-8f50a8a4a05a,7943de2cf7564714,Zachary Jones,27,UK,transfer,39.2,CAD,credit_card,"Smith, Joseph and Banks",health,2024-08-18T04:03:41,False,failed,desktop,159.19.225.231,UK
+04c07a32-e64f-426f-b7e8-785f7fd02182,7943de2cf7564714,Zachary Jones,27,UK,purchase,56.85,EUR,credit_card,Garcia-West,groceries,2025-02-20T04:11:23,False,pending,desktop,166.95.60.166,Canada
+a0ac2bc2-507a-4c3d-ac51-88ec0882e920,1b71c25fa2c67d79,Robert Petersen,41,UK,purchase,74.63,GBP,credit_card,Daugherty PLC,entertainment,2024-08-25T21:34:35,False,pending,tablet,132.241.206.68,UK
+636d9f10-83fc-4cba-b677-205b1bb4e78f,2f0a5bfdfeecaa93,Jason Zuniga,25,Japan,deposit,2.55,CAD,bank_transfer,"Ford, Dorsey and Alvarado",groceries,2025-03-11T17:08:28,False,pending,mobile,38.38.62.194,USA
+f6f72a37-ba8b-45d1-b2a9-3e412830c1a7,05337f2077d7f85d,Jose Stark,32,Japan,purchase,37.68,GBP,bank_transfer,"Harris, Turner and Powell",groceries,2024-11-01T15:44:00,False,failed,tablet,153.152.131.196,Japan
+73a7eefc-fc0c-4eee-8188-f9f1093c526e,7bab8232f28e10f5,Barbara Rivera DDS,19,France,refund,19.63,GBP,crypto,Garcia LLC,entertainment,2024-09-10T06:50:01,False,completed,tablet,60.145.166.68,Japan
+c531259a-5e53-46c7-b264-cd59291771af,eebbe04a788493b2,Krystal White,21,UK,refund,12.15,JPY,debit_card,Padilla LLC,clothing,2025-06-16T15:05:19,False,pending,tablet,126.167.124.46,Canada
+fdf7ed04-0508-473d-94da-286d0a0cdc00,42ae2d5e2b8f0083,Kendra Olson,28,Germany,purchase,35.81,EUR,credit_card,Rodriguez-Webb,groceries,2024-09-21T01:36:53,False,completed,mobile,216.253.34.250,Australia
+9e883c9d-5a1c-4393-be3d-95897a789fc8,4f8d76abc6c5826a,James Jackson,23,France,withdrawal,809.59,CAD,paypal,Allen LLC,travel,2025-05-26T11:36:52,False,failed,mobile,14.21.144.66,France
+037dce6b-a264-45bd-b2a8-257b04790a1c,718dbe9e0f4f93e5,Linda Brown,47,UK,deposit,142.77,GBP,paypal,Ramirez Ltd,entertainment,2024-08-06T23:06:58,False,pending,mobile,121.126.42.24,USA
+36044da8-1dbd-4819-8787-47d953af780b,68f94371d14b290e,Devin Mcdonald,31,Japan,purchase,23.18,JPY,debit_card,"Morales, Jordan and Sullivan",travel,2024-08-21T21:24:31,False,failed,desktop,162.35.182.46,Japan
+4efbed5b-37d0-4618-9472-dc011c0102a8,53fb4ad2c2cbc763,Mary Warner,58,UK,transfer,128.88,AUD,paypal,"Mcknight, Solis and Lewis",groceries,2024-11-23T01:17:04,False,pending,desktop,9.55.72.43,Australia

@@ -1,0 +1,48 @@
+2025-07-28 12:11:12,668 - INFO - Generated 100 customer profiles
+2025-07-28 12:11:12,754 - INFO - Generated 1000 transactions
+2025-07-28 12:11:12,760 - INFO - Data validation completed
+2025-07-28 12:11:12,773 - INFO - Exported transactions to output\transactions.csv
+2025-07-28 12:11:12,782 - INFO - Exported transactions to output\transactions.json
+2025-07-28 12:11:12,782 - INFO - Total transactions: 1000
+2025-07-28 12:11:12,782 - INFO - Fraudulent transactions: 70
+2025-07-28 12:11:12,783 - INFO - Average transaction amount: $179.57
+2025-07-28 12:11:12,783 - INFO - Transaction types distribution:
+transaction_type
+deposit       210
+transfer      204
+refund        204
+purchase      192
+withdrawal    190
+2025-07-28 12:11:12,789 - INFO - Fraud rate by country:
+customer_country
+Australia    0.100000
+Canada       0.088496
+France       0.037037
+Germany      0.058824
+Japan        0.072816
+UK           0.062500
+USA          0.093023
+2025-07-28 12:12:35,907 - INFO - Generated 100 customer profiles
+2025-07-28 12:12:35,990 - INFO - Generated 1000 transactions
+2025-07-28 12:12:35,998 - INFO - Data validation completed
+2025-07-28 12:12:36,009 - INFO - Exported transactions to output\transactions.csv
+2025-07-28 12:12:36,015 - INFO - Exported transactions to output\transactions.json
+2025-07-28 12:12:36,017 - INFO - Total transactions: 1000
+2025-07-28 12:12:36,018 - INFO - Fraudulent transactions: 70
+2025-07-28 12:12:36,018 - INFO - Average transaction amount: $179.57
+2025-07-28 12:12:36,019 - INFO - Transaction types distribution:
+transaction_type
+deposit       210
+transfer      204
+refund        204
+purchase      192
+withdrawal    190
+2025-07-28 12:12:36,021 - INFO - Fraud rate by country:
+customer_country
+Australia    0.100000
+Canada       0.088496
+France       0.037037
+Germany      0.058824
+Japan        0.072816
+UK           0.062500
+USA          0.093023
