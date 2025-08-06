@@ -11,6 +11,7 @@ from geopy.geocoders import Nominatim
 import logging
 from firewall import Firewall
 from pytz import timezone
+import pandas as pd
 
 # Configure logging with IST
 logging.basicConfig(level=logging.INFO, format='%(asctime)s IST - %(levelname)s - %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
@@ -372,6 +373,73 @@ async def get_stats():
         "last_updated": ist.localize(datetime.utcnow()).isoformat(),
         "firewall_stats": firewall_stats
     }
+
+# Endpoint for flagged transactions
+@app.get("/api/flagged-transactions")
+async def get_flagged_transactions():
+    try:
+        df = pd.read_csv('fraud_scores.csv')
+        flagged_df = df[df['fraud_score'] > FRAUD_THRESHOLD].copy()
+        flagged_df['id'] = range(1, len(flagged_df) + 1)
+        flagged_df['timestamp'] = ist.localize(datetime.utcnow()).strftime('%Y-%m-%d %H:%M:%S')
+        if flagged_df.empty:
+            return {"message": "No flagged transactions found", "data": []}
+        flagged_data = flagged_df[['id', 'amount', 'timestamp', 'fraud_score']].to_dict(orient='records')
+        logger.info(f"Retrieved {len(flagged_data)} flagged transactions")
+        return flagged_data
+    except FileNotFoundError:
+        logger.error("fraud_scores.csv not found")
+        raise HTTPException(status_code=404, detail="Fraud scores data not found")
+    except Exception as e:
+        logger.error(f"Error retrieving flagged transactions: {e}")
+        raise HTTPException(status_code=500, detail="Internal server error")
+
+# Endpoint for all transactions
+@app.get("/api/all-transactions")
+async def get_all_transactions():
+    try:
+        df = pd.read_csv('fraud_scores.csv')
+        df['id'] = range(1, len(df) + 1)
+        df['timestamp'] = ist.localize(datetime.utcnow()).strftime('%Y-%m-%d %H:%M:%S')
+        if df.empty:
+            return {"message": "No transactions found", "data": []}
+        all_data = df[['id', 'amount', 'timestamp', 'fraud_score']].to_dict(orient='records')
+        logger.info(f"Retrieved {len(all_data)} transactions")
+        return all_data
+    except FileNotFoundError:
+        logger.error("fraud_scores.csv not found")
+        raise HTTPException(status_code=404, detail="Fraud scores data not found")
+    except Exception as e:
+        logger.error(f"Error retrieving all transactions: {e}")
+        raise HTTPException(status_code=500, detail="Internal server error")
+
+# Endpoint for transaction analysis (flagged counts by hour)
+@app.get("/api/transaction-analysis")
+async def get_transaction_analysis():
+    try:
+        df = pd.read_csv('fraud_scores.csv')
+        # Group by hour_of_day and count flagged transactions
+        analysis_df = df[df['fraud_score'] > FRAUD_THRESHOLD].groupby('hour_of_day').size().reset_index(name='flagged_count')
+        if analysis_df.empty:
+            return {"message": "No flagged transactions for analysis", "data": []}
+        # Map hours to a synthetic date for chart compatibility
+        data = {
+            "labels": [f"2025-07-30 {h}:00" for h in analysis_df['hour_of_day']],
+            "datasets": [{
+                "label": "Flagged Frauds per Hour",
+                "data": analysis_df['flagged_count'].tolist(),
+                "backgroundColor": '#f87171',
+                "borderRadius": 6,
+            }]
+        }
+        logger.info(f"Generated analysis for {len(analysis_df)} hours")
+        return data
+    except FileNotFoundError:
+        logger.error("fraud_scores.csv not found")
+        raise HTTPException(status_code=404, detail="Fraud scores data not found")
+    except Exception as e:
+        logger.error(f"Error generating transaction analysis: {e}")
+        raise HTTPException(status_code=500, detail="Internal server error")
 
 # Run the application
 if __name__ == "__main__":

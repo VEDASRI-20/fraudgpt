@@ -1,16 +1,28 @@
 import React, { useEffect, useState } from 'react';
-import './Dashboard.css'; // Reuse same table styles
+import './Dashboard.css';
 
 const FlaggedTransactions = () => {
   const [flagged, setFlagged] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
-    setFlagged([
-      { id: 1, amount: 4200, timestamp: "2025-07-31 11:00", fraud_score: 0.93 },
-      { id: 2, amount: 1950, timestamp: "2025-07-31 11:02", fraud_score: 0.81 },
-      { id: 3, amount: 3700, timestamp: "2025-07-31 11:04", fraud_score: 0.77 },
-    ]);
+    console.log("Fetching flagged transactions...");
+    setLoading(true);
+    fetch('http://localhost:8000/api/flagged-transactions')
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        return response.json();
+      })
+      .then(data => setFlagged(data))
+      .catch(error => setError(error.message))
+      .finally(() => setLoading(false));
   }, []);
+
+  if (loading) return <div>Loading...</div>;
+  if (error) return <div>Error: {error}</div>;
 
   return (
     <div className="dashboard-wrapper">
@@ -27,8 +39,8 @@ const FlaggedTransactions = () => {
           {flagged.length === 0 ? (
             <tr><td colSpan="4">No frauds detected yet.</td></tr>
           ) : (
-            flagged.map((tx, index) => (
-              <tr key={index}>
+            flagged.map((tx) => (
+              <tr key={tx.id}>
                 <td>{tx.id}</td>
                 <td>₹{tx.amount}</td>
                 <td>{tx.timestamp}</td>

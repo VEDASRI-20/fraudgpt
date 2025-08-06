@@ -11,5 +11,6 @@
     "requests": 100,
     "window_seconds": 60
   },
-  "log_file": "C:\\Users\\VIVEK SHOWRY\\Downloads\\fin_site\\hackathon2\\firewall_logs.csv"
+  "log_file": "firewall_logs.csv"
+
 }
