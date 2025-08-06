@@ -7,6 +7,7 @@ const Dashboard = ({ sidebarOpen }) => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
+    // Initial fetch
     console.log("Fetching all transactions...");
     setLoading(true);
     fetch('http://localhost:8000/api/all-transactions')
@@ -17,12 +18,41 @@ const Dashboard = ({ sidebarOpen }) => {
         return response.json();
       })
       .then(data => {
-        // Ensure data is an array, handling the case where it might be {message, data}
         const transactionList = Array.isArray(data) ? data : data.data || [];
         setTransactions(transactionList);
       })
       .catch(error => setError(error.message))
       .finally(() => setLoading(false));
+
+    // WebSocket connection
+    const ws = new WebSocket('ws://localhost:8000/ws/all');
+
+    ws.onopen = () => {
+      console.log('WebSocket Connected for Dashboard');
+      // Send periodic ping to keep connection alive
+      setInterval(() => ws.send(JSON.stringify({ type: 'ping' })), 30000);
+    };
+
+    ws.onmessage = (event) => {
+      const data = JSON.parse(event.data);
+      if (data && data.transaction && data.fraud_score !== undefined) {
+        // Add new transaction to the top of the list
+        setTransactions(prev => [
+          {
+            id: prev.length + 1,
+            amount: data.transaction.amount,
+            timestamp: data.timestamp,
+            fraud_score: data.fraud_score,
+          },
+          ...prev,
+        ]);
+      }
+    };
+
+    ws.onclose = () => console.log('WebSocket Disconnected');
+    ws.onerror = (error) => console.error('WebSocket Error:', error);
+
+    return () => ws.close(); // Cleanup on unmount
   }, []);
 
   if (loading) return <div>Loading...</div>;
@@ -30,7 +60,7 @@ const Dashboard = ({ sidebarOpen }) => {
 
   return (
     <div className={`dashboard-wrapper ${sidebarOpen ? 'sidebar-open' : ''}`}>
-      {/* <h2 className="dashboard-title">Live Transactions</h2> */}
+      <h2 className="dashboard-title">Live Transactions</h2>
       <table className="dashboard-table">
         <thead>
           <tr>

@@ -7,6 +7,7 @@ const FlaggedTransactions = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
+    // Initial fetch
     console.log("Fetching flagged transactions...");
     setLoading(true);
     fetch('http://localhost:8000/api/flagged-transactions')
@@ -19,6 +20,36 @@ const FlaggedTransactions = () => {
       .then(data => setFlagged(data))
       .catch(error => setError(error.message))
       .finally(() => setLoading(false));
+
+    // WebSocket connection for fraud-only updates
+    const ws = new WebSocket('ws://localhost:8000/ws/fraud-only');
+
+    ws.onopen = () => {
+      console.log('WebSocket Connected for Flagged Transactions');
+      // Send periodic ping to keep connection alive
+      setInterval(() => ws.send(JSON.stringify({ type: 'ping' })), 30000);
+    };
+
+    ws.onmessage = (event) => {
+      const data = JSON.parse(event.data);
+      if (data && data.is_flagged && data.fraud_score !== undefined) {
+        // Add new flagged transaction to the top of the list
+        setFlagged(prev => [
+          {
+            id: prev.length + 1,
+            amount: data.transaction.amount,
+            timestamp: data.timestamp,
+            fraud_score: data.fraud_score,
+          },
+          ...prev,
+        ]);
+      }
+    };
+
+    ws.onclose = () => console.log('WebSocket Disconnected');
+    ws.onerror = (error) => console.error('WebSocket Error:', error);
+
+    return () => ws.close(); // Cleanup on unmount
   }, []);
 
   if (loading) return <div>Loading...</div>;
