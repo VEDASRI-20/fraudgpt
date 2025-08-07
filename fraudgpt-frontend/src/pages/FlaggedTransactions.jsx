@@ -2,85 +2,97 @@ import React, { useEffect, useState } from 'react';
 import './Dashboard.css';
 
 const FlaggedTransactions = () => {
+  // We'll use this state to hold the list of flagged transactions
   const [flagged, setFlagged] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
+  
+  // New state to manage which transaction is expanded
+  const [expandedTxId, setExpandedTxId] = useState(null);
 
   useEffect(() => {
-    // Initial fetch
-    console.log("Fetching flagged transactions...");
-    setLoading(true);
-    fetch('http://localhost:8000/api/flagged-transactions')
-      .then(response => {
-        if (!response.ok) {
-          throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        return response.json();
-      })
-      .then(data => setFlagged(data))
-      .catch(error => setError(error.message))
-      .finally(() => setLoading(false));
-
-    // WebSocket connection for fraud-only updates
-    const ws = new WebSocket('ws://localhost:8000/ws/fraud-only');
+    const ws = new WebSocket('ws://localhost:8080/ws/fraud-only');
 
     ws.onopen = () => {
       console.log('WebSocket Connected for Flagged Transactions');
-      // Send periodic ping to keep connection alive
+      // Send a periodic ping to keep the connection alive.
       setInterval(() => ws.send(JSON.stringify({ type: 'ping' })), 30000);
     };
 
     ws.onmessage = (event) => {
       const data = JSON.parse(event.data);
+      
       if (data && data.is_flagged && data.fraud_score !== undefined) {
-        // Add new flagged transaction to the top of the list
-        setFlagged(prev => [
-          {
-            id: prev.length + 1,
-            amount: data.transaction.amount,
-            timestamp: data.timestamp,
-            fraud_score: data.fraud_score,
-          },
-          ...prev,
-        ]);
+        // We now store the full data object, so all details are available for the modal.
+        setFlagged(prev => [data, ...prev]);
       }
     };
 
     ws.onclose = () => console.log('WebSocket Disconnected');
     ws.onerror = (error) => console.error('WebSocket Error:', error);
 
-    return () => ws.close(); // Cleanup on unmount
-  }, []);
+    // This cleanup function is crucial. It ensures the WebSocket connection
+    // is closed properly when the component unmounts.
+    return () => ws.close();
+  }, []); // The empty dependency array ensures this effect runs only once
 
-  if (loading) return <div>Loading...</div>;
-  if (error) return <div>Error: {error}</div>;
+  // Function to toggle the expanded details for a specific transaction
+  const handleViewDetails = (id) => {
+    setExpandedTxId(prevId => prevId === id ? null : id);
+  };
 
   return (
     <div className="dashboard-wrapper">
-      <table className="dashboard-table">
-        <thead>
-          <tr>
-            <th>ID</th>
-            <th>Amount</th>
-            <th>Timestamp</th>
-            <th>Fraud Score</th>
-          </tr>
-        </thead>
-        <tbody>
-          {flagged.length === 0 ? (
-            <tr><td colSpan="4">No frauds detected yet.</td></tr>
-          ) : (
-            flagged.map((tx) => (
-              <tr key={tx.id}>
-                <td>{tx.id}</td>
-                <td>₹{tx.amount}</td>
-                <td>{tx.timestamp}</td>
-                <td className="indicator-cell">{(tx.fraud_score * 100).toFixed(2)}%</td>
-              </tr>
-            ))
-          )}
-        </tbody>
-      </table>
+      <div className="table-scroll-container">
+        <table className="dashboard-table">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Amount</th>
+              <th>Timestamp</th>
+              <th>Fraud Score</th>
+              <th>Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            {flagged.length === 0 ? (
+              <tr><td colSpan="5">No frauds detected yet.</td></tr>
+            ) : (
+              flagged.map((tx) => (
+                <React.Fragment key={tx.id}>
+                  <tr key={tx.id}>
+                    <td>{tx.id}</td>
+                    <td>₹{tx.transaction.amount}</td>
+                    <td>{tx.timestamp}</td>
+                    <td className="indicator-cell">{(tx.fraud_score * 100).toFixed(2)}%</td>
+                    <td>
+                      <button 
+                        onClick={() => handleViewDetails(tx.id)}
+                        className="view-details-button"
+                      >
+                        <span className="expand-icon">
+                          {expandedTxId === tx.id ? '▼' : '▶'}
+                        </span>
+                      </button>
+                    </td>
+                  </tr>
+                  {expandedTxId === tx.id && (
+                    <tr className="details-row">
+                      <td colSpan="5">
+                        <div className="details-content">
+                          <h4>Fraud Analysis</h4>
+                          <p><strong>Primary Reason:</strong> {tx.primary_reason || 'N/A'}</p>
+                          <p><strong>Detailed Explanation:</strong> {tx.detailed_explanation || 'No detailed explanation provided.'}</p>
+                          <p><strong>Risk Level:</strong> {tx.risk_level}</p>
+                          <p><strong>Recommendation:</strong> {tx.recommendation}</p>
+                        </div>
+                      </td>
+                    </tr>
+                  )}
+                </React.Fragment>
+              ))
+            )}
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 };

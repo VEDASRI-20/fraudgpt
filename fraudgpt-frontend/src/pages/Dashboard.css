@@ -19,6 +19,22 @@ body {
   color: #e2e8f0;
 }
 
+/* This is the new container for scrolling */
+.table-scroll-container {
+  max-height: 85vh; /* Set a fixed height for the scrollable area. Adjust as needed. */
+  overflow-y: scroll; /* Enable vertical scrolling */
+}
+
+/* Hide the scrollbar for WebKit-based browsers (Chrome, Safari) */
+.table-scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide the scrollbar for Firefox */
+.table-scroll-container {
+  scrollbar-width: none; /* Firefox-specific property to hide the scrollbar */
+}
+
 .dashboard-table {
   width: 100%;
   border-collapse: separate;
@@ -32,6 +48,11 @@ body {
   color: #cbd5e1;
   font-weight: 500;
   font-size: 14px;
+  
+  /* Make the header sticky so it stays at the top while scrolling */
+  position: sticky;
+  top: 0;
+  z-index: 10; /* Ensure the header is above the table body */
 }
 
 .dashboard-table tbody td {
