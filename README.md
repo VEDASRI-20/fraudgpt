@@ -39,7 +39,7 @@ fraudgpt-branch2/
 
 ```bash
 git clone https://github.com/your-username/fraudgpt.git
-cd fraudgpt-branch2
+
 ````
 
 ---
