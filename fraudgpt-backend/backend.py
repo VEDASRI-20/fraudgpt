@@ -12,7 +12,7 @@ from pytz import timezone
 import uvicorn
 import joblib
 import numpy as np
-from catboost import CatBoostClassifier # Use the correct model class
+from catboost import CatBoostClassifier  # Use the correct model class
 from sklearn.preprocessing import StandardScaler
 import random
 
@@ -40,6 +40,13 @@ MODEL_FILE = 'model.joblib'
 # WebSocket connection pools
 all_connections: List[WebSocket] = []
 fraud_only_connections: List[WebSocket] = []
+analysis_connections: List[WebSocket] = []
+
+# Global store for analysis data
+analysis_data = {
+    "hourly_fraud": {i: 0 for i in range(24)},  # Fraud counts by hour
+    "severity_counts": {"LOW": 0, "MEDIUM": 0, "HIGH": 0, "CRITICAL": 0}  # Fraud counts by severity
+}
 
 # Data Models
 class Transaction(BaseModel):
@@ -63,7 +70,7 @@ class TransactionPayload(BaseModel):
     factors_analyzed: Dict[str, Any]
     transaction: Dict[str, Any]
 
-# In-memory store for transaction history
+# In-memory store for transaction history (optional, not currently used)
 transaction_history = []
 
 # Load the trained model and scaler at startup
@@ -201,7 +208,6 @@ def predict_fraud_score(txn_data: Dict[str, Any]) -> float:
         logger.error(f"❌ Error during model prediction: {e}")
         return 0.0
 
-
 # Broadcast helpers
 async def broadcast_all(msg: Dict[str, Any]):
     for conn in all_connections[:]:
@@ -216,6 +222,20 @@ async def broadcast_fraud(msg: Dict[str, Any]):
             await conn.send_json(msg)
         except Exception:
             fraud_only_connections.remove(conn)
+
+async def broadcast_analysis():
+    while True:
+        await asyncio.sleep(5)  # Broadcast every 5 seconds
+        for conn in analysis_connections[:]:
+            try:
+                await conn.send_json({
+                    "type": "analysis_update",
+                    "hourly_fraud": analysis_data["hourly_fraud"],
+                    "severity_counts": analysis_data["severity_counts"],
+                    "timestamp": ist.localize(datetime.utcnow()).isoformat()
+                })
+            except Exception:
+                analysis_connections.remove(conn)
 
 # WebSocket endpoints
 @app.websocket("/ws/all")
@@ -248,6 +268,21 @@ async def websocket_fraud(ws: WebSocket):
         logger.error(f"WebSocket error for IP {ws.client.host}: {e}")
         fraud_only_connections.remove(ws)
 
+@app.websocket("/ws/analysis")
+async def websocket_analysis(ws: WebSocket):
+    await ws.accept()
+    analysis_connections.append(ws)
+    logger.info(f"New WebSocket connection established for analysis from IP {ws.client.host}")
+    try:
+        while True:
+            await ws.receive_text()
+    except WebSocketDisconnect:
+        analysis_connections.remove(ws)
+        logger.info(f"WebSocket connection closed for analysis from IP {ws.client.host}")
+    except Exception as e:
+        logger.error(f"WebSocket error for analysis from IP {ws.client.host}: {e}")
+        analysis_connections.remove(ws)
+
 # New API endpoint to receive transactions from send_transactions.py
 @app.post("/score")
 async def score_transaction(txn: Transaction = Body(...)):
@@ -267,6 +302,13 @@ async def score_transaction(txn: Transaction = Body(...)):
     else: severity = "LOW"
     
     details = explainer.generate_comprehensive_explanation(txn_dict, fraud_score, is_flagged)
+    
+    # Update analysis data
+    hour = txn_dict.get("hour_of_day", 0)
+    if hour in analysis_data["hourly_fraud"]:
+        analysis_data["hourly_fraud"][hour] += 1
+    if severity in analysis_data["severity_counts"]:
+        analysis_data["severity_counts"][severity] += 1
     
     # Create the payload for the dashboard
     payload = TransactionPayload(
@@ -296,4 +338,6 @@ async def score_transaction(txn: Transaction = Body(...)):
     return {"message": "Transaction scored and broadcasted", "fraud_score": payload.fraud_score}
 
 if __name__ == "__main__":
+    # Start the analysis broadcast task
+    asyncio.create_task(broadcast_analysis())
     uvicorn.run(app, host="127.0.0.1", port=8080, reload=True)
